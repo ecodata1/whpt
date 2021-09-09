@@ -1,0 +1,844 @@
+ID,Name,Parameter,Source,Location,On water body,2008,2008_confidence,2009,2009_confidence,2010,2010_confidence,2011,2011_confidence,2012,2012_confidence,2013,2013_confidence,2014,2014_confidence,2015,2015_confidence,2016,2016_confidence,2017,2017_confidence,2018,2018_confidence
+3000,River Almond (Maitland Bridge to Cramond),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,3944,Y,Good,High,Good,High,Good,High,Good,High,Good,High,High,Medium,High,High,High,High,High,High,High,High,High,High
+3001,River Almond (Breich Water confluence to Maitland Bridge),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,462,Y,Good,Medium,Good,High,Good,High,Good,High,Good,High,Good,Medium,,,High,High,,,,,,
+3002,River Almond (Foulshiels Burn to Breich Water confluences),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,457,Y,High,High,High,High,High,Medium,High,High,High,Medium,Good,Medium,High,High,,,,,High,High,,
+3003,River Almond (Source to Foulshiels Burn confluence),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,456,Y,High,High,High,High,High,High,High,Medium,High,Medium,Good,Medium,High,High,,,,,High,High,,
+3004,Gogar Burn (Union Canal to River Almond),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,5565,Y,Good,High,Good,High,Good,High,Good,High,Moderate,Medium,Moderate,High,,,High,High,,,,,,
+3004,Gogar Burn (Union Canal to River Almond),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,474729,Y,,,,,,,,,,,,,,,,,,,,,High,High
+3005,Gogar Burn (Source to Union Canal),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,409,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,High,High,,,,,High,High
+3007,Niddry Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,4019,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,High,High,,,,
+3008,Brox Burn (Ryal Burn Confluence to R Almond),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,449,Y,Good,High,Good,High,Good,Medium,Good,High,,,Good,Medium,High,High,,,,,,,,
+3009,Brox Burn (by Wester Tartraven to Ryal Burn Confluence),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,2585,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,High,High,,,,,High,High
+3014,Linhouse water/Camilty Burn/ Green Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,4063,Y,,,High,High,High,High,High,High,High,High,,,,,,,High,High,,,,
+3014,Linhouse water/Camilty Burn/ Green Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,14597,Y,High,High,,,,,,,,,Good,High,,,,,,,,,,
+3015,Murieston Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,2258,Y,High,High,High,High,High,High,,,High,High,High,Medium,,,,,High,High,,,,
+3016,Bog Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,2255,Y,High,High,High,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,
+3018,Killandean Burn/Harwood Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,4090,Y,High,High,Good,High,Good,High,High,High,Good,Medium,Moderate,Medium,High,High,High,High,High,High,High,High,,
+3020,Lochshot Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,4103,Y,High,High,High,High,High,High,High,High,High,High,Good,Medium,,,High,High,,,,,High,High
+3021,Breich Water/Darmead Linn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,3350,Y,High,High,Good,High,Moderate,High,Moderate,High,Moderate,High,Moderate,Medium,High,High,,,,,High,High,,
+3022,Darmead Linn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,502,Y,High,Medium,High,Medium,,,,,,,Good,Medium,High,High,High,High,High,High,High,High,,
+3027,Foulshiels Burn/Bickerton Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,474,Y,High,High,High,High,High,High,High,High,Good,High,Good,Medium,High,High,,,,,High,High,,
+3031,How Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,471,Y,High,High,High,High,High,Medium,High,High,High,High,Good,High,High,High,,,,,High,High,,
+3100,River Avon (Logie Water confluence to Estuary),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,3798,Y,,,,,High,High,,,,,Good,Medium,,,,,,,,,,
+3100,River Avon (Logie Water confluence to Estuary),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,3806,Y,High,High,High,High,,,High,High,High,High,,,High,High,High,High,High,High,,,,
+3101,River Avon (Jawhills to Logie Water confluence),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,335,Y,High,High,High,High,Good,Medium,Good,Medium,Good,Medium,High,Medium,,,,,,,,,,
+3102,River Avon (Source to Jawhills),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,5564,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,High,High,,,,,,
+3103,Mains Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,350,Y,High,High,High,High,High,High,High,High,,,High,High,,,,,,,,,,
+3106,Logie Water/Barbauchlaw Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,853,Y,,,Good,High,Good,Medium,,,,,,,High,High,High,High,High,High,High,High,High,High
+3106,Logie Water/Barbauchlaw Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,3225,Y,,,,,,,Good,High,Good,High,Good,High,,,,,,,,,,
+3106,Logie Water/Barbauchlaw Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,6978,Y,High,High,,,,,,,,,,,,,,,,,,,,
+3107,Boghead Burn/Bog Burn/Couston Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,1312,Y,Moderate,High,,,,,,,,,,,,,,,High,Medium,High,Medium,High,High
+3107,Boghead Burn/Bog Burn/Couston Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,3513,Y,,,Poor,High,Poor,Medium,Poor,Medium,Poor,Medium,Poor,Medium,,,,,,,,,,
+3109,Drumtassie Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,345,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,High,High,,,,
+3202,Sauchenford Burn (Plean sewage works to Pow Burn),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,3307,Y,High,High,High,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,
+3203,Sauchenford Burn (Source to Plean sewage works),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,302505,Y,High,High,High,High,Good,High,Good,High,Good,High,Good,High,,,High,High,,,,,High,High
+3205,Pow Burn from Bridge-end to Forth Estuary,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,1604,Y,,,High,High,High,High,High,High,High,High,High,Medium,High,High,,,,,High,High,,
+3206,Pow Burn / Tor Burn from source to confluence with Sauchinford Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,3487,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,High,High,,,,,High,High
+3300,Grange Burn/Westquarter Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,320,Y,High,High,High,High,High,High,High,High,,,High,Medium,,,,,,,,,,
+3400,Pardovan Burn (d/s Bridgend to estuary),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,7112,Y,High,High,High,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,
+3500,Braid Burn (Upstream Dreghorn Barracks to Portobello),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,3215,Y,High,High,High,High,High,High,High,High,,,High,Medium,,,,,,,,,,
+3600,Burdiehouse Burn/Swanston Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,4148,Y,Good,Medium,Good,Medium,High,Medium,Good,Medium,,,Good,High,High,High,,,,,,,,
+3700,Water of Leith (Murray Burn confluence to Estuary),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,4170,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,High,High,High,High
+3701,Murray Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,2760,Y,Good,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,,,
+3702,Water of Leith (Poet's Burn to Murray Burn confluences),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,3214,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,High,High,,,,,High,High
+3703,Water of Leith (Harperrig Reservoir to Poet's Burn confluence),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,4180,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,,,,,,
+3800,River Esk,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,4244,Y,Good,High,Good,Medium,High,High,High,High,High,High,Good,Medium,,,,,High,Medium,,,,
+3801,River South Esk (Gore Water to N Esk confluences),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,4359,Y,Good,High,Good,High,Good,High,Good,High,Good,High,Moderate,High,Good,Medium,,,,,High,High,,
+3802,River South Esk (Redside Burn to Gore Water confluences),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,582,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,High,High,,,,,,
+3806,River North Esk (Elginhaugh to confluence with South Esk),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,4613,Y,Good,High,Good,High,High,Medium,Good,High,Good,High,Good,Medium,High,Medium,High,Medium,High,High,Good,Medium,,
+3807,River North Esk (Glencorse Burn confluence to Elginhaugh),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,4257,Y,Good,High,High,High,High,High,High,High,High,High,Good,High,High,High,,,,,,,,
+3808,River North Esk (Penicuik House to Glencorse Burn confluence),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,4276,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,High,High,,,,,,
+3809,River North Esk (Source to Penicuik House),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,4287,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,High,High,,,,
+3813,Bilston/Boghall Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,4305,Y,High,High,High,High,High,High,High,High,High,High,Good,Medium,High,High,,,,,High,High,,
+3816,Lead Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,4336,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,,,,
+3818,Dalhousie Burn/Shiel Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,4367,Y,High,High,High,High,High,High,High,High,High,High,Good,Medium,,,,,Good,Medium,,,,
+3819,Gore Water/Middleton South Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,4376,Y,Good,High,High,Medium,High,High,High,High,High,High,Good,Medium,,,,,High,High,,,,
+3821,Fullarton Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,4395,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,,,,,High,High
+3904,Biel Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,5982,Y,High,High,High,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,
+3907,Sauchet Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,4540,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,High,High,,,,
+3910,East Peffer,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,4401,Y,Moderate,High,Moderate,High,Moderate,Medium,Moderate,Medium,Poor,Medium,Good,Medium,,,,,,,,,,
+3911,Pilmuir Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,4407,Y,High,High,High,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,
+3912,West Peffer/Mill Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,4411,Y,Bad,High,Bad,High,Bad,High,Bad,High,Bad,High,Bad,High,Poor,Medium,,,,,,,,
+4000,River Tyne (Birns Water confluence to Estuary),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,4429,Y,High,High,High,High,High,High,High,High,,,High,Medium,High,High,High,High,High,High,,,,
+4001,River Tyne (Source to Birns Water confluence),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,3263,Y,Good,High,Good,High,Good,Medium,Good,High,Good,High,Good,Medium,,,,,Good,Medium,,,,
+4005,Gifford Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,666,Y,High,High,High,High,High,High,High,High,High,High,High,High,High,High,,,,,,,,
+4008,Birns Water/Humbie Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,3853,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,High,High,,,,,High,High
+4009,Kinchie Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,4489,Y,High,High,High,High,High,High,High,High,,,Good,Medium,High,Medium,High,High,High,High,,,,
+4200,River Carron (Bonny Water confluence to Carron Estuary),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,1615,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,,,,
+4201,River Carron (Avon Burn to Bonny Water Confluences),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,2239,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,,,,,,
+4202,River Carron (Carron Valley Reservoir to Avon Burn Confluence),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,3226,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,High,High,,,,
+4203,River Carron (Source to Carron Valley Reservoir),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,2650,Y,Good,Medium,High,Medium,High,High,High,High,High,High,Moderate,High,,,,,High,High,,,,
+4205,Bonny Water/Red Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,1621,Y,,,,,Good,High,,,,,,,,,,,,,,,,
+4205,Bonny Water/Red Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,1626,Y,High,High,Good,Medium,,,Good,High,Good,High,Moderate,Medium,High,Medium,High,High,High,High,High,High,High,High
+4206,Glencryan Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,3490,Y,High,High,High,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,
+4300,Bluther Burn (Gibsley Farm to Estuary),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,1505,Y,High,High,High,High,High,High,High,High,High,High,,,,,,,High,High,,,High,High
+4301,Bluther Burn (Source to Gibsley Farm),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,1499,Y,High,High,High,High,High,High,High,High,High,High,,,,,High,High,High,High,,,,
+4302,Grange Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,1508,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,,,,,High,High
+4308,Keithing Burn (Craiganet Burn to Estuary),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,1479,Y,High,High,High,High,Good,Medium,Good,Medium,Good,Medium,,,,,Poor,Medium,Moderate,Medium,Good,Medium,High,High
+4309,Keithing Burn (Source to Craiganet Burn),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,335315,Y,Moderate,High,Good,Medium,Moderate,High,Moderate,High,Moderate,Medium,Moderate,Medium,,,Good,Medium,,,,,Moderate,Medium
+4313,Dour Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,1470,Y,High,High,High,High,High,High,High,High,High,Medium,,,Moderate,Medium,Good,Medium,,,,,High,High
+4319,Cocklemill Burn/Den Burn (Saw Mill Bridge to Estuary),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,11113,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,,,,,Good,Medium,,
+4320,Cocklemill Burn/Den Burn (Source to Saw Mill Bridge),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,11377,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,,,,,High,High,,
+4321,Dreel Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,3395,Y,Good,Medium,Good,High,Moderate,Medium,Moderate,Medium,,,Moderate,Medium,,,,,,,,,,
+4322,Balmonth Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,3318,Y,Good,Medium,Good,Medium,Good,High,Good,High,Good,High,Moderate,Medium,Good,Medium,High,High,High,High,High,High,High,High
+4326,St. Monans Burn/Inverie Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,3402,Y,Moderate,High,Poor,High,Poor,High,Poor,High,Poor,High,Bad,Medium,,,,,,,Good,Medium,,
+4330,Tower Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,529,Y,Bad,High,Bad,High,Poor,Medium,Poor,Medium,Poor,Medium,Bad,High,,,,,High,High,,,,
+4402,Black Devon (Birkhill Plantation to Forth Estuary),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,1515,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,,,,
+4403,Black Devon (Source to Birkhill Plantation),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,1512,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,,,,
+4406,Foulbutts Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,1517,Y,High,High,,,High,High,,,High,High,,,,,,,High,High,,,,
+4406,Foulbutts Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,1518,Y,,,High,High,,,High,High,,,High,High,High,High,High,High,,,,,,
+4500,River Devon (Gairney Burn confluence to Estuary),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,1540,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,,,High,High,,,High,High
+4501,River Devon (Source to Gairney Burn confluence),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,2202,Y,High,High,High,High,High,High,High,High,High,High,,,High,High,High,High,High,High,,,,
+4501,River Devon (Source to Gairney Burn confluence),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,3436,Y,,,,,,,,,,,High,High,,,,,,,,,,
+4503,Dollar Burn (Burn of Sorrow),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,5610,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,,,,,,
+4505,Gairney Burn/Pow Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,5390,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,,,,,,
+4601,Allan Water (Source to Greenloaning),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,337301,Y,High,High,High,High,Good,High,Good,Medium,Good,Medium,High,High,,,,,,,High,High,,
+4700,River Forth (below R. Teith confluence),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,4638,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,,,,
+4701,River Forth (Goodie Water to River Teith Confluences),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,3663,Y,High,High,High,High,Good,Medium,Good,Medium,Good,Medium,Good,High,,,,,,,,,,
+4702,River Forth (Arnprior Burn to Goodie Water confluences),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,1584,Y,Good,High,Good,High,Moderate,High,Moderate,High,,,Moderate,Medium,,,,,,,,,,
+4704,River Forth (Milton to Auchentroig Burn confluence),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,1582,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,High,High,,,,
+4710,Achray Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,5839,Y,High,High,High,High,High,High,High,High,,,High,Medium,,,,,,,,,,
+4715,Lower Keltie Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,6363,Y,Good,High,Good,Medium,Good,High,Good,Medium,Good,Medium,High,Medium,,,,,,,,,,
+4716,Keltie Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,305388,Y,,,,,,,,,,,,,High,High,High,High,High,High,,,,
+4720,Calair Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,3453,Y,High,High,High,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,
+4726,Goodie Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,1592,Y,High,High,High,High,High,High,High,High,High,High,Good,High,,,,,High,High,,,,
+4728,Boquhan Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,3476,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,,,,
+4730,Ballochneck/Mye Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,2991,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,,,
+4731,Auchentroig Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,3472,Y,High,High,High,High,High,High,Good,High,Good,High,High,High,,,,,,,,,High,High
+4733,Duchray Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,3231,Y,High,High,High,High,High,High,High,Medium,,,Moderate,Medium,,,,,,,,,,
+4734,Drunkie Burn (Loch Drunkie sluice to Loch Venachar),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,3613,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,High,High,,,,
+4737,River Balvag,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,3451,Y,,,,,,,,,,,,,,,,,,,,,High,High
+5010,Eye Water (Ale Water Confluence to Eyemouth),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,9422,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,High,High,High,High
+5011,Eye Water (Source to Ale Water Confluence),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,9424,Y,High,High,High,High,High,High,High,High,High,High,,,High,High,High,High,High,High,,,High,High
+5011,Eye Water (Source to Ale Water Confluence),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,14085,Y,,,,,,,,,,,Moderate,Medium,,,,,,,,,,
+5013,Horn Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,14028,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,High,High,High,High
+5101,Whiteadder Water (Dye Water to Billie Burn confluences),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,9470,Y,High,High,High,High,High,High,High,High,High,High,,,Moderate,High,High,High,,,,,High,High
+5105,Blackadder Water (Howe Burn confluence to Whiteadder Water),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,9490,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,High,High,,,,
+5106,Blackadder Water (Manse Burn to Howe Burn confluences),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,9498,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,,,,,,
+5109,Howe Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,11927,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,High,High,,,,
+5112,Manse Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,9511,Y,Good,High,Good,High,Good,High,Good,High,,,Moderate,Medium,,,High,High,High,High,High,High,High,High
+5117,Mill Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,16877,Y,High,High,High,High,Good,Medium,High,High,High,High,High,Medium,,,High,High,,,,,,
+5200,River Tweed (Coldstream to tidal limit),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,9514,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,,,,
+5201,River Tweed (St Boswells Burn confluence to Coldstream),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,9518,Y,High,High,High,High,High,High,High,High,High,High,High,High,High,High,,,,,,,,
+5202,River Tweed (Ettrick Water to St Boswells Burn confluences),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,9540,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,High,High,High,High
+5203,River Tweed (Scotsmill to Ettrick Water confluence),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,9542,Y,High,High,High,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,
+5204,River Tweed (Talla Water confluence to Scotsmill),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,14294,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,High,High,,,,,,
+5207,Leet Water (Lambden Burn confluence to River Tweed),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,9599,Y,High,High,High,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,
+5215,Eden Water (Hume Burn confluence to River Tweed),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,9631,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,High,High,,,,
+5216,Eden Water (Source to Hume Burn confluence),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,9640,Y,High,High,High,High,High,High,,,,,,,,,,,,,,,,
+5218,Hareford Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,9649,Y,High,High,High,High,High,High,High,High,High,High,Good,Medium,,,High,High,High,High,,,,
+5219,Teviot Water (Kale Water confluence to River Tweed),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,9710,Y,Good,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,,,,
+5220,Teviot Water (Northhouse Burn to Kale Water confluences),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,9719,Y,High,High,High,High,High,High,High,High,High,High,Good,High,High,High,,,,,High,High,,
+5222,Kale Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,9743,Y,High,High,High,High,High,Medium,High,High,High,High,,,High,High,,,,,High,High,,
+5228,Oxnam Water (River Teviot to Newbigging Burn),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,9748,Y,High,High,High,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,
+5231,Jed Water/Raven Burn (Kaim Burn confluence to Teviot Water),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,9786,Y,High,High,High,High,High,High,High,High,High,High,,,High,High,,,,,High,High,,
+5236,Ale Water (Woll Burn confluence to Teviot Water),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,9750,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,,,,
+5254,Borthwick Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,9782,Y,Good,High,Good,High,Good,High,Good,High,Good,High,Good,Medium,High,High,High,High,,,,,,
+5263,Maidenhall Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,17012,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,,,,,,
+5264,St. Boswells Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,9580,Y,High,High,High,High,High,High,High,High,High,High,Good,Medium,High,High,,,,,High,High,,
+5265,Bowden Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,14052,Y,High,High,High,High,High,Medium,Good,Medium,Good,Medium,Good,Medium,High,High,,,,,High,High,,
+5266,Leader Water/Kelphope Burn (Cleekhimin Burn confluence to River Tweed),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,9650,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,High,High,,,,,,
+5268,Turfford Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,9663,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,,,,,High,High,,
+5279,Allan Water (Source to River Tweed),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,9583,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,High,High,,,,
+5280,Gala Water (Armet Water confluence to River Tweed),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,9678,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,High,High,,,,
+5286,Heriot Water/Blackhope Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,9708,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,High,High,,,,,,
+5287,Ettrick Water (Ramseycleuch to River Tweed),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,10116,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,,,,
+5290,Yarrow Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,9821,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,High,High,,,,,High,High
+5307,Eddleston Water/Cuddy Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,9836,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,High,High,,,,
+5309,Manor Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,9593,Y,,,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,,,,
+5311,Lyne Water (Tarth Water confluence to River Tweed),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,9847,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,High,High,,,,
+5312,Lyne Water (Source to Tarth Water confluence),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,9853,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,High,High,,,,,,
+5314,Tarth Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,9858,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,High,High,,,,,High,High
+5325,Biggar Water/Biggar Burn (Source to Broughton Burn confluence),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,9875,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,High,High,,,,
+5329,Spittal Burn/Candy Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,9884,Y,High,High,High,High,High,High,High,High,High,Medium,Good,Medium,High,High,,,,,High,High,,
+5338,Tima Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,9818,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,High,High,,,,
+5404,The Stank,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,14055,Y,Good,High,Good,High,High,High,Good,Medium,,,Moderate,Medium,High,High,,,,,,,,
+5602,Raesmill Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,7871,Y,High,Medium,Good,High,Good,High,Good,High,Good,High,Good,Medium,High,High,High,High,High,High,High,High,High,High
+5603,Brothock Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,14265,Y,High,High,High,High,High,High,Good,Medium,Good,High,Good,Medium,High,High,High,High,High,High,High,High,High,High
+5700,River North Esk (Confluence with Cruick Water to Estuary),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,7651,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,,,,
+5701,River North Esk ( Water of Effock to Cruick Water Confluences),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,7641,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,High,High,,,,,,
+5705,Luther Water ( Dowrie Burn to North Esk Confluences),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,7672,Y,High,High,High,High,High,High,High,High,High,High,Good,Medium,,,,,High,Medium,,,,
+5707,Dowrie Burn (through Fettercairn) to the confluence with Luther W.,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,7679,Y,High,High,High,High,,,,,High,High,High,High,,,,,High,High,,,,
+5708,Devilly Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,7690,Y,,,,,Good,High,Good,Medium,Good,Medium,Good,High,,,,,,,High,High,,
+5711,Black Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,7705,Y,,,,,High,High,,,,,High,High,,,,,,,High,High,,
+5712,Cruick Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,7718,Y,High,High,,,High,High,,,,,High,High,,,,,,,High,High,,
+5713,West Water (Paphrie Burn to North Esk Confluences),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,7733,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,,,,,,
+5720,Water of Tarf,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,10711,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,,,
+5799,River South Esk (White Burn Confluence to Estuary),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,7742,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,High,High,,
+5800,River South Esk (White Water to White Burn Confluences),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,7740,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,,,,,,
+5802,Pow Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,337916,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,High,High,,
+5806,Lemno Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,7797,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,High,High,High,High
+5809,Prosen Water (Burn of Lednathie to South Esk Confluences),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,7814,Y,High,High,High,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,
+5900,Lunan Water (Friockheim to Estuary),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,7844,Y,High,High,High,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,
+5903,Gighty Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,7849,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,,,High,High,,
+5904,Vinny Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,7865,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,,,High,High,,
+5950,Elliot Water/Rottenraw Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,7906,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,High,High,,,,,,
+5952,Monikie Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,7925,Y,High,Medium,High,High,High,High,Good,High,Good,High,Moderate,Medium,High,Medium,High,Medium,High,High,High,High,High,High
+5953,Barry Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,7935,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,Good,Medium,,,,,High,High
+5954,Buddon Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,7957,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,High,High,,,,,High,High
+6000,Dighty Water (lower),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,7989,Y,High,High,High,High,High,High,High,High,High,High,Good,Medium,High,High,High,High,High,High,High,High,High,High
+6001,Dighty Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,7983,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,,,,,High,High
+6003,Murroes Burn (upper section),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,7994,Y,Moderate,High,Moderate,High,Good,Medium,Moderate,High,,,Good,Medium,,,,,,,,,,
+6004,Fithie Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,8018,Y,High,High,High,High,Good,Medium,High,High,High,High,High,Medium,High,High,High,High,High,High,,,,
+6101,Moonzie Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,8200,Y,Good,Medium,Moderate,High,Moderate,High,Moderate,High,Moderate,High,Poor,Medium,Moderate,Medium,,,,,Poor,Medium,,
+6102,Motray Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,8192,Y,High,High,High,High,High,High,High,High,,,High,High,High,High,,,,,,,High,Medium
+6104,Lead Burn Drain,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,17117,Y,Good,High,Good,High,,,,,,,,,,,,,,,High,High,,
+6104,Lead Burn Drain,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,391456,Y,,,,,,,,,,,,,Moderate,Medium,,,,,,,,
+6107,Kinness Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,8119,Y,Good,High,Good,High,Good,High,Good,High,Good,High,Moderate,High,Good,Medium,,,,,Good,Medium,,
+6108,Kenly Water (Confluence with Kinaldy Burn to Estuary),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,8130,Y,Good,Medium,Good,Medium,Good,Medium,Good,Medium,Good,Medium,Moderate,Medium,Good,Medium,,,,,High,High,,
+6109,Kinaldy Burn u/s confluence with Kenly Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,8134,Y,Moderate,High,Moderate,Medium,Poor,Medium,Moderate,Medium,,,Poor,Medium,Moderate,Medium,,,,,,,,
+6110,Cameron Burn (Source to confluence with Kinaldy Burn),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,8125,Y,Good,High,Good,High,Good,High,Good,High,Good,High,Moderate,Medium,,,,,,,High,High,,
+6200,River Eden (Confluence with Rossie Drain to Estuary),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,8158,Y,Good,High,,,,,,,,,,,,,,,,,,,,
+6200,River Eden (Confluence with Rossie Drain to Estuary),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,8175,Y,,,Good,High,Moderate,High,Moderate,High,,,Poor,Medium,Poor,Medium,Moderate,Medium,Moderate,Medium,Good,Medium,Good,Medium
+6201,River Eden (Source to confluence with Rossie Drain),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,8155,Y,High,High,High,High,High,High,High,High,High,High,Good,High,High,High,,,,,High,High,,
+6202,Ceres Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,10480,Y,Moderate,High,Moderate,Medium,Moderate,High,Moderate,Medium,Moderate,Medium,Poor,Medium,,,,,,,,,,
+6204,Craighall Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,8219,Y,High,High,High,High,Good,High,Good,High,Good,High,Moderate,Medium,,,,,Good,Medium,,,,
+6205,Foodieash Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,8221,Y,High,Medium,Good,High,Good,High,Good,High,Good,Medium,Moderate,Medium,Good,Medium,Good,Medium,Good,Medium,Good,Medium,Moderate,Medium
+6206,Fernie Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,8237,Y,High,High,High,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,
+6209,Kettle Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,8243,Y,High,Medium,High,High,Good,Medium,High,Medium,Good,High,High,Medium,High,High,High,High,High,High,High,High,High,High
+6212,Glassart Burn/Barroway Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,8260,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,High,High,High,High,,,,
+6213,Ballingall Burn/Falkland Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,11079,Y,High,High,High,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,
+6300,River Leven (Markinch to Estuary),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,3415,Y,High,High,High,High,High,High,High,High,Good,High,Good,Medium,High,High,High,High,High,High,High,High,High,High
+6301,River Leven (Loch Leven to Markinch),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,1389,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,High,High,,,,,High,High
+6302,South Queich River,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,1445,Y,,,,,High,High,,,High,High,High,Medium,,,,,,,High,High,,
+6303,Kennoway Burn/Back Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,1412,Y,High,High,High,High,High,High,High,High,High,Medium,High,High,,,High,High,,,,,High,High
+6304,River Ore (Cardenden to River Leven),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,2083,Y,Good,High,Good,High,Good,Medium,Good,High,Good,High,,,,,High,High,,,,,,
+6305,River Ore (Loch Ore to Cardenden),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,1416,Y,Good,Medium,High,Medium,Good,High,Good,High,Good,High,Good,Medium,,,High,High,,,,,High,High
+6306,Kelty Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,3948,Y,High,High,High,High,High,High,High,High,High,High,Good,Medium,High,High,High,High,High,High,High,High,,
+6307,Lochfitty Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,1423,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,,,,
+6308,Meldrums Mill Burn/Linn Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,3250,Y,High,High,High,High,High,Medium,Good,Medium,Good,High,Good,Medium,High,High,,,,,High,High,,
+6310,Den Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,1426,Y,High,Medium,Good,Medium,Good,High,Good,High,Good,High,Moderate,Medium,High,High,High,High,High,High,High,High,High,High
+6311,Den Burn/Lochgelly Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,3570,Y,Poor,Medium,Poor,High,Poor,Medium,Moderate,High,Moderate,High,Moderate,Medium,,,,,,,,,,
+6312,Lochty Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,1435,Y,Poor,High,Poor,High,Poor,Medium,Moderate,High,Moderate,High,Poor,Medium,,,Moderate,Medium,,,,,Good,Medium
+6313,Lothrie Burn (Ballo Reservoir to River Leven),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,322687,Y,High,High,High,High,High,High,High,High,,,High,High,,,,,,,,,,
+6316,Greens Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,3418,Y,Good,Medium,High,High,Good,Medium,Good,Medium,Good,Medium,High,Medium,,,,,,,High,High,,
+6320,North Queich River,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,3574,Y,High,High,High,High,High,High,High,High,,,High,Medium,,,,,High,High,,,,
+6402,Grange Pow,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,8062,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,,,,,Good,Medium
+6404,Knapp/Huntly Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,8047,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,,,,
+6405,Invergowrie Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,8041,Y,Good,High,Good,High,Good,High,Good,High,Good,High,Good,Medium,,,,,,,,,,
+6413,Annaty Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,8353,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,,,High,High,,
+6498,River Tay (R Isla to R Earn Confluences),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,345954,Y,High,High,High,High,High,High,Good,High,,,Good,Medium,High,High,High,High,High,High,,,,
+6499,River Tay (R Tummel to R Isla Confluences),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,8310,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,High,High,,,,
+6500,River Tay (R Lyon to R Tummel Confluences),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,8301,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,,,,
+6501,River Tay (Loch Tay to R Lyon Confluence),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,8295,Y,,,High,High,High,High,High,High,High,High,High,High,,,High,High,,,,,High,High
+6502,River Dochart (Confluence Auchlyne West Burn to Loch Tay),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,8277,Y,High,High,High,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,
+6504,R Fillan,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,11077,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,,,High,High,,
+6506,River Almond (R East Pow to R Tay Confluences),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,8455,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,,,,
+6508,R Almond (Source to Fendoch Burn Confluence),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,8443,Y,High,High,High,High,High,High,High,High,High,High,High,High,High,High,,,,,,,,
+6510,East Pow (d/s of Methven to R Almond Confluence),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,8465,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,High,High,,,,,,
+6521,River Isla (R Ericht to R Tay Confluences),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,8485,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,High,High,,,,
+6523,River Isla (Glencally Burn to Dean Water Confluences),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,8475,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,,,
+6525,Coupar Burn/Kinochtry,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,8504,Y,Good,High,,,,,,,,,Good,Medium,,,,,,,,,,
+6525,Coupar Burn/Kinochtry,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,10476,Y,,,,,,,High,High,High,High,,,High,High,High,High,High,High,High,High,High,High
+6526,Burrelton Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,8500,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,High,High,,,,,High,High
+6533,Leddown Burn/Lunan Burn (to Loch of Craiglush),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,8507,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,High,High,,,,
+6535,R Ericht,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,8646,Y,,,High,High,,,,,,,High,Medium,,,,,,,,,,
+6535,R Ericht,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,8651,Y,High,High,,,High,High,High,High,High,High,,,High,High,High,High,High,High,,,,
+6540,Black Water (Allt Mor to R Ericht Confluences),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,8657,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,,,
+6555,Dean Water (Kerbet Water to R Isla Confluences),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,8538,Y,High,High,High,High,,,,,High,High,High,Medium,,,,,,,High,High,,
+6555,Dean Water (Kerbet Water to R Isla Confluences),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,8540,Y,,,,,Good,Medium,Good,High,,,,,High,High,High,High,High,High,,,High,High
+6557,Meigle Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,8549,Y,High,High,High,High,High,High,High,High,High,High,Good,Medium,,,,,High,High,,,,
+6559,Commerton Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,8558,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,,,,,,
+6561,Glamis Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,8574,Y,High,High,High,High,High,High,High,High,High,High,Good,Medium,High,High,,,,,,,,
+6562,Kerbet Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,8588,Y,High,High,High,High,High,High,High,High,Good,Medium,Good,Medium,,,,,High,High,,,,
+6563,Gairie  Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,8598,Y,High,High,High,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,
+6565,Alyth Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,8624,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,,,
+6573,Burn of Kilry,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,11030,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,,,
+6576,River Braan,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,8405,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,High,High,,,,
+6585,River Tummel (Dunalastair Water to Loch Tummel),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,8683,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,,,,,,
+6586,River Tummel (Loch Rannoch to Dunalastair Water),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,8681,Y,High,High,High,High,High,Medium,High,High,High,High,,,,,High,High,,,,,High,High
+6590,River Ba,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,11106,Y,,,,,,,,,,,,,,,,,,,,,High,High
+6598,River Tilt,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,8737,Y,High,High,Good,Medium,Good,High,Good,Medium,Good,Medium,Moderate,Medium,,,Good,Medium,,,,,,
+6618,Innerhadden Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,8712,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,,,,,High,High
+6624,River Ericht (Loch Ericht to Loch Rannoch),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,8718,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,,,,,,
+6632,Allt Eigheach,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,8726,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,,,
+6639,River Lyon,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,8750,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,High,High,,,,,,
+6642,Allt Odhar,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,11751,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,,,,,High,High
+6648,Allt Conait,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,8759,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,,,,,,
+6700,Deich Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,8838,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,,,High,High,,
+6701,River Farg,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,8832,Y,High,High,High,High,High,High,High,High,High,High,Good,Medium,,,,,,,High,High,,
+6800,River Earn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,8811,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,High,High,,,,
+6802,Kendrum Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,8910,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,,,,,,
+6804,Dunning Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,8850,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,,,,,,
+6806,Ruthven Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,8871,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,High,High,,,,
+6808,Machanay Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,9230,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,,,
+6809,Pow Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,8888,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,,,High,High,,
+6810,Drummond Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,8895,Y,High,High,High,High,High,High,High,High,,,High,Medium,,,,,,,,,,
+6817,Water of Ruchill,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,8906,Y,High,High,High,High,High,High,High,High,,,High,High,High,High,,,,,,,,
+6828,River Tummel (L Faskally to R Tay),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,8692,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,High,High,,,,
+6830,Bannock Burn (Sauchie Burn confluence to Steuarthall Farm),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,3703,Y,High,High,High,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,
+6832,Allan Water d/s of Dunblane,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,3609,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,,,,
+6833,Allan Water (Greenloaning to Dunblane),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,3616,Y,High,High,High,High,High,High,High,High,High,High,High,High,High,High,,,,,,,,
+6834,River Teith,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,1574,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,,,,
+6835,Eas Gobhain,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,1576,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,,,High,High,,
+6836,River Garry (Errochty Water Confluence to L Faskally),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,11110,Y,High,High,High,High,High,High,High,High,High,High,Good,Medium,,,High,High,,,,,,
+6838,River Earn (Water of Ruchill to Ruthven Water confluences),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,8801,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,,,,
+6839,River Earn (Loch Earn to Water of Ruchill confluence),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,8796,Y,High,High,High,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,
+6840,Hatton Burn/Keil Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,3409,Y,High,High,High,High,High,High,High,High,High,High,Good,Medium,High,High,,,,,High,High,,
+6844,Whiteadder Water (Billie Burn confluence to tidal limit),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,9457,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,,,,
+6846,Lunan Burn (Loch of Lowes to Loch of Clunie),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,8512,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,,,,,High,High
+6882,Tiel Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,1466,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,,,High,High,,
+6883,Dronachy Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,3514,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,High,High,,,,,High,High
+6884,Duddo Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,494992,Y,,,,,,,,,,,,,,,,,,,High,High,,
+6885,Bowmont Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,9561,Y,High,High,High,High,High,Medium,High,High,High,High,Good,High,High,High,,,,,High,High,,
+6904,St Martins Burn/Balgray Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,11758,Y,Good,Medium,Good,Medium,High,High,Good,Medium,Good,Medium,Moderate,High,High,High,,,,,,,,
+6906,Cambusmichael Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,8393,Y,High,High,High,High,High,High,High,High,,,Good,High,High,High,,,,,High,High,,
+6907,Lyne Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,1488,Y,Moderate,High,Moderate,Medium,Good,High,Good,High,Good,High,,,,,,,,,,,High,High
+6911,River Garry from Garry Intake to Errochty Water confluence,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,16975,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,,,
+6921,River Lochay (Allt Dhuin Croisg Confluence to Lochay Power Station),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,8435,Y,,,,,,,,,,,,,,,,,High,High,,,High,High
+10000,White Cart Water (Kittoch Water to A726 road bridge),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122606,Y,,,,,High,High,,,,,Good,Medium,,,,,,,,,,
+10000,White Cart Water (Kittoch Water to A726 road bridge),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122609,Y,High,High,High,High,,,High,High,High,High,,,High,High,High,High,High,High,High,High,High,High
+10001,White Cart Water (above Kittoch conf),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122605,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,High,High,,,,
+10002,Kittoch Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122599,Y,Moderate,Medium,Moderate,High,Moderate,High,Moderate,High,Good,Medium,Poor,Medium,,,,,,,,,High,High
+10003,Capelrig/Auldhouse Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122614,Y,Good,High,Good,Medium,Good,High,Good,Medium,Good,Medium,Moderate,Medium,,,,,,,,,High,High
+10007,Levern Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122619,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,High,High,,,,
+10009,Dunwan Burn/Polnoon Water (d/s Dunwan Dam),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,302094,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,,,,
+10011,Earn Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122611,Y,High,High,High,High,High,High,High,High,,,High,Medium,,,,,,,,,,
+10022,Candren Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,134598,Y,Moderate,High,,,,,Moderate,Medium,,,Poor,Medium,,,Moderate,Medium,,,,,Moderate,Medium
+10023,Old Patrick Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,121399,Y,Moderate,High,Good,High,High,High,High,High,High,High,High,Medium,,,,,High,High,,,,
+10027,Roebank Burn (d/s Barcraigs Reservoir),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,134597,Y,High,High,High,High,High,High,,,,,,,,,High,High,,,High,High,,
+10029,River Calder (u/s Castle Semple Loch),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122630,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,,,High,High,,
+10030,River Gryfe (d/s Barochan Burn),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122641,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,High,High,,,,
+10031,River Gryfe (Gryfe Reservoirs to Barochan Burn conf),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122640,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,,,
+10032,River Gryfe (above Gryfe Reservoirs),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,134699,Y,High,High,High,High,High,High,High,High,,,,,High,High,,,,,,,,
+10033,Dargavel Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,121417,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,,,
+10035,Locher Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122642,Y,High,High,High,High,High,High,High,High,,,High,Medium,,,,,,,,,,
+10040,River Clyde (North Calder to Tidal Weir),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122480,Y,Poor,High,Poor,Medium,Moderate,High,Moderate,High,Moderate,High,Moderate,Medium,Good,Medium,Good,Medium,Good,Medium,Good,Medium,Good,Medium
+10042,River Clyde (Potrail Water  to Mouse Water),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122463,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,,,,
+10043,Daer Water (d/s Daer Reservoir),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,134340,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,,,,,High,High
+10048,Tollcross Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,121510,Y,Moderate,High,Moderate,High,Moderate,High,Moderate,High,Moderate,Medium,Good,Medium,,,,,,,Good,Medium,,
+10052,Rotten Calder Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122554,Y,High,High,High,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,
+10060,North Calder Water (Luggie Burn to Clyde),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122542,Y,Good,High,High,High,Good,High,Good,High,Good,High,Good,Medium,High,High,High,High,High,High,High,High,High,High
+10062,North Calder Water (d/s Hillend Reservoir to Shotts Burn),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122539,Y,Good,High,Moderate,Medium,Moderate,High,High,Medium,High,High,Good,Medium,High,High,High,High,High,High,High,High,High,High
+10067,Shirrel Burn/Thankerton Burn/Legbranock Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,121225,Y,Bad,High,Bad,High,Bad,High,Bad,High,Poor,Medium,Bad,High,,,,,,,,,,
+10070,Shotts Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,320337,Y,High,High,High,High,High,High,High,High,High,High,High,High,High,High,,,,,,,,
+10071,Wellshaw/Earnock Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,121496,Y,Moderate,High,Moderate,High,,,Moderate,Medium,,,,,,,,,,,,,,
+10071,Wellshaw/Earnock Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,361155,Y,,,,,,,,,,,,,Moderate,Medium,,,,,,,,
+10072,South Calder Water (Tillan Burn to Strathclyde Park),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122534,Y,Good,High,Good,High,High,High,High,High,High,High,Good,Medium,High,High,High,High,High,High,High,High,High,High
+10073,South Calder Water (Auchter Water to Tillan Burn),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122530,Y,High,High,High,High,High,High,High,High,Good,Medium,Good,Medium,High,High,High,High,High,High,,,,
+10074,South Calder Water (u/s Auchter Water),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122527,Y,Moderate,High,Moderate,High,Moderate,High,Moderate,Medium,Moderate,Medium,Moderate,High,,,,,,,High,Medium,,
+10075,Auchter Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122525,Y,Good,High,Good,High,Good,Medium,High,High,High,High,Good,Medium,,,,,,,High,High,,
+10076,Avon Water (Powmillon Burn to River Clyde),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122518,Y,High,High,High,Medium,High,High,High,High,High,High,Good,Medium,High,High,High,High,High,High,,,,
+10078,Cander Water/White Corse Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,339118,Y,Good,High,Moderate,Medium,Good,High,High,High,High,High,Good,Medium,,,High,High,,,,,,
+10079,Jock s Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,134480,Y,Moderate,High,Moderate,High,Moderate,High,Moderate,High,Moderate,High,Moderate,Medium,,,,,High,High,,,,
+10080,Nethan Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122496,Y,High,High,High,High,High,High,High,High,Good,Medium,High,Medium,High,High,High,High,High,High,,,,
+10084,Mouse Water (Dippool Water to Clyde),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122490,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,,,High,High,,,,
+10092,Douglas Water (Poneil to Clyde),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122500,Y,Good,Medium,Good,Medium,Moderate,Medium,Good,High,Good,High,Moderate,Medium,Moderate,Medium,,,,,Moderate,Medium,,
+10094,Douglas Water (u/s Parkhall Burn),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,121159,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,,,,,,
+10101,Medwin Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122482,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,,,,,High,High,,
+10112,Duneaton Water (d/s Black Burn),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122481,Y,High,High,High,High,High,High,High,High,High,High,Good,Medium,,,,,,,,,High,High
+10116,Glengonnar Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,121986,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,,,
+10130,River Kelvin (Glazert Water to Tidal Limit),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122562,Y,Good,High,High,Medium,Good,High,High,Medium,Good,Medium,Good,Medium,High,High,High,High,High,High,High,High,,
+10131,River Kelvin (Kelvinhead to Glazert),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122555,Y,High,Medium,Good,Medium,Good,High,Good,Medium,High,High,High,Medium,High,High,High,High,High,High,High,High,High,High
+10132,Allander Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122568,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,High,High,,,,,High,High
+10135,Luggie Water (Kelvin to Mollins Burn),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122579,Y,Good,High,Good,High,Good,High,High,High,High,High,Good,Medium,,,,,High,High,,,,
+10138,Bothlin Burn (Garnkirk Burn to Luggie conf),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122593,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,High,High,,,,,High,High
+10146,Kirk Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,134232,Y,Good,Medium,Good,High,Good,Medium,High,High,High,High,High,Medium,,,,,High,High,,,,
+10150,River Leven,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122675,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,High,High,High,High,High,High,High,High
+10151,Carrochan Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,123753,Y,High,High,High,High,High,High,High,High,High,High,,,High,High,,,,,,,High,High
+10152,Endrick Water (d/s Blane Water),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122667,Y,Good,High,Good,High,Good,High,High,High,High,High,Good,Medium,High,High,High,High,High,High,,,,
+10153,Endrick Water (u/s Blane Water),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122666,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,,,,
+10154,Gallangad Burn/Catter Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,133715,Y,Good,High,High,High,High,High,High,High,High,High,High,High,,,,,,,,,,
+10156,Blane Water/Ballagan Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122673,Y,Good,High,Good,High,High,Medium,High,High,High,Medium,Good,Medium,High,High,High,High,High,Medium,Good,Medium,,
+10159,Finlas Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,121262,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,High,High,,
+10160,Luss Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122680,Y,High,High,High,High,High,High,High,Medium,High,High,Good,Medium,,,,,,,,,High,High
+10165,River Falloch (d/s Dubh Eas),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122678,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,,,High,High,,
+10177,North Glen Sannox,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122722,Y,Good,Medium,Moderate,High,Good,Medium,Good,Medium,,,,,,,,,,,,,,
+10180,Glenrosa Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122721,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,,,,,,
+10181,Glen Cloy Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,121749,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,,,
+10189,Machrie Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122726,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,High,High,,,,
+10194,River Ruel,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122793,Y,High,High,High,High,High,High,High,High,,,High,High,,,,,,,,,,
+10202,Little Eachaig River/Cruach Neuran Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122790,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,,,
+10205,River Eachaig,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122787,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,High,High,,,,
+10213,River Goil/Allt Clinne Mhoir,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122795,Y,High,High,High,High,High,High,Good,Medium,Good,Medium,Good,Medium,,,,,Good,Medium,,,,
+10220,River Shira (d/s Lochan Shira),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122797,Y,High,High,High,High,High,High,High,High,High,High,Good,Medium,,,,,High,High,,,,
+10226,Douglas Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,103406,Y,High,High,High,High,High,High,High,High,,,,,,,High,High,,,,,,
+10228,Strone Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,134449,Y,High,Medium,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,High,High,High,High
+10230,Conieglen Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122834,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,,,
+10238,Barr Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122838,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,,,
+10241,Carradale Water/Narachan Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122832,Y,High,High,High,High,High,High,High,High,,,,,,,,,,,,,,
+10244,Ballochroy Burn (d/s Loch Garasdale),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,134447,Y,,,,,,,,,,,,,,,,,,,,,High,High
+10246,Clachan Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,121790,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,High,High,,,,,,
+10256,Baranlongart Burn/Eas Dubh,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,134439,Y,High,High,High,High,High,High,High,High,,,High,High,,,High,High,,,,,,
+10265,Kilmartin Burn/Allt Ath Mhic,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122802,Y,,,,,,,,,,,,,,,,,High,High,,,,
+10266,River Add/Abhainn Bheag an Tunns (u/s Kilmartin Burn),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,121825,Y,High,High,High,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,
+10267,Rhudil Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,320771,Y,High,High,High,High,High,High,High,High,,,High,High,,,High,High,,,,,,
+10277,River Avich (d/s Loch Avich),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,102784,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,,,,,High,High
+10280,River Awe,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122824,Y,High,High,High,High,High,High,High,High,High,High,,,High,High,High,High,,,,,High,High
+10283,Allt Mhoille,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,302087,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,High,Medium,,,,
+10285,River Orchy,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122818,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,High,High,,,,
+10296,River Euchar (d/s Loch Scammadale),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122806,Y,High,High,High,High,High,High,High,High,High,High,,,High,High,,,,,,,High,High
+10300,River Nant (d/s Loch Nant),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122827,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,High,High,,,,
+10304,Black Lynn Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,134491,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,,,,,High,High
+10306,Allt Nathais,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,320942,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,,,
+10315,River Etive (d/s Allt a Chaorainn),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122812,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,Moderate,Medium,Good,Medium,,
+10321,River Creran,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122810,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,High,High,,,,
+10326,Abhainn Mor (Catacol Burn),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122724,Y,High,High,High,High,High,High,Good,Medium,Good,Medium,,,,,,,,,,,,
+10332,Coladoir River,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,103743,Y,,,,,High,High,Good,Medium,Moderate,Medium,,,,,,,,,,,,
+10333,Lussa River (Isle of Mull),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122863,Y,High,High,High,High,High,High,High,High,High,High,,,High,High,,,,,,,,
+10335,River Ba/Glencannel River (u/s Loch Ba),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,324426,Y,High,High,High,High,High,High,High,High,,,High,High,,,,,,,,,,
+10336,River Clachaig,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,324036,Y,Good,High,Good,High,High,Medium,Good,Medium,High,High,Moderate,Medium,,,,,,,,,,
+10340,Mingary Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,528766,Y,,,,,,,,,,,,,,,,,,,,,High,High
+10343,Aros River/Ledmore River (d/s Loch Frisa),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122860,Y,High,High,High,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,
+10353,River Sorn/Ballygrant Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122856,Y,High,High,High,High,High,High,High,High,,,High,High,High,High,,,,,,,,
+10355,Eallabus burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,320512,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,,,,,,
+10356,River Laggan,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122857,Y,High,High,High,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,
+10357,Duich River/Torra River/Uisge Gleann a Chromain,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122858,Y,High,High,High,High,High,High,High,High,High,High,,,High,High,,,,,,,,
+10366,Corran River,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,103788,Y,High,High,High,High,High,High,High,High,High,High,Good,Medium,,,,,,,,,,
+10370,Lussa River (Isle of Jura),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,103789,Y,High,High,High,High,High,High,High,High,,,High,High,High,High,,,,,,,,
+10372,Kip Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122652,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,,,,,,,,
+10375,Noddsdale Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122681,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,,,,
+10379,River Garnock (Caaf Water to Tidal Limit),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,127100,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,,,,
+10382,River Garnock (u/s Powgree Burn),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122682,Y,High,High,High,High,,,High,High,High,High,,,,,,,,,,,,
+10383,Lugton Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122688,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,,,High,High
+10389,Caaf Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,134376,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,,,,,High,High
+10391,River Irvine (Cessnock conf to Tidal Weir),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,121572,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,,,,
+10392,River Irvine (Glen Burn to Cessnock conf),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122690,Y,High,High,High,High,High,High,High,High,High,High,Good,High,,,,,,,High,High,,
+10393,River Irvine (u/s Glen Burn),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,134152,Y,High,Medium,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,,,,
+10394,Annick Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122714,Y,,,High,High,High,High,,,,,,,,,,,,,,,,
+10394,Annick Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122716,Y,Good,High,,,,,High,High,High,High,High,Medium,High,High,High,High,High,High,High,High,High,High
+10399,Kingswell Burn/Fenwick Water/Kilmarnock Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122705,Y,,,High,High,,,Good,High,Good,High,,,,,,,,,,,,
+10399,Kingswell Burn/Fenwick Water/Kilmarnock Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122706,Y,Good,Medium,,,Good,Medium,,,,,Moderate,Medium,,,Good,Medium,,,,,High,High
+10400,Craufurdland Water (Fenwick Water to Harshawmuir Water),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122704,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,,,High,High,,
+10409,Powmillon Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,134297,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,High,High,,
+10420,River Ayr (d/s Greenock Water),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122748,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,High,High,High,High
+10421,River Ayr (u/s Greenock Water),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122740,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,High,High,,,,
+10422,Water of Coyle (d/s Taiglum Burn),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122757,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,High,High,,
+10423,Water of Coyle (u/s Taiglum Burn),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122754,Y,High,High,High,High,High,High,High,High,High,High,,,,,,,High,High,,,,
+10424,Taiglum Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122053,Y,High,High,High,High,High,High,High,High,High,High,Good,Medium,High,Medium,High,High,High,High,,,High,High
+10427,Lugar Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122753,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,,,,
+10430,Lugar/Glenmuir Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122750,Y,High,High,High,High,High,High,High,High,High,High,,,,,,,High,High,High,High,,
+10431,Glaisnock Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,100690,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,,,,
+10435,Dippol Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,301969,Y,High,High,High,High,High,High,High,High,,,High,High,,,,,,,High,High,,
+10437,Slaphouse Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,134757,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,High,High,High,High
+10439,Carrick Lane,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122760,Y,High,High,High,Medium,Good,High,High,High,High,High,,,,,,,,,,,,
+10440,Culroy Burn/Minishant Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,134729,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,,,,,,
+10441,Chapelton Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,134728,Y,,,,,,,,,,,High,Medium,,,,,,,,,,
+10442,Purclewan Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,134727,Y,,,,,,,,,,,High,Medium,,,,,,,,,,
+10445,Dalcairnie Burn/Shalloch Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,134731,Y,,,High,High,,,,,,,,,,,High,High,,,,,,
+10446,Garpel Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122761,Y,High,High,High,High,High,High,High,High,High,High,,,,,,,,,,,,
+10448,Gala Lane,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122759,Y,High,High,High,High,Good,Medium,High,Medium,,,,,,,,,,,,,,
+10455,Water of Girvan (Lindsayston Burn to Palmullan Burn) ,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122772,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,,,,,,
+10456,Water of Girvan (d/s Loch Bradan to Palmullan Burn),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122770,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,,,High,High,,
+10457,Water of Girvan (u/s Loch Bradan),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122767,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,High,High,,,,,High,High
+10459,Dobbingstone Burn/Lindsayston Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,302130,Y,High,High,High,High,High,High,High,High,,,High,High,,,,,,,,,,
+10461,Barlewan Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122778,Y,High,High,High,High,High,Medium,High,High,High,High,High,High,,,,,,,High,High,,
+10465,River Stinchar (d/s Duisk River),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122783,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,High,High,,
+10467,River Stinchar (u/s Water of Gregg),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122779,Y,High,High,High,High,High,High,High,High,High,High,,,,,,,,,,,,
+10469,Duisk River (d/s Muck Water Confluence),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122785,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,High,High,,,,,High,High
+10472,Cross Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,320571,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,,,High,High,,
+10473,Feoch Burn/Carnmock Burn/Roughlea Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,320570,Y,High,High,High,High,High,High,High,High,,,,,,,,,,,,,,
+10478,Water of App,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,114317,Y,High,High,High,High,High,High,High,High,,,High,Medium,,,,,,,,,,
+10479,Messan Burn (d/s Black Loch),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,129915,Y,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,,,,,
+10482,Galdennoch Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,134730,Y,High,High,High,High,High,High,High,High,,,High,Medium,,,,,High,High,,,,
+10483,Black Stank,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,134705,Y,High,High,High,High,High,High,Good,Medium,,,High,Medium,,,,,High,High,,,,
+10484,Piltanton Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,123214,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,High,High,High,High
+10488,Pinminnoch Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,130811,Y,Moderate,High,Moderate,High,Moderate,Medium,Moderate,High,Moderate,High,Moderate,Medium,,,,,High,High,,,,
+10489,Caldons Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,135390,Y,,,,,,,Good,High,,,Good,Medium,,,,,,,,,,
+10490,Sandmill Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,130812,Y,,,,,Good,High,Good,High,Good,High,High,Medium,,,,,,,,,High,High
+10491,Water of Luce (d/s Cross Water of Luce),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,123205,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,,,,
+10492,Water of Luce (u/s Cross Water of Luce),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,123203,Y,High,High,High,High,High,High,High,High,High,High,,,High,High,High,High,,,,,High,High
+10493,Cross Water of Luce,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,123201,Y,High,High,High,High,High,High,High,High,,,High,High,,,,,,,,,,
+10493,Cross Water of Luce,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,123202,Y,,,,,,,,,High,High,,,,,High,High,,,,,,
+10494,Penwhirn Burn (d/s Penwhirn Reservoir),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,301457,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,High,High,,,,,High,High
+10496,Lady Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,123210,Y,,,,,,,High,High,High,High,,,High,High,High,High,,,,,,
+10497,Milton Burn/Dergoals Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,123198,Y,High,High,High,High,High,High,High,High,High,High,,,High,High,High,High,,,,,High,High
+10499,Maltkiln Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,123183,Y,High,High,High,High,High,High,,,,,,,,,,,High,High,,,,
+10500,Killantrae Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,123197,Y,High,High,High,High,High,High,High,High,High,High,,,High,High,High,High,,,,,High,High
+10501,Inch Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,134707,Y,High,High,High,High,Good,High,Good,Medium,Good,High,Good,Medium,,,,,High,High,,,,
+10502,Pouton Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,300379,Y,High,High,High,High,High,Medium,Good,High,Good,High,Moderate,Medium,,,,,High,High,,,,
+10503,Monreith Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,300380,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,,,High,High,,
+10504,Ket Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,123194,Y,,,Good,High,Good,Medium,Moderate,Medium,Moderate,High,,,Good,Medium,High,High,High,High,High,High,High,High
+10505,Drummullin Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,129912,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,High,High,,,,,High,High
+10507,River Bladnoch(Tarf Water to Water of Malzie),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,123179,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,High,High,,,,
+10509,River Bladnoch (u/s Black Burn),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,123177,Y,High,High,High,High,,,,,,,High,High,,,,,,,,,,
+10509,River Bladnoch (u/s Black Burn),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,123178,Y,,,,,High,High,High,High,,,,,,,,,,,,,,
+10511,Pulganny Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,301689,Y,High,High,High,High,High,High,High,High,,,High,High,,,,,,,,,,
+10512,Polbae Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,123176,Y,High,High,High,High,High,High,High,High,,,High,High,,,,,,,,,,
+10514,Tarf Water (u/s Bladnoch),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,123172,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,,,High,High
+10515,Tarf Water (u/s Drumpail Burn),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,123171,Y,High,High,High,High,High,High,High,High,,,High,High,,,,,,,,,,
+10515,Tarf Water (u/s Drumpail Burn),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,125489,Y,,,,,,,,,High,High,,,,,,,,,,,,
+10519,Bishop Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,123170,Y,High,High,High,High,High,High,High,Medium,High,High,High,Medium,,,,,High,High,,,,
+10520,River Cree (u/s Newton Stewart),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,123153,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,High,High,High,High
+10521,River Cree (u/s Minnoch conf),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,123151,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,High,High,,,,,High,High
+10522,River Cree (u/s Carrick Burn),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,123148,Y,High,High,,,High,Medium,,,,,,,,,,,,,,,,
+10522,River Cree (u/s Carrick Burn),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,123150,Y,,,High,High,,,High,High,High,High,,,,,,,,,,,,
+10523,Fardin Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,123147,Y,High,High,High,High,High,High,Good,Medium,,,,,,,,,,,,,,
+10524,Clauchrie Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,123149,Y,High,High,High,High,High,High,High,High,,,,,,,,,,,,,,
+10527,Water of Minnoch (River Cree to Water of Trool),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,123164,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,,,,,High,High
+10528,Water of Minnoch (u/s Water of Trool),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,123161,Y,High,High,,,High,High,High,High,,,High,High,,,,,,,,,,
+10528,Water of Minnoch (u/s Water of Trool),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,123163,Y,,,High,High,,,,,,,,,,,,,,,,,,
+10529,Shalloch Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,123160,Y,High,High,High,High,High,High,High,High,High,High,,,High,High,,,,,,,High,High
+10531,Water of Trool,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,123167,Y,High,High,High,High,High,High,High,High,,,,,,,,,,,,,,
+10533,Penkiln Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,123168,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,High,High,,,,
+10534,Palnure Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,123169,Y,High,High,High,High,,,,,,,High,High,,,,,,,,,,
+10536,Moneypool Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,123146,Y,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,,,,High,High
+10539,Water of Fleet/Big Water of Fleet/Mid Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,123144,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,,,High,High,,
+10540,Big Water of Fleet,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,123142,Y,High,High,High,High,High,High,High,High,High,High,,,,,,,,,,,,
+10544,Tarff Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,123135,Y,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,,High,High,,
+10545,River Dee (Loch Ken Outlet to Tongland),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,114648,(Empty),High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,,,High,High,High,High,High,High
+10546,Black Water of Dee (Pullaugh Burn to Loch Ken),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,123115,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,High,High,,,High,High
+10548,Dargall Lane,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,123117,Y,High,High,High,High,High,High,Good,Medium,Good,Medium,,,,,,,,,,,,
+10551,Pullaugh Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,301972,Y,High,High,High,High,High,High,High,High,,,,,High,High,,,,,,,,
+10556,Shirmers Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,123114,Y,High,High,High,High,High,High,High,High,High,High,,,,,High,High,High,High,,,,
+10559,Water of Ken (u/s High Bridge of Ken),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,123104,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,High,High,,,,
+10562,Water of Deugh (Carsphairn Lane to Water of Ken),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,114637,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,,,,,High,High,,
+10568,Polmaddy Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,123108,Y,High,High,High,High,High,High,High,High,,,High,High,,,,,,,,,,
+10569,Polharrow Burn/Mid Burn/Hawse Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,123107,Y,High,High,High,High,High,High,High,High,,,High,High,,,,,,,,,,
+10570,Coom Burn / Garroch Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,302125,Y,High,High,High,High,High,High,High,High,,,High,Medium,,,,,High,High,,,,
+10572,Garple Burn/Margree Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,123113,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,,,High,High,,
+10575,Gelston Burn/Carlingwark Lane,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,134620,Y,High,High,High,High,High,High,Good,Medium,,,,,High,High,,,,,High,High,,
+10579,Abbey Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,135279,Y,,,High,High,,,,,,,,,,,,,High,High,,,,
+10581,Hass Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,134621,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,High,High,,,,
+10583,Urr Water (d/s Drumhumphrey Burn),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,123088,Y,High,High,High,High,High,High,High,High,High,High,Good,Medium,High,High,,,High,High,,,High,High
+10584,Urr Water (u/s Drumhumphrey Burn),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,123080,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,,,High,High,,
+10589,Kirkgunzeon Lane,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,123096,Y,High,High,High,High,,,,,,,,,High,High,,,High,High,,,High,High
+10591,Culloch Burn (Milton Loch to Kirkgunzeon Lane),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,123097,Y,High,High,High,High,High,High,High,High,,,Good,Medium,,,,,,,,,,
+10595,Southwick Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,123076,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,High,High,,,,
+10600,Cargen Pow/Bogrie Lane,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,123055,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,,,High,High,,
+10601,Lochfoot Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,129910,Y,High,High,High,High,High,High,High,High,High,High,Good,Medium,,,High,High,,,,,High,High
+10604,Cluden Water/Cairn Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,302007,Y,High,High,High,High,High,High,High,High,,,High,Medium,High,High,High,High,High,High,,,,
+10610,River Nith (Dumfries - Sanquhar),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,134469,Y,High,High,High,High,High,High,High,High,High,High,,,,,,,,,,,,
+10610,River Nith (Dumfries - Sanquhar),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,135386,Y,,,,,,,,,,,Good,Medium,,,High,High,,,,,,
+10611,River Nith (Sanquhar - New Cumnock),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122986,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,,,
+10612,River Nith (u/s New Cumnock),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122980,Y,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,,,,High,High
+10620,Mennock Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,123016,Y,High,High,High,High,High,High,High,High,,,High,Medium,,,,,,,,,,
+10625,Scar Water (u/s Shinnel Water),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,123020,Y,,,High,High,High,High,High,High,High,High,High,Medium,,,,,High,High,,,,
+10629,Cample Water(River Nith to Chrichope Linn),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,123028,Y,High,High,High,High,High,High,High,High,High,High,,,High,High,High,High,,,,,High,High
+10637,Lochar Water/Park Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,120321,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,,,
+10641,Pow Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,125443,Y,High,High,High,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,
+10642,River Annan (Threewaterfoot to Annan),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122924,Y,,,,,High,High,High,High,Good,Medium,High,Medium,High,High,High,High,High,High,,,,
+10642,River Annan (Threewaterfoot to Annan),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,134375,Y,Good,High,Good,High,,,,,,,,,,,,,,,,,,
+10643,Pennyland Burn/Mein Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122962,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,High,High,,,,
+10644,Dalton Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,134611,Y,High,High,High,High,High,High,High,High,,,High,High,,,High,High,,,,,,
+10645,Water of Milk (d/s Corrie Water Confluence),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122957,Y,High,High,High,High,High,High,High,High,High,High,,,,,Good,Medium,High,High,,,,
+10648,Ryemuir Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,134609,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,,,
+10652,Wamphray Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122935,Y,High,High,High,High,High,High,High,High,High,High,,,,,,,,,,,,
+10653,Kinnel Water u/s of Water of Ae,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122936,Y,High,High,High,High,High,High,High,High,High,High,,,,,High,High,High,High,,,,
+10657,Water of Ae (d/s Goukstane Burn),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122946,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,High,High,,,,
+10660,Kirkland Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,135389,Y,High,High,High,High,High,High,High,High,High,High,,,,,High,Medium,High,High,,,,
+10661,Water of Ae (u/s Goukstane Burn),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,123240,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,,,,,,
+10665,Dornock Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,134604,Y,High,High,High,High,High,High,High,High,,,High,Medium,,,High,High,,,,,High,High
+10666,Kirtle Water (d/s Waterbeck),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122910,Y,High,High,High,High,High,High,High,High,High,High,,,,,High,Medium,High,High,,,,
+10669,River Sark,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122902,Y,High,High,High,High,High,High,High,High,High,High,,,,,High,Medium,,,High,High,,
+10673,Black Esk,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122873,Y,High,High,High,High,High,High,High,High,Good,Medium,High,Medium,,,,,High,High,,,,
+10674,White Esk (Black Esk to Rae Burn),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122874,Y,Good,High,Good,High,Good,High,Moderate,High,Moderate,High,Good,Medium,,,,,,,,,,
+10679,Meggat Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122883,Y,,,,,,,,,,,,,High,High,High,High,High,High,High,High,High,High
+10681,Ewes Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122887,Y,,,,,,,,,,,,,High,High,High,High,High,High,,,,
+10687,Liddel Burn/Liddel Water/Peel Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122894,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,,,,
+10692,Kershope Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122895,Y,High,High,Good,Medium,Good,Medium,High,High,,,,,,,,,,,,,,
+10694,Hermitage Water(Liddel Water to Roughley Burn),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122890,Y,High,High,High,Medium,High,High,Good,High,Good,High,Good,Medium,,,,,High,Medium,,,,
+10703,Evan Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122932,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,,,
+10706,Duntocher Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122676,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,,,High,High,,
+10718,Greenock Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,121627,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,,,,,,
+10725,Corra Lane/Birkland Burn/Buittle Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,302049,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,,,High,High,,
+10727,Powgree Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,337236,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,,,
+10731,Stand Burn/Park Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,134743,Y,High,High,High,High,,,,,,,,,,,,,,,,,,
+10731,Stand Burn/Park Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,398593,Y,,,,,,,,,,,,,,,,,,,,,High,High
+10736,Garrion Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,135238,Y,High,High,High,High,High,High,High,High,High,High,,,,,Moderate,Medium,High,High,,,,
+10738,Liddel Burn/Liddel Water/Peel Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122891,Y,High,High,Good,Medium,High,High,High,High,High,High,High,Medium,,,,,High,High,,,,
+10739,River Annan (above Threewaterfoot),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122916,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,,,
+10742,Luggie Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122545,Y,Moderate,Medium,Moderate,High,Poor,High,Moderate,High,Moderate,High,Poor,Medium,,,,,,,,,High,High
+10743,South Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,301964,Y,Bad,Medium,Bad,High,Poor,Medium,Poor,Medium,,,Poor,Medium,,,,,,,,,Good,Medium
+10744,Chalmadale Water (Gleann Easan Biorach),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,121744,Y,,,,,,,,,,,High,Medium,,,,,,,,,High,High
+10744,Chalmadale Water (Gleann Easan Biorach),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122723,Y,Good,Medium,Good,Medium,Moderate,Medium,Good,Medium,Good,Medium,,,,,,,,,,,,
+10745,Iorsa Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122725,Y,High,High,High,High,High,High,Good,Medium,High,High,,,,,,,,,,,,
+10746,Pow Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122736,Y,Good,High,Good,High,Good,High,High,High,High,High,Good,Medium,,,,,,,,,,
+10747,Black Cart Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122623,Y,High,High,High,High,High,High,,,,,High,High,,,,,,,,,,
+10747,Black Cart Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122625,Y,,,,,,,High,High,High,High,,,High,High,High,High,High,High,High,High,High,High
+10748,Dippool Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122484,Y,High,High,Good,High,Good,High,Good,High,Good,High,Good,Medium,,,High,Medium,,,,,High,High
+10749,Mouse Water (u/s Dippool Water),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122487,Y,High,High,Good,High,Good,High,Good,Medium,Good,High,Good,Medium,High,Medium,High,High,High,High,,,,
+10750,Tillan Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,121196,Y,High,High,High,High,,,,,,,,,,,,,,,,,,
+10750,Tillan Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,337274,Y,,,,,,,High,High,High,High,,,,,High,High,,,,,High,High
+10751,Luggie Water (u/s Mollins Burn),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122575,Y,High,High,Good,High,High,Medium,High,High,High,High,High,Medium,High,High,High,High,High,High,,,,
+10754,Mouswald Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,134708,Y,Moderate,High,Moderate,High,Moderate,High,Moderate,High,Moderate,High,Moderate,Medium,,,,,,,,,,
+10757,Water of Girvan (d/s Dailly),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,124876,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,,,High,High
+10758,River Esk (Black Esk to National Boundary),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122879,Y,Good,High,Moderate,Medium,Good,High,Good,High,,,,,High,High,High,High,High,High,Good,Medium,,
+10758,River Esk (Black Esk to National Boundary),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,127102,Y,,,,,,,,,Good,Medium,Good,Medium,,,,,,,,,,
+10759,Glenzier Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,340656,(Empty),High,High,High,High,Good,High,Good,High,Good,High,Good,Medium,,,High,High,,,,,High,High
+10761,Water of Ken,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,123105,Y,High,High,High,High,High,High,High,High,High,High,,,,,,,High,High,,,High,High
+10918,River Clyde (Strathclyde Loch outflow to North Calder),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122475,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,,,,
+10919,River Clyde (Mouse Water to Strathclyde Loch outflow),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122469,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,,,,
+10924,River Doon (d/s Muck Water),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122766,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,High,High,,,,,High,High
+10927,Cessnock Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122701,Y,High,High,High,High,High,High,Good,High,Good,High,Good,Medium,,,High,High,,,,,High,High
+10928,Moffat Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,122929,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,High,High,,,,
+10929,Board Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,121241,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,,,High,High,,
+10930,Malls Mire Burn/Polmadie Burn/Cityford Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,121494,Y,,,,,,,,,,,,,Bad,High,Bad,High,Bad,High,Bad,High,Bad,High
+10930,Malls Mire Burn/Polmadie Burn/Cityford Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,121495,Y,,,Bad,High,,,,,,,,,,,,,,,,,,
+10936,Ladykirk Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,118688,Y,,,,,,,,,High,High,High,High,,,High,High,,,,,High,High
+20002,River Helmsdale - Kinbrace Burn to sea,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,300010,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,,,,
+20010,River Helmsdale - Loch Badanloch to Kinbrace Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206774,Y,High,High,High,High,High,High,High,High,High,High,High,High,High,High,,,,,,,High,High
+20027,Kirk Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,301627,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,,,,,High,High
+20036,Wick River - Loch Watten Burn to tidal limit,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,300008,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,,,,
+20037,Wick River - source to Loch Watten Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206903,Y,High,High,High,High,High,High,,,High,High,,,,,High,High,High,High,,,,
+20038,Achairn Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206982,Y,High,High,High,High,High,High,High,High,High,High,Good,Medium,,,,,High,High,,,,
+20046,Burn of Latheronwheel,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,232637,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,High,High,,,,,,
+20047,Dunbeath Water - Burn of Houstry to sea,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206770,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,High,High,,,,
+20053,Berriedale Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206772,Y,High,High,High,High,,,,,,,,,,,,,,,,,,
+20053,Berriedale Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,408675,Y,,,,,High,High,High,High,High,High,,,High,High,High,High,High,High,,,,
+20054,Langwell Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206773,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,,,,
+20057,River Brora - sea to Loch Brora,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206807,Y,High,High,High,High,High,High,High,Medium,High,High,High,Medium,High,High,High,High,High,High,,,,
+20063,Allt a  Mhuilinn / Allt ach a  Bhathaich,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,232713,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,,,,,,
+20064,Black Water - Balnacoil to Amat,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206805,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,,,
+20072,Abhainn an t-sratha Charnaig,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,232716,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,,,,,,
+20079,River Evelix,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207287,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,,,,,High,High
+20080,Allt Garbh,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,232721,Y,High,High,High,High,Good,Medium,Good,Medium,Good,Medium,High,Medium,,,,,,,High,High,,
+20088,Easter Fearn Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,203982,Y,,,High,High,High,High,High,High,High,High,,,,,,,,,,,,
+20088,Easter Fearn Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206784,Y,High,High,,,,,,,,,High,High,,,,,High,High,,,,
+20089,Craigroy Burn - Dornoch Firth to Balblair Distillery,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206915,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,,,
+20093,River Shin - Dornoch Firth to Loch Shin,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206732,Y,High,High,High,High,High,High,High,High,High,High,,,High,High,,,High,High,,,High,High
+20095,Merkland River - Loch a Ghriama to Loch Merkland,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206728,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,High,High,,,,,High,High
+20099,River Tirry - Loch Shin to Rhian,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,232722,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,High,High,,,,,High,High
+20110,River Cassley - Dornoch Firth to Glenmuick,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206811,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,,,High,High,,,,
+20116,River Oykel - Dornoch Firth to Loch Craggie,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206809,Y,High,High,High,High,High,High,High,High,High,High,,,Moderate,Medium,,,High,High,,,High,High
+20121,River Einig,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206810,Y,High,High,High,High,High,High,High,High,High,High,Good,Medium,,,,,,,,,,
+20122,Rappach Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,335314,Y,High,High,,,,,,,,,,,,,,,,,,,,
+20130,River Carron - sea to Alladale Lodge,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207289,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,,,High,High,,,,
+20139,Fearn Canal,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,203256,Y,Moderate,High,Moderate,High,Moderate,High,,,Moderate,High,,,Moderate,Medium,,,,,,,,
+20141,Balnagown River,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206786,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,,,
+20142,Pollo Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,232732,Y,High,High,High,High,High,High,High,High,,,High,High,,,,,,,,,,
+20143,Rosskeen Burn - Cromarty Firth to Tomich,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206987,Y,Moderate,Medium,Good,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,High,High,High,High
+20146,River Skitheach,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206721,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,,,
+20147,River Peffery,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206792,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,High,High,High,High
+20150,Newhall Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206817,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,,,,,High,High
+20153,Killen Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,335316,Y,Good,High,Good,High,Good,High,Good,High,Good,High,Moderate,High,,,,,High,High,,,,
+20156,Alness River - Cromarty Firth to Strone,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206998,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,,,High,High
+20165,River Conon - Cromarty Firth to Orrin confluence,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206815,Y,High,High,High,High,High,High,High,High,High,High,,,High,High,,,,,High,High,,
+20167,River Conon - Loch Achonachie to Loch Luichart,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206814,Y,High,High,High,High,High,High,High,High,High,High,,,High,High,High,High,,,,,High,High
+20172,Logie Burn - River Conon Confluence to Muir of Ord,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206798,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,,,High,High,,
+20173,Logie Burn - Muir of Ord to source,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206724,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,,,
+20183,Rogie Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,323604,Y,High,High,High,High,High,High,High,High,High,High,,,,,,,,,,,,
+20191,River Meig - Loch Meig to Inverchoran,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207295,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,High,High,,,,,,
+20207,Moniack Burn - Beauly Firth to Kirkhill WWTP,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206734,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,,,High,High,,
+20209,River Beauly - Beauly Firth to Cannich,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207626,Y,High,High,High,High,High,High,High,High,High,High,,,High,High,,,,,High,High,,
+20211,River Affric - Loch Beinn a  Mheadhoin to Loch Affric,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,200306,Y,High,High,High,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,
+20235,Abhainn Deabhag,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,232630,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,,,
+20236,Abhainn Gleann nam Fiadh,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,552216,Y,,,,,,,,,,,,,,,,,,,,,High,High
+20239,Mill Burn - sea to Hilton,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,234200,Y,Good,Medium,High,High,High,High,High,High,,,High,High,,,High,High,,,,,,
+20247,Balnagowan Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,232765,Y,Good,High,High,Medium,High,Medium,High,Medium,,,High,Medium,,,,,,,,,,
+20254,River Garry - Loch Oich to Loch Garry,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206868,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,High,High,,,,
+20262,River Enrick - Loch Ness to Loch Meiklie,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206827,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,High,High,High,High
+20263,River Enrick - Loch Meiklie to Allt Seanabhaile confluence,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,232770,Y,High,High,High,High,High,High,High,High,High,High,,,,,,,,,,,,
+20275,Allt Breineag,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,232776,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,,,,,,
+20275,Allt Breineag,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,478547,Y,,,,,,,,,,,,,,,,,,,High,High,,
+20299,Greenfield Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,232832,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,,,
+20305,River Nairn - Moray Firth to River Farnack confluence,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207636,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,,,High,High
+20310,Dalriach Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,232763,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,,,
+20317,Muckle Burn - Lethen to Speedie Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206919,Y,Good,High,Good,Medium,High,High,High,High,High,High,High,Medium,,,,,High,High,,,,
+20319,Speedie Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,232752,Y,High,High,,,,,,,,,,,,,,,,,,,,
+20321,Black Burn (Clunas),1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206832,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,,,
+20323,River Duror,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206938,Y,High,High,High,High,High,High,High,High,,,Good,Medium,,,,,,,,,,
+20329,River Nevis,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206882,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,High,High,,,,
+20330,River Leven - sea to Blackwater Reservoir,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207443,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,,,,
+20339,River Lochy - sea to Spean confluence,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206880,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,High,High,,,,
+20345,River Loy,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,232838,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,,,,,,
+20347,River Pattack - Loch Laggan to Loch Pattack,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206940,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,,,,,High,High
+20360,Allt a Chaorainn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,232835,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,High,High,,,,
+20387,River Scaddle / Cona River,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206954,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,,,,
+20393,Rannoch River,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,449078,Y,,,,,,,,,,,High,Medium,High,High,High,High,,,,,,
+20406,Moidart River,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206863,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,,,
+20407,River Ailort,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,232868,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,High,High,,,,
+20409,Brunery Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,232869,Y,High,High,High,High,High,High,High,High,High,High,,,High,High,,,,,High,High,High,High
+20410,River Aline,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,304695,Y,High,High,High,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,
+20412,River Shiel - sea to Loch Shiel,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206888,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,High,High,High,High
+20430,River Shiel,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,327611,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,,,,
+20433,River Elchaig,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206752,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,,,,
+20435,Allt Dhuirinish,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207582,Y,High,High,High,High,High,High,High,High,High,High,High,High,High,High,,,,,,,,
+20436,Allt Cadh an Eas,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206921,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,,,High,High,,
+20438,Abhainn Cumhang a Ghlinne,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,232798,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,,,,,,
+20439,River Kishorn - sea to Couldoran,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206993,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,High,High,,,High,High,,
+20446,River Morar - sea to Loch Morar,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206889,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,High,High,,,,
+20451,River Ling - sea to Aonach Beag,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206751,Y,Good,Medium,Good,Medium,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,,,,
+20461,Abhainn Dubh,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,232795,Y,High,High,High,High,High,High,High,High,High,High,High,High,High,High,,,,,,,,
+20470,River Erradale,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,232792,Y,Good,High,Good,Medium,High,High,Good,Medium,,,Good,Medium,,,,,,,,,,
+20483,River Ewe - sea to Loch Maree,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206837,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,High,High,High,High
+20484,Kinlochewe River / Abhainn Bruachaig,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206823,Y,High,High,High,High,High,High,High,High,High,High,High,High,High,High,,,,,,,,
+20496,Allt Bad an Luig,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,232743,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,High,High,,,,,High,High
+20503,Dundonnell River,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,203249,Y,High,High,High,High,High,High,High,High,,,High,High,,,High,High,,,,,,
+20505,Ullapool River,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206997,Y,Good,Medium,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,,,High,High
+20510,River Garvie,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206800,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,,,
+20514,River Polly,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206971,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,,,High,High,,,,
+20516,Allt Gleann an t-Srathain,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,232746,Y,,,,,,,,,,,,,,,,,,,,,High,High
+20524,Abhainn Gleann Leireag,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206796,Y,High,High,,,,,,,,,,,,,,,,,,,High,High
+20525,Unapool Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,232750,Y,,,High,High,High,High,High,High,High,High,High,Medium,High,High,,,High,High,,,,
+20530,Allt nan Ramh - d/s Duartmore FF,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206985,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,,,,,,,,
+20532,Allt Mor Gisgil,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,232639,Y,High,High,High,High,High,High,High,High,,,High,Medium,,,,,High,High,,,,
+20538,Allt an Loin Bhain,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,232641,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,,,
+20542,Gruinard River,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207298,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,,,,
+20547,River Broom,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207301,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,High,High,,,,,High,High
+20551,River Kirkaig,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206727,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,,,High,High,,,,
+20552,Abhainn Mhor,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206918,Y,High,High,High,High,High,High,High,High,,,High,High,,,,,High,High,,,,
+20553,Ledmore River,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206802,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,,,
+20558,River Inver - sea to Loch Assynt,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207286,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,,,,,,,,
+20558,River Inver - sea to Loch Assynt,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,528088,Y,,,,,,,,,,,,,,,,,,,High,High,High,High
+20563,River Laxford - d/s Loch Stack,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206763,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,,,,
+20572,River Dionard,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206765,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,High,High,,,,
+20577,Allt Ach an t Srathain,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,232644,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,,,,
+20580,Rhian Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,232645,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,,,
+20583,Swordly Burn - d/s Loch Meadie,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,232648,Y,High,High,High,High,,,,,,,,,,,,,,,,,,
+20585,Armadale Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,232649,Y,,,,,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,,,,
+20586,River Hope,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206718,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,,,,
+20587,Strathmore River,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206909,Y,High,High,Good,Medium,Good,Medium,Good,Medium,Good,Medium,Moderate,Medium,,,High,High,,,,,,
+20595,River Naver - sea to Loch Naver,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206910,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,,,,
+20596,River Mudale - lower catchment,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206775,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,,,
+20610,River Strathy - The Uair to sea,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206778,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,,,,
+20614,Halladale River - d/s Forsinain Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,200211,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,,,,
+20622,Sandside Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,203456,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,High,High,,,,
+20627,Murkle Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,200630,Y,Good,Medium,High,High,High,High,High,High,High,High,High,Medium,,,,,,,High,High,,
+20633,Forss Water - Allt Forsiescye to sea,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206719,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,High,High,,,,
+20637,River Thurso - Loch More to sea,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206911,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,,,,
+20642,Halkirk Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207281,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,High,High,,,,,High,High
+20643,Calder Water - d/s Loch Calder,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206761,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,,,,,High,High
+20650,Sleach Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,203474,Y,High,High,High,High,,,,,,,,,,,,,,,,,,
+20652,Abhainn Ghriomarstaidh - d/s Loch Faoghail Charrasan,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,300007,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,High,High,,,,
+20658,Burn of Hourston,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206895,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,High,High,,,,,,
+20662,Burn of Corrigall,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,232683,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,,,
+20666,Burn of Mailand / Burn of Caldback,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,300185,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,,,,,,
+20668,Burn of Arisdale,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207507,Y,Good,Medium,High,Medium,High,High,High,High,High,High,Moderate,Medium,,,,,High,High,,,,
+20671,Laxo Burn / Gossawater Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207509,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,High,High,,,,,High,High
+20675,Burn of Laxdale / Burn of Voxter,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207557,Y,High,Medium,Good,Medium,High,High,High,Medium,High,Medium,Moderate,Medium,,,High,Medium,,,,,,
+20677,Burn of Hillwell - u/s Loch of Spiggie,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,322349,Y,,,,,,,,,,,,,High,High,High,High,High,High,High,High,High,High
+20679,Burn of Weisdale,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207496,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,High,High,,,,,High,High
+20690,Burn of Hillside,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207605,Y,High,High,High,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,
+20697,Mill Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206898,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,,,High,High,,
+20723,Vikisgill Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,232817,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,High,High,,,,,,
+20733,River Snizort,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206750,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,High,High,,,,,High,High
+20738,River Romesdal,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,232826,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,High,High,,,,,,
+20740,River Conon,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,232828,Y,High,High,High,High,High,High,High,High,,,High,High,,,High,High,,,,,,
+20754,Allt na Craoibhe,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,232691,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,,,,,,
+20755,Abhainn Lacasaidh - d/s Loch Trealabhal,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,232692,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,,,,,High,High
+20766,Abhainn Ruadh,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,232693,Y,High,High,High,High,High,High,High,High,,,Good,Medium,,,,,,,,,,
+20767,Abhainn Scaladail,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,320427,Y,High,High,High,High,High,High,High,High,High,High,Moderate,Medium,,,,,High,High,,,,
+20775,Abhainn Lacasdail,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,232695,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,,,,,,
+20777,Abhainn Mhiabhaig,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,232697,Y,,,,,,,,,,,,,,,,,,,,,High,High
+20778,Abhainn Eabhal,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207464,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,,,,
+20801,Abhainn Bharabhais,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207484,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,High,High,,,,
+20807,Abhainn Dhail,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,323609,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,,,,,,
+20823,Abhainn thernaraigh,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207474,Y,High,High,High,High,High,High,High,High,,,High,High,,,High,High,,,,,,
+23000,River Findhorn - Dorback Burn to sea,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206930,Y,Good,High,Good,High,Moderate,Medium,Moderate,Medium,Good,High,Good,Medium,,,High,High,,,,,High,High
+23001,Dorback Burn - d/s Divie confluence,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207639,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,,,
+23004,River Findhorn - Tomatin to Dorback Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,232760,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,High,High,,,,
+23009,Moy Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,232759,Y,High,Medium,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,,,,
+23014,River Findhorn - Garbole to Coignafearn Lodge,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206852,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,,,,,,
+23014,River Findhorn - Garbole to Coignafearn Lodge,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,510787,Y,,,,,,,,,,,,,High,High,,,High,High,High,High,High,High
+23020,Mosset Burn - Forres to sea,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206972,Y,Good,Medium,High,High,High,Medium,High,High,,,Good,Medium,,,,,,,,,,
+23023,Kinloss Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,301628,Y,,,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,High,High,,
+23032,River Lossie - Waukmill to Arthurs Bridge,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,203862,Y,High,High,High,High,High,High,Good,High,Good,High,Good,Medium,High,High,High,High,Good,Medium,,,,
+23034,Linkwood Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207261,Y,High,High,High,High,High,Medium,High,Medium,Good,Medium,High,Medium,High,High,,,,,Good,Medium,,
+23039,River Lossie - Leanoch Burn to Mosstowie Canal,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207213,Y,High,High,High,High,High,High,Good,High,Good,High,Moderate,Medium,,,,,High,High,,,,
+23043,River Lossie - upper catchment,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207127,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,High,High,,,,,High,High
+23052,Fordyce Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207095,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,High,High,,,,
+23054,Boyne Burn / Corncairn Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207088,Y,High,High,High,Medium,Good,High,Good,High,Good,High,Moderate,Medium,Good,Medium,,,,,High,High,,
+23056,Tore Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207163,Y,High,High,High,High,High,Medium,High,Medium,High,Medium,Good,Medium,High,High,,,,,High,High,,
+23059,Water of Philorth / Water of Tyrie,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207372,Y,High,High,High,High,High,High,High,High,High,High,High,High,High,High,,,,,,,,
+23059,Water of Philorth / Water of Tyrie,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,523306,Y,,,,,,,,,,,,,,,,,,,High,High,,
+23061,Burn of Savoch/ Logie Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207141,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,High,High,High,High
+23065,River Spey - R. Fiddich to tidal limit,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207030,Y,High,High,High,High,High,High,Good,High,Good,Medium,High,Medium,High,High,High,High,High,High,High,High,High,High
+23066,River Spey - R. Avon to R. Fiddich,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,203747,Y,High,High,High,High,High,High,Good,High,Good,Medium,High,Medium,,,,,,,,,,
+23066,River Spey - R. Avon to R. Fiddich,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207347,Y,,,,,,,,,,,,,High,High,High,High,High,High,,,,
+23069,Mulben Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,232881,Y,High,High,High,High,High,High,Good,Medium,Good,Medium,High,Medium,,,,,High,High,,,,
+23072,River Fiddich - d/s Dufftown,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207021,Y,High,High,High,High,High,High,Good,High,Good,Medium,High,High,High,High,,,,,,,,
+23074,River Fiddich - u/s Dufftown,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207119,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,High,High,,,,,,
+23075,Dullan Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207017,Y,High,High,High,High,High,High,,,High,High,,,,,High,High,,,High,High,,
+23076,Aberlour Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206999,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,,,,,,
+23084,River Avon / River Livet - lower catchment,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207108,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,,,,
+23096,River Spey - R. Nethy to R. Avon,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207129,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,,,,
+23097,River Spey - R. Feshie to R. Nethy,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207029,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,,,
+23106,River Dulnain - lower catchment,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207019,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,,,High,High,,
+23116,River Nethy - d/s Nethy Bridge,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207027,Y,High,High,High,High,High,High,High,High,High,High,High,High,High,High,,,,,,,,
+23127,River Feshie - Allt a Mharcaidh,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207309,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,High,High,High,High
+23129,River Feshie - main stem d/s R. Eidart,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207118,Y,High,High,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,,,,,,
+23142,River Spey - Spey Dam to Loch Insh,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207132,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,,,,
+23154,River Spey - source to Garva,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207131,Y,High,High,,,,,,,High,High,High,Medium,,,,,,,High,High,,
+23155,River Deveron - Turriff to tidal limit,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,300181,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,High,High,,
+23157,Rosy Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,232930,Y,,,,,,,,,,,,,,,,,,,,,High,High
+23160,Burn of King Edward,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207090,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,,,,
+23161,Idoch Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207106,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,High,High,,,,
+23165,River Deveron - Huntly to Turriff,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207117,Y,High,High,High,High,High,High,High,High,High,High,,,High,High,High,High,,,,,High,High
+23167,Burn of Auchintoul - d/s Arkland Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,232926,Y,High,High,High,Medium,High,Medium,High,Medium,High,Medium,Good,Medium,High,High,,,,,High,High,,
+23171,River Isla - d/s Shiel Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207120,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,,,,
+23173,Shiel Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207138,Y,High,High,High,High,High,High,High,High,High,Medium,Good,Medium,,,High,High,,,,,,
+23176,Burn of Aultmore,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,232920,Y,High,High,High,High,High,High,High,High,High,High,Good,Medium,,,,,High,High,,,,
+23179,River Isla - Keith to Shiel Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,205682,Y,,,,,High,High,,,,,High,Medium,High,High,High,High,High,High,,,,
+23179,River Isla - Keith to Shiel Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206977,Y,High,High,High,High,,,High,High,High,High,,,,,,,,,,,,
+23181,River Isla - source to Keith,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207022,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,High,High,,,,,High,High
+23187,River Deveron - source to Black Water confl.,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207015,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,High,High,,,,
+23188,River Bogie - Culdrain to Huntly,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207211,Y,High,High,High,High,High,High,High,High,High,Medium,High,Medium,High,High,High,High,High,High,,,High,High
+23191,Kirkney Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207100,Y,High,High,High,High,High,High,High,High,,,High,High,,,,,,,,,,
+23194,River Bogie - source to Culdrain,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207110,Y,High,High,High,High,High,High,High,High,High,High,High,High,High,High,,,,,,,,
+23200,Water of Cruden - d/s Hatton WWTP,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207237,Y,High,Medium,High,High,,,,,,,High,Medium,High,High,High,High,High,High,,,,
+23200,Water of Cruden - d/s Hatton WWTP,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,460473,Y,,,,,,,,,,,,,,,,,,,,,High,High
+23201,Water of Cruden - u/s Hatton WWTP,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207165,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,,,,,,
+23205,Tarty Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207162,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,,,High,High,,
+23215,River Ugie - North/South confl to tidal limit,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207231,Y,High,High,High,High,High,High,High,High,,,High,Medium,High,High,High,High,High,High,,,,
+23221,North Ugie Water - lower catchment,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207269,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,High,High,High,High
+23222,North Ugie Water - upper catchment,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207152,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,,,,
+23223,Greenspeck Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207148,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,,,,,,
+23224,South Ugie Water - Stuartfield to Longside,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,338805,Y,High,High,Good,High,Good,High,High,Medium,High,High,Good,Medium,High,High,High,High,High,High,,,,
+23226,Quhomery Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,232936,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,High,High,,,,,,
+23228,Leeches Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207149,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,High,High,,,,
+23229,Water of Fedderate,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207166,Y,High,High,High,High,High,High,High,High,High,High,High,High,High,High,,,,,,,,
+23230,South Ugie Water - New Deer to Stuartfield,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207236,Y,High,High,High,High,High,High,High,High,,,High,High,,,High,High,,,,,,
+23231,River Ythan - Methlick to Ellon,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207158,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,,,,
+23232,River Ythan - Fyvie to Methlick,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207157,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,,,,
+23233,River Ythan - upper catchment above Fyvie,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207159,Y,High,High,High,High,High,High,High,High,High,High,Good,Medium,High,High,,,,,High,High,,
+23234,Fordoun Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207146,Y,High,High,High,High,High,High,High,High,High,High,High,High,High,High,,,,,,,,
+23241,Youlie Burn / Bronie Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207170,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,,,High,High,,
+23243,Den Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207255,Y,High,High,High,High,High,High,High,High,,,High,High,,,,,High,High,,,,
+23250,Findon Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207277,Y,Bad,High,Bad,High,Poor,Medium,Good,Medium,Good,Medium,Moderate,Medium,,,Good,Medium,,,,,,
+23251,Burn of Elsick,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207185,Y,,,,,,,,,,,Good,Medium,High,High,High,High,High,High,High,High,,
+23253,Cowie Water - Rickarton to sea,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207254,Y,High,High,High,High,High,High,High,High,High,High,,,High,High,,,,,High,High,,
+23263,Forthie Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207256,Y,High,High,High,High,High,High,High,High,,,High,High,,,High,High,,,,,,
+23264,Bervie Water - lower catchment,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,204343,Y,High,High,High,High,High,High,High,High,High,High,Good,Medium,High,High,High,High,High,High,,,,
+23265,River Don - Dyce to tidal limit,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207274,Y,High,High,High,High,High,High,High,High,,,High,Medium,High,High,High,High,High,High,High,High,High,High
+23266,Bucks Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207374,Y,,,,,,,,,,,,,High,High,High,High,High,High,High,High,High,High
+23267,Elrick Burn - d/s Newmachar WWTP,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207241,Y,High,High,High,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,High,High
+23269,River Don - Inverurie to Dyce,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207246,Y,Good,High,High,High,High,High,High,High,High,High,Good,Medium,,,High,High,,,,,,
+23282,River Urie - Lochter Burn to Don,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207275,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,High,High,,,,,High,High
+23283,River Urie - Pitcaple to Lochter Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207181,Y,Good,High,Good,High,Good,High,Good,High,Good,High,Good,High,,,High,High,,,,,,
+23284,Lochter Burn / Kings Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207242,Y,High,High,High,High,High,Medium,High,High,Good,Medium,High,Medium,,,High,High,,,,,High,High
+23293,River Don - Alford to Inverurie,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207055,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,High,High,,,,,High,High
+23294,River Don - Strathdon to Alford,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,232939,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,High,High,,,High,High
+23295,River Don - source to Strathdon,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207056,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,High,High,,,,,,
+23310,Ton Burn / Cluny Burn lower,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207376,Y,Moderate,High,Moderate,Medium,Moderate,High,Moderate,Medium,Moderate,High,Poor,Medium,,,Moderate,Medium,,,,,Good,Medium
+23315,River Dee - Peterculter to tidal limit,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207195,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,,,,
+23317,Crynoch Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207188,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,High,High,,,,
+23318,Sheeoch Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207198,Y,High,High,High,High,High,High,High,High,,,,,,,,,,,,,,
+23319,Culter Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207189,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,,,,
+23321,Leuchar Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207420,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,,,
+23322,Brodiach Burn / Ord Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206995,Y,High,High,High,High,High,High,High,High,Good,High,High,Medium,High,High,,,,,High,High,,
+23323,Kinnernie Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207191,Y,High,High,High,High,High,High,High,High,High,High,High,High,High,High,,,,,,,,
+23324,Bo Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,232968,Y,,,,,,,,,,,Good,Medium,High,High,High,High,High,High,High,High,High,High
+23326,Water of Feugh - lower catchment,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207081,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,,,,
+23328,Water of Dye - lower catchment,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207199,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,High,High,,,,
+23331,Water of Aven / Feugh - upper catchment,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,320749,Y,High,High,High,High,High,High,High,High,High,High,,,,,,,,,,,,
+23332,River Dee - Ballater to Banchory,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207432,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,High,High,,,,
+23333,Beltie Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207183,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,High,High,,,,
+23338,Tarland Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207080,Y,High,High,High,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,
+23345,River Dee - Braemar to Ballater,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207076,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,High,High,,,,
+23346,River Dee - White Bridge to Braemar,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207194,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,High,High,,,,
+23347,River Gairn - lower catchment,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207078,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,High,High,,,,
+23351,River Muick - Spittal of Glen Muick to Dee,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207079,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,,,
+23352,River Muick - Allt Darrarie,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,232614,Y,High,High,High,High,High,High,High,High,,,,,,,,,,,,,,
+23354,River Muick - Allt an Dubh Loch,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,232619,Y,High,High,High,High,High,High,High,High,High,High,,,,,,,,,,,,
+23358,Gelder Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,232960,Y,High,High,High,High,High,High,High,High,,,,,,,,,,,,,,
+23362,Clunie Water - upper catchment,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,232613,Y,High,High,,,High,High,High,High,High,High,,,,,,,,,,,,
+23362,Clunie Water - upper catchment,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,232617,Y,,,High,High,,,,,,,,,,,,,,,,,,
+23363,Quoich Water - main stem,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207075,Y,High,High,High,High,High,High,High,High,High,High,,,,,,,,,,,,
+23365,Ey Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,232957,Y,High,High,High,High,High,High,High,High,High,High,,,,,,,,,,,,
+23366,Lui Water,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207074,Y,High,High,High,High,High,High,High,High,,,,,,,,,,,,,,
+23370,Ault na Skiah,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,232768,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,,,,
+23371,River Carron - Loch Carron to Loch Dughaill,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206845,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,High,High,High,High,High,High,,,,
+23372,Logie Burn / Loch Davan,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207073,Y,High,High,,,,,,,,,,,,,,,,,,,,
+23378,Lhanbryde Burn/Burn of Blackhills,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,203886,Y,Good,Medium,Good,High,Good,High,High,Medium,High,Medium,High,Medium,High,High,High,High,High,High,,,,
+23381,River Moriston - Loch Ness to Dundreggan Dam,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206966,Y,,,,,,,,,,,,,,,,,,,,,High,High
+23382,River Moriston - Dundreggan Dam to Bun Loyne,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206745,Y,High,High,High,High,High,High,High,High,High,High,,,,,,,,,,,,
+23392,Black Water - Conon Confluence to Loch Garve,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206722,Y,High,High,High,High,High,High,High,High,High,High,High,High,High,High,,,,,,,,
+23394,River Ness - Inverness Firth to Loch Ness,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207621,Y,Good,High,High,High,High,High,High,High,High,High,High,Medium,,,High,High,,,,,High,High
+23397,Abhainn Rog,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,320429,Y,High,High,High,High,High,High,High,High,High,High,Good,Medium,High,High,High,High,High,High,,,,
+23398,Rough Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,232766,Y,High,High,High,High,High,High,High,High,High,High,High,High,,,,,High,High,,,,
+23579,River Borgie d/s Loch Craggie,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206717,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,High,High,,,,,High,High
+23632,Cowie Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207260,Y,High,High,High,High,High,High,High,High,,,High,High,,,High,High,,,,,High,High
+23634,River Canaird (lower section) and Allt a' Mhuilinn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206801,Y,High,High,High,High,High,High,High,High,High,High,High,Medium,,,,,High,High,,,,
+23636,Green Burn,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,207010,Y,High,High,High,High,High,High,High,High,High,High,High,High,High,High,High,High,,,,,,
+23915,River Tarff / Allt Lagan a'Bhainne,1-3-2-3-3-2: Macroinvertebrates (NTAXA),Calculated,206876,Y,,,,,,,,,High,High,,,,,,,,,,,,
