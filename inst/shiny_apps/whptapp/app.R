@@ -12,7 +12,6 @@ library(leaflet)
 library(dplyr)
 library(htmltools)
 
-
 # Define UI for application
 
 ui <- tagList(
@@ -83,6 +82,10 @@ server <- function(input, output) {
     go <- input$goButton
     last <- input$goButton - 1
     if (go > last && go > 0) {
+      progress <- shiny::Progress$new()
+      # Make sure it closes when we exit this reactive, even if there's an error
+      on.exit(progress$close())
+      progress$set(message = "Calculating", value = 1)
       data <- data.frame(`loc code` = input$loc,
                          `Sampled date` = input$date,
                          `Reported NTAXA` = input$ntaxa,
@@ -125,7 +128,7 @@ server <- function(input, output) {
     }
     data$`Location code` <- data$`loc code`
     data$sample_id <- paste(data$`loc code`, " ", data$`Sampled date`)
-    predictions <- whpt(data)
+    predictions <- whpt_predict(data)
     data <- inner_join(data, predictions, by = c("sample_id" = "sample_id"))
     data$`Reference ASPT` <- data$WHPT_ASPT
     data$`Reference NTAXA` <- data$WHPT_NTAXA

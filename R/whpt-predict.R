@@ -43,8 +43,8 @@
 #' @export
 #'
 #' @examples
-#' whpt_predictions <- whpt(demo_data)
-whpt <- function(data) {
+#' whpt_predictions <- whpt_predict(demo_data)
+whpt_predict <- function(data) {
 
   # Remove rows with missing data missing
   data[data == ""] <- NA
