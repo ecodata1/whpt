@@ -8,7 +8,8 @@
 #'
 #' @param data Dataframe of GIS based predictors with 20 variables:
 #' \describe{
-#'   \item{Location code}{Sample ID - unique identifer for sample}
+#'   \item{Location code}{Location reference}
+#'   \item{sample_id}{Sample ID - unique identifer for sample}
 #'   \item{NGR}{National Grid Reference - Great Britain only}
 #'   \item{Date}{Date as character class in 2012-12-31 format only}
 #'   \item{Sampled date}{Predicted total number of scoring WHPT families}
@@ -50,9 +51,9 @@ whpt <- function(data) {
   data <- na.omit(data)
 
   data <- tibble::as_tibble(data)
+
   # Rename to match training data in model
   data <- dplyr::rename(data,
-    sample_id = .data$`Location code`,
     altitude = .data$Altitude,
     distance_from_source = .data$d_f_source,
     catchment_altitude = .data$logaltbar,

@@ -19,6 +19,5 @@ devtools::install_github("ecodata1/whpt")
 This is a basic example which shows you how to solve a common problem:
 
 ``` r
-library(whpt)
 ## basic example code
 ```

@@ -7,114 +7,151 @@
 #    http://shiny.rstudio.com/
 library(shiny)
 library(rict)
+library(tidyverse)
 library(leaflet)
+library(dplyr)
 library(htmltools)
+
 
 # Define UI for application
 
-  ui <- tagList(
+ui <- tagList(
   #  shinythemes::themeSelector(),
-    navbarPage(
-      # theme = "cerulean",  # <--- To use a theme, uncomment this
-      "WHPT predictor",
-      tabPanel("Predict WHPT",
-               sidebarPanel(
-                   h4("This app is a work in progress"),
-                   p(),
-                   fileInput("dataset", "Choose CSV File",
-                             accept = c(
-                               "text/csv",
-                               "text/comma-separated-values,text/plain",
-                               ".csv"
-                             )
-                   ),
-                   actionButton(label = "Download template", inputId = "demodata")),
-    #                 h3("Options"),
-    #   radioButtons(
-    #     "year_type", "Year Type:",
-    #     c(
-    #       "Single-year" = "single",
-    #       "Multi-year" = "multi"
-    #     )
-    #   ),
-    #   radioButtons(
-    #     "output", "Output:",
-    #     c(
-    #       "Prediction & Classification" = "predict_classify",
-    #       "Prediction Only" = "predict"
-    #     )
-    #   ),
-    #   checkboxGroupInput(
-    #     "include", "Include: ",
-    #     c(
-    #       "Don't include taxa or predictions" = "none",
-    #       "Include Taxa Prediction" = "taxa",
-    #       "All Indices" = "all_indices"
-    #     ), selected = "none"
-    #   ),
-    #   checkboxGroupInput(
-    #     "tl", "Taxa Lists: ",
-    #     c(
-    #       "TL1" = "TL1",
-    #       "TL2" = "TL2",
-    #       "TL3" = "TL3",
-    #       "TL4" = "TL4",
-    #       "TL5" = "TL5"
-    #     ), selected = "TL2"
-    #   )
-    # ),
-    # Show tables
-    mainPanel(
-      leafletOutput("map"),
-      p(),
-      htmlOutput("tables")
+  navbarPage(
+    # theme = "cerulean",  # <--- To use a theme, uncomment this
+    "WHPT assessment",
+    tabPanel(
+      "Report",
+      sidebarPanel(
+        h4("This app is a work in progress"),
+        p(),
+        fileInput("dataset", "Choose CSV File",
+          accept = c(
+            "text/csv",
+            "text/comma-separated-values,text/plain",
+            ".csv"
+          )
+        ),
+        downloadButton(outputId = "input_template", label = "Download template"),
+        p(),
+        h4('Enter per site:'),
+        p(),
+        selectInput('loc', 'Location code', choices = select(utils::read.csv(system.file("extdat",
+                                                                                                "predictors.csv",
+                                                                                                package = "whpt"
+        ),
+        stringsAsFactors = FALSE, check.names = F
+        ), `loc code`)
+        ),
+        dateInput('date', 'Sampled date', format = "yyyy-mm-dd"),
+        numericInput('aspt', 'Observed ASPT', NA),
+        numericInput('ntaxa', 'Observed NTAXA', NA),
+        actionButton("goButton", "Go!", class = "btn-success")
+      ),
+
+      # Show tables
+      mainPanel(
+        leafletOutput("map"),
+        p(),
+        htmlOutput("tables")
+      )
     )
-  ),
-  tabPanel("Consistency Calculator", "This panel is intentionally left blank.")
-)
+  )
 )
 
 # Define server logic ------------------------------------------------------------------
 server <- function(input, output) {
+
+  output$input_template <-  downloadHandler(
+    filename = function() {
+      paste('input-template.csv', sep='')
+    },
+    content = function(con) {
+      template <- utils::read.csv(system.file("extdat",
+                                  "input.csv",
+                                  package = "whpt"
+      ),
+      stringsAsFactors = TRUE, check.names = F
+      )
+
+      write.csv(template[1,1:4], con)
+    }
+  )
+
   output$tables <- renderUI({
     inFile <- input$dataset
-    if (is.null(inFile)) {
+    go <- input$goButton
+    last <- input$goButton - 1
+    if (go > last && go > 0) {
+      data <- data.frame(`loc code` = input$loc,
+                         `Sampled date` = input$date,
+                         `Reported NTAXA` = input$ntaxa,
+                         `Reported ASPT` = input$aspt, check.names = F)
+
+    } else {
+      data <- NULL
+    }
+    if (is.null(inFile) && is.null(data)) {
       return(NULL)
     }
-    # Create a Progress object
-    progress <- shiny::Progress$new()
-    # Make sure it closes when we exit this reactive, even if there's an error
-    on.exit(progress$close())
-    progress$set(message = "Calculating", value = 1)
-    data <- read.csv(inFile$datapath, check.names = F)
+
+
+    if(!is.null(inFile)) {
+      # Create a Progress object
+      progress <- shiny::Progress$new()
+      # Make sure it closes when we exit this reactive, even if there's an error
+      on.exit(progress$close())
+      progress$set(message = "Calculating", value = 1)
+    data <- read.csv(inFile$datapath, check.names = F, stringsAsFactors = FALSE)
+    data$`loc code` <- as.character(data$`loc code`)
+  data[data == ""] <- NA
+  data[data == "#N/A"] <- NA
+  data[data == "n/a"] <- NA
+    }
+    if(is.null(data)) {
+      return(NULL)
+    }
+    input_data <- data
+    predictors <- utils::read.csv(system.file("extdat",
+      "predictors.csv",
+      package = "whpt"
+    ),
+    stringsAsFactors = FALSE, check.names = F
+    )
+
+    data <- inner_join(data, predictors, by = c("loc code" = "loc code"))
+    if(length(data[,1]) == 0) {
+      stop("Location code doesn't match list of predefined locations - please contact tim.foster@sepa.org.uk")
+    }
+    data$`Location code` <- data$`loc code`
+    data$sample_id <- paste(data$`loc code`, " ", data$`Sampled date`)
     predictions <- whpt(data)
+    data <- inner_join(data, predictions, by = c("sample_id" = "sample_id"))
+    data$`Reference ASPT` <- data$WHPT_ASPT
+    data$`Reference NTAXA` <- data$WHPT_NTAXA
     predictions_table <- predictions
 
-    output_files <- list(predictions)
-    results <- data.frame()
-    # if (!is.null(predictions) & input$output == "predict_classify") {
-    #   results <- rict_classify(predictions,
-    #     year_type = input$year_type
-    #   )
-    # }
-    # classification_table <- results
-    #
-    #
-     taxa <- data.frame()
-    # if (!is.null(predictions) & any(input$include %in% "taxa")) {
-    #   taxa <- rict_predict(data, taxa = T, taxa_list = input$tl)
-    # }
-    # taxa_table <- taxa
+    output_files <- list(input_data)
 
+    consistency_data <- whpt:::tidy_input(data)
+    consistency <- whpt:::consistency(consistency_data)
+    data <- inner_join(data, consistency, by = c("sample_id" = "sample_id"))
+    consistency_table <- select(
+      data,
+      `Location code`,
+      `Sampled date`,
+      `Reported WHPT Class Year`,
+      `Typical ASPT Class`,
+      `Typical NTAXA Class`,
+      `Reference ASPT`,
+      `Reference NTAXA`,
+      assessment,
+      driver,
+      action
+    )
 
-     indices <- data.frame()
-    # if (!is.null(predictions) & any(input$include %in% "all_indices")) {
-    #   indices <- rict_predict(data, all_indices = T)
-    # }
-    # indices_table <- indices
-
-    output_files <- list(predictions, results, taxa, indices)
-
+    output_files <- list(input_data, consistency_table)
+    list_names <- c("input_data", "consistency_table")
 
     output$download_file <- downloadHandler(
       filename = function() {
@@ -125,7 +162,7 @@ server <- function(input, output) {
         tmpdir <- tempdir()
         setwd(tempdir())
         for (i in seq_along(output_files)) {
-          path <- paste0("output_", i, ".csv")
+          path <- paste0(list_names[i], i, ".csv")
           fs <- c(fs, path)
           write.csv(output_files[[i]], file = path)
         }
@@ -137,27 +174,27 @@ server <- function(input, output) {
       downloadButton("download_file", "Download Outputs")
     })
 
-    # map <- leaflet(predictions) %>%
-    #          addTiles() %>%
-    #           addMarkers(~LONGITUDE, ~LATITUDE, popup = ~ htmlEscape(SITE))
-    #
-    # output$map <- renderLeaflet(map)
+    # Format NGR
+    data$NGR <- trimws(data$NGR)
+    data$NGR <- gsub(pattern = " ", replacement = "", x = data$NGR)
+    wgs <- suppressWarnings(rict::osg_parse(data$NGR, coord_system = "WGS84"))
+    data$latitude <- wgs$lat
+    data$longitude <- wgs$lon
+
+    map <- leaflet(data) %>%
+      addTiles() %>%
+      addMarkers(~longitude, ~latitude, popup = ~ htmlEscape(`loc code`))
+
+    output$map <- renderLeaflet(map)
 
     return(list(
       download_data,
-      h3("Predictions"), DT::renderDataTable({
-        predictions_table
+      h3("Input Data"), DT::renderDataTable({
+        input_data
+      }),
+      h3("Consistency Assessment"), DT::renderDataTable({
+        consistency_table
       })
-      #,
-      # h3("Classification"), DT::renderDataTable({
-      #   classification_table
-      # }),
-      # h3("Taxa"), DT::renderDataTable({
-      #   taxa_table
-      # }),
-      # h3("All Indices"), DT::renderDataTable({
-      #   indices_table
-      # })
     ))
   })
 }
