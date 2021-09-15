@@ -1,3 +1,3 @@
 library(testthat)
 
-test_check("whpt")
+test_check("whpts")

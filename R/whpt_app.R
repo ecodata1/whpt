@@ -22,7 +22,7 @@
 
 whpt_app <- function() {
   message("This app is a work in progress")
-  appDir <- system.file("shiny_apps", "whptapp", package = "whpt")
+  appDir <- system.file("shiny_apps", "whptapp", package = "whpts")
   if (appDir == "") {
     stop("Could not find example directory. Try re-installing `whpt`.", call. = FALSE)
   }

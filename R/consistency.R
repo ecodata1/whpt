@@ -13,7 +13,7 @@ consistency <- function(data) {
   #  rules <- read.csv("inst/extdat/consistency-rules.csv")
   rules <- utils::read.csv(system.file("extdat",
                                             "consistency-rules.csv",
-                                            package = "whpt"
+                                            package = "whpts"
   ))
 
 
@@ -35,7 +35,7 @@ consistency <- function(data) {
     row$class <- class
     assessment <- readRDS(system.file("extdat",
                                          "assessment.rds",
-                                         package = "whpt"
+                                         package = "whpts"
     ))
 
     # assessment <- readRDS("inst/extdat/assessment.rds")

@@ -18,7 +18,7 @@ ui <- tagList(
   #  shinythemes::themeSelector(),
   navbarPage(
     # theme = "cerulean",  # <--- To use a theme, uncomment this
-    "WHPT assessment",
+    " assessment",
     tabPanel(
       "Report",
       sidebarPanel(
@@ -37,7 +37,7 @@ ui <- tagList(
         p(),
         selectInput('loc', 'Location code', choices = select(utils::read.csv(system.file("extdat",
                                                                                                 "predictors.csv",
-                                                                                                package = "whpt"
+                                                                                                package = "whpts"
         ),
         stringsAsFactors = FALSE, check.names = F
         ), `loc code`)
@@ -68,7 +68,7 @@ server <- function(input, output) {
     content = function(con) {
       template <- utils::read.csv(system.file("extdat",
                                   "input.csv",
-                                  package = "whpt"
+                                  package = "whpts"
       ),
       stringsAsFactors = TRUE, check.names = F
       )
@@ -117,7 +117,7 @@ server <- function(input, output) {
     input_data <- data
     predictors <- utils::read.csv(system.file("extdat",
       "predictors.csv",
-      package = "whpt"
+      package = "whpts"
     ),
     stringsAsFactors = FALSE, check.names = F
     )
@@ -136,8 +136,8 @@ server <- function(input, output) {
 
     output_files <- list(input_data)
 
-    consistency_data <- whpt:::tidy_input(data)
-    consistency <- whpt:::consistency(consistency_data)
+    consistency_data <- whpts:::tidy_input(data)
+    consistency <- whpts:::consistency(consistency_data)
     data <- inner_join(data, consistency, by = c("sample_id" = "sample_id"))
     consistency_table <- select(
       data,
