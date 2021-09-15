@@ -2,25 +2,22 @@
 % Please edit documentation in R/whpt_app.R
 \name{whpt_app}
 \alias{whpt_app}
-\title{Open RICT web app}
+\title{Open whpt assessment web app}
 \usage{
 whpt_app()
 }
 \description{
-Open RICT as an interactive shiny web app.
+Open whpt assessment an interactive shiny web app.
 }
 \details{
-\code{rict_app()} opens RICT as an interactive shiny app. RICT will
-automatically detect if the input file contains NI or GB grid references and
-apply the correct model including if GIS / geological predictors are used
-(currently only available for GB).
+\code{whpt_app()} opens interactive shiny app.
 
 Using the app:
 \enumerate{
-\item Select your required year type (multi/single) for classification and
-type of prediction for instance include taxa or all indices.
-\item Click the Browse for .csv file button to select and upload a data file.
+\item Select your file (or download a template to fill out)
+\item Or select your location and add data, aspt, ntaxa.
 \item View and download results.
+\item
 }
 }
 \examples{
