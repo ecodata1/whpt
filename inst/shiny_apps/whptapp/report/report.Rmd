@@ -1,0 +1,60 @@
+---
+title: |
+  ![](sepa-logo.png){width=1in}  
+  Regulatory Evidence - Ecology Report
+subtitle:  Screening Water Quality Using a Rapid Assessment Technique for Freshwater Invertebrate
+author: "`r params$river_name`"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output:
+  word_document: default
+  html_document:
+    css: styles.css
+params:
+  author: Tim Foster
+  data: "`r data.frame()`"
+editor_options:
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+# Don't show R code in output
+knitr::opts_chunk$set(echo = FALSE)
+# Load useful libraries
+library(tidyverse)
+library(ggmap)
+library(ggrepel)
+```
+
+<hr>
+
+# Location and purpose
+
+
+# Results
+
+Some results...
+
+```{r data-import, warning=FALSE}
+#source("../consistency-function.R")
+# knitr::kable(consistency(params$data))
+```
+
+# Analysis
+
+#### Determinand Summary
+
+```{r analysis, message=F, fig.height=8, fig.asp=0.8}
+
+
+```
+
+#### Sampling Location Map
+
+
+```{r map, message=F, warning=F, fig.height=4}
+
+```
+
+# Conclusion
+
+There are a total of sampling locations within this dataset...

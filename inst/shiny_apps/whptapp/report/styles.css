@@ -1,0 +1,29 @@
+title {
+  font-size: 24;
+  color: rgb(0, 82, 111);
+  font-weight: bold;
+
+}
+
+h1 {
+  font-size: 16;
+  color: rgb(0, 82, 111);
+  font-weight: bold;
+}
+
+h2 {
+   font-size: 14;
+   color: black;
+   font-weight: bold;
+}
+
+h3 {
+   color: black;
+   font-weight: bold;
+}
+
+hr {
+   background-color: rgb(115, 174, 87);
+   color: rgb(115, 174, 87);
+   height: 2px;
+}
