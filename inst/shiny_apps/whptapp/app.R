@@ -18,7 +18,7 @@ ui <- tagList(
   #  shinythemes::themeSelector(),
   navbarPage(
     # theme = "cerulean",  # <--- To use a theme, uncomment this
-    " assessment",
+    "Bankside assessment",
     tabPanel(
       "Report",
       sidebarPanel(
@@ -128,7 +128,7 @@ server <- function(input, output) {
     }
     data$`Location code` <- data$`loc code`
     data$sample_id <- paste(data$`loc code`, " ", data$`Sampled date`)
-    predictions <- whpt_predict(data)
+    predictions <- whpts::whpt_predict(data)
     data <- inner_join(data, predictions, by = c("sample_id" = "sample_id"))
     data$`Reference ASPT` <- data$WHPT_ASPT
     data$`Reference NTAXA` <- data$WHPT_NTAXA
@@ -153,8 +153,10 @@ server <- function(input, output) {
       action
     )
 
-    output_files <- list(input_data, consistency_table)
-    list_names <- c("input_data", "consistency_table")
+    predictors <- select(predictors, -`Typical ASPT Class`, -`Typical NTAXA Class`,  -`Reported WHPT Class Year`, -`EX`, -`EY`)
+    predictors <- predictors[predictors$`loc code` %in% input_data$`loc code`, ]
+    output_files <- list(input_data, consistency_table, predictors)
+    list_names <- c("input_data", "consistency_table", "predictors")
 
     output$download_file <- downloadHandler(
       filename = function() {
@@ -197,6 +199,9 @@ server <- function(input, output) {
       }),
       h3("Consistency Assessment"), DT::renderDataTable({
         consistency_table
+      }),
+      h3("Predictors"), DT::renderDataTable({
+        predictors
       })
     ))
   })
