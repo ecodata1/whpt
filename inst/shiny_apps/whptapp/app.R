@@ -53,8 +53,7 @@ ui <- tagList(
         p(),
         htmlOutput("tables")
       )
-    ),
-    tabPanel("View report")
+    )
   )
 )
 

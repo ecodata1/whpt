@@ -36,12 +36,12 @@ library(leaflet)
 
 # params$data$latitude params$data$longitude
 
-bbox <- c(left = params$data$longitude - 0.01,
+bbox <- c(left = params$data$longitude - 0.02,
           bottom = params$data$latitude - 0.01, 
-          right = params$data$longitude + 0.01,
+          right = params$data$longitude + 0.02,
           top = params$data$latitude + 0.01)
  map <- get_stamenmap( bbox = bbox, zoom = 14)
-map <- ggmap(map, extent = "normal") +   geom_point(aes(x = longitude, y = latitude), data = params$data, colour = "red", size = 2)
+map <- ggmap(map, extent = "normal") +   geom_point(aes(x = longitude, y = latitude), data = params$data, colour = "red", size = 2) + theme_nothing()
 map
 
 ```
