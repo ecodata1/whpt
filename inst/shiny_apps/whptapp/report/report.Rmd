@@ -3,15 +3,16 @@ title: |
   ![](sepa-logo.png){width=1in}  
   Regulatory Evidence - Ecology Report
 subtitle:  Screening Water Quality Using a Rapid Assessment Technique for Freshwater Invertebrate
-author: "`r params$river_name`"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output:
-  word_document: default
-  html_document:
-    css: styles.css
+  word_document:
+    reference_docx: skeleton.docx
+always_allow_html: true
 params:
-  author: Tim Foster
-  data: "`r data.frame()`"
+  input_data: NA
+  consistency_table: NA
+  predictors: NA
+  data: NA
 editor_options:
   chunk_output_type: console
 ---
@@ -23,38 +24,40 @@ knitr::opts_chunk$set(echo = FALSE)
 library(tidyverse)
 library(ggmap)
 library(ggrepel)
+library(leaflet)
 ```
 
 <hr>
 
-# Location and purpose
+## Location Code: `r params$data[, 1]`
+## Reason for visit: Vulnerable site
 
+```{r map, warning=FALSE, message=FALSE, fig.align='center', fig.height=2.5}
 
-# Results
+# params$data$latitude params$data$longitude
 
-Some results...
-
-```{r data-import, warning=FALSE}
-#source("../consistency-function.R")
-# knitr::kable(consistency(params$data))
-```
-
-# Analysis
-
-#### Determinand Summary
-
-```{r analysis, message=F, fig.height=8, fig.asp=0.8}
-
+bbox <- c(left = params$data$longitude - 0.01,
+          bottom = params$data$latitude - 0.01, 
+          right = params$data$longitude + 0.01,
+          top = params$data$latitude + 0.01)
+ map <- get_stamenmap( bbox = bbox, zoom = 14)
+map <- ggmap(map, extent = "normal") +   geom_point(aes(x = longitude, y = latitude), data = params$data, colour = "red", size = 2)
+map
 
 ```
 
-#### Sampling Location Map
+# Most Recent RBMP Assessment: `r paste(params$consistency_table[, c("Typical ASPT Class","Typical NTAXA Class")], collapse = ", ")` (`r paste(params$consistency_table[, c("Reported WHPT Class Year")])`)
 
+<br>
 
-```{r map, message=F, warning=F, fig.height=4}
+# Our Assessment: `r paste(params$consistency_table[, c("assessment")])`
 
-```
+<br>
 
-# Conclusion
+# Proposed Action: `r paste(params$consistency_table[, c("action")])`
 
-There are a total of sampling locations within this dataset...
+<br>
+
+## Interpretation
+
+<<< Please delete and enter your interpretation >>>
