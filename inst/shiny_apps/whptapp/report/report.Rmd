@@ -3,7 +3,6 @@ title: |
   ![](sepa-logo.png){width=1in}  
   Regulatory Evidence - Ecology Report
 subtitle:  Screening Water Quality Using a Rapid Assessment Technique for Freshwater Invertebrate
-date: "`r format(Sys.time(), '%d %B, %Y')`"
 output:
   word_document:
     reference_docx: skeleton.docx
@@ -30,9 +29,10 @@ library(leaflet)
 <hr>
 
 ## Location Code: `r params$data[, 1]`
+## Sampled date: `r format(params$input_data[, 2], '%d %B, %Y')`
 ## Reason for visit: Vulnerable site
 
-```{r map, warning=FALSE, message=FALSE, fig.align='center', fig.height=2.5}
+```{r map, warning=FALSE, message=FALSE, fig.align='center', fig.height=2}
 
 # params$data$latitude params$data$longitude
 
@@ -48,16 +48,27 @@ map
 
 # Most Recent RBMP Assessment: `r paste(params$consistency_table[, c("Typical ASPT Class","Typical NTAXA Class")], collapse = ", ")` (`r paste(params$consistency_table[, c("Reported WHPT Class Year")])`)
 
-<br>
-
 # Our Assessment: `r paste(params$consistency_table[, c("assessment")])`
 
-<br>
-
 # Proposed Action: `r paste(params$consistency_table[, c("action")])`
-
-<br>
 
 ## Interpretation
 
 <<< Please delete and enter your interpretation >>>
+  
+<br />
+<br />
+<br />  
+<br />  
+<br />  
+<br />  
+<br />  
+<br />  
+ 
+
+## Sample Details
+### Reported Date: `r format(Sys.time(), '%d %B, %Y')`
+### Report By: <<< Please delete and update >>>
+### Sampler: <<< Please delete and update >>>
+### NGR: `r params$data[, 8]`
+### Water Body: <<< Please delete and update >>>

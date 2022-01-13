@@ -207,7 +207,7 @@ server <- function(input, output) {
       downloadButton("create_report", "Generate report")
     })
     output$create_report <- downloadHandler(
-      filename = "report.docx",
+      filename = paste0(format(data$`Sampled date`,'%Y-%m-%d'), "-", data$`loc code`, ".docx"),
       content = function(file) {
         # Copy the report file to a temporary directory before processing it, in
         # case we don't have write permissions to the current working dir (which
