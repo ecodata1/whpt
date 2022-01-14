@@ -23,6 +23,8 @@ ui <- tagList(
       "Create Report",
       sidebarPanel(
         h4(em("This app is a work in progress!")),
+        br(),
+        br(),
         # p(),
         # fileInput("dataset", "Choose CSV File",
         #   accept = c(
@@ -42,8 +44,8 @@ ui <- tagList(
         stringsAsFactors = FALSE, check.names = F
         ), `loc code`)),
         dateInput("date", "Sampled date", format = "yyyy-mm-dd"),
-        numericInput("aspt", "Observed ASPT", NA),
-        numericInput("ntaxa", "Observed NTAXA", NA),
+        numericInput("aspt", "Observed ASPT", NA, min = 0),
+        numericInput("ntaxa", "Observed NTAXA", NA, min = 0, step = 1),
         actionButton("goButton", "Go!", class = "btn-success")
       ),
 
