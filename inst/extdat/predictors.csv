@@ -1,4 +1,4 @@
-loc code,Reported WHPT Class Year,Typical ASPT Class,Typical NTAXA Class,NGR,SX,SY,EX,EY,Altitude,d_f_source,logaltbar,log_area,disch_cat,slope,chalk,clay,hardrock,limestone,peat,shape_Length
+location_id,Reported WHPT Class Year,Typical ASPT Class,Typical NTAXA Class,NGR,SX,SY,EX,EY,Altitude,d_f_source,logaltbar,log_area,disch_cat,slope,chalk,clay,hardrock,limestone,peat,shape_Length
 122676,2017,Good,High,NS 47815 71236,247850,671300,247800,671250,6,10388.65332,2.35594916,1.273175,2,13.80711842,0,0,0.76222843,0,0.01639344,70.71067812
 471,2017,Good,High,NS 93409 65741,293400,665750,293450,665750,160,8207.279297,2.28544712,1.12799513,1,1.77894151,0,0,0.10798734,0,0.26159003,50
 456,2017,Moderate,High,NS 98549 65315,298500,665350,298550,665300,144,17113.53516,2.31110501,1.62831223,3,5.33682442,0,0,0.03918339,0,0.24174854,70.71067812

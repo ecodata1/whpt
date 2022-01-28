@@ -29,19 +29,19 @@ library(leaflet)
 <hr>
 
 ## Location Code: `r params$data[, 1]`
-## Sampled date: `r format(params$input_data[, 2], '%d %B, %Y')`
+## Sampled date: `r format(params$data$date_taken, '%d %B, %Y')`
 ## Reason for visit: Vulnerable site
 
 ```{r map, warning=FALSE, message=FALSE, fig.align='center', fig.height=2}
-
-# params$data$latitude params$data$longitude
 
 bbox <- c(left = params$data$longitude - 0.02,
           bottom = params$data$latitude - 0.01, 
           right = params$data$longitude + 0.02,
           top = params$data$latitude + 0.01)
  map <- get_stamenmap( bbox = bbox, zoom = 14)
-map <- ggmap(map, extent = "normal") +   geom_point(aes(x = longitude, y = latitude), data = params$data, colour = "red", size = 2) + theme_nothing()
+map <- ggmap(map, extent = "normal") +  
+  geom_point(aes(x = longitude, y = latitude), 
+             data = params$data, colour = "red", size = 2) + theme_nothing()
 map
 
 ```

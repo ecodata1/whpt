@@ -1,6 +1,6 @@
 #' Predict WHPT
 #'
-#' Script to run prediction for WHPT ASPT and NTAXA Based on whpt-metric-model -
+#' Run prediction for WHPT ASPT and NTAXA Based on whpt-metric-model -
 #' using random forest / GIS predictors only based on RIVPACS reference dataset
 #' See `demo_data` for data structure / predictors required Predictors
 #' come from EA website:
@@ -8,11 +8,11 @@
 #'
 #' @param data Dataframe of GIS based predictors with 20 variables:
 #' \describe{
-#'   \item{Location code}{Location reference}
+#'   \item{location_id}{Location ID - unique identifer for location}
 #'   \item{sample_id}{Sample ID - unique identifer for sample}
 #'   \item{NGR}{National Grid Reference - Great Britain only}
 #'   \item{Date}{Date as character class in 2012-12-31 format only}
-#'   \item{Sampled date}{Predicted total number of scoring WHPT families}
+#'   \item{date_taken}{Date as character class in 2012-12-31 format only}
 #'   \item{SX}{Coordinated where GIS predictors come from}
 #'   \item{SY}{Coordinated where GIS predictors come from}
 #'   \item{EX}{Coordinated where GIS predictors queried}
@@ -43,7 +43,7 @@
 #' @export
 #'
 #' @examples
-#' whpt_predictions <- whpt_predict(demo_data)
+#' predictions <- whpt_predict(demo_data)
 whpt_predict <- function(data) {
 
   # Remove rows with missing data missing
@@ -80,7 +80,7 @@ whpt_predict <- function(data) {
 
   # Convert date to datetime to match model/training data
   data <- tibble::as_tibble(data)
-  data$date <- lubridate::as_datetime(paste(data$`Sampled date`, "00:00:00"))
+  data$date <- lubridate::as_datetime(paste(data$date_taken, "00:00:00"))
 
   # Load models
   dataset <- whpts::whpt_scores_model
@@ -90,6 +90,8 @@ whpt_predict <- function(data) {
 
   # Apply all data to each model (ASPT and NTAXA have separate models, this makes it easy to run all models)
   data_list <- lapply(dataset$DETERMINAND, function(model) {
+    model <- gsub("_", " ", model)
+    data <- data[grep(model , data$question), ]
     return(data)
   })
   dataset$data <- data_list
@@ -126,7 +128,13 @@ whpt_predict <- function(data) {
   predict <- dplyr::select(dataset, .data$DETERMINAND, data)
   predict <- tidyr::unnest(predict, cols = c(.data$data))
   predict <- dplyr::select(predict, .data$sample_id, .data$DETERMINAND, .data$.pred)
-  predict <- tidyr::pivot_wider(predict, names_from = .data$DETERMINAND, values_from = .data$.pred)
+  names(predict) <- c("sample_id", "index", "predicted_response")
+
+  predict$index[predict$index == "WHPT_ASPT"] <- "Reference ASPT"
+  predict$index[predict$index == "WHPT_NTAXA"] <- "Reference NTAXA"
+
+
+  # predict <- tidyr::pivot_wider(predict, names_from = .data$DETERMINAND, values_from = .data$.pred)
 
   return(predict)
 }

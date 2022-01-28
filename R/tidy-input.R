@@ -8,31 +8,23 @@ data <- na.omit(data)
 #  stop("These location(s) have rows missing values:", paste(data$`loc code`[!data$`loc code` %in% passing_data$`loc code`], " "))
 
 data <- suppressWarnings(type.convert(data))
-
 data <- data %>%  pivot_longer(cols = c("Typical ASPT Class","Typical NTAXA Class"), names_to = "metrics")
 
-data$predicted <- NA
-data$predicted[data$metrics == "Typical ASPT Class"] <- data$`Reference ASPT`[data$metrics == "Typical ASPT Class"]
-data$predicted[data$metrics == "Typical NTAXA Class"] <- data$`Reference NTAXA`[data$metrics == "Typical NTAXA Class"]
+data$predicted <- data$predicted_response
 
-data$observed <- NA
-data$observed[data$metrics == "Typical ASPT Class"] <- data$`Reported ASPT`[data$metrics == "Typical ASPT Class"]
-data$observed[data$metrics == "Typical NTAXA Class"] <- data$`Reported NTAXA`[data$metrics == "Typical NTAXA Class"]
-
-data <- data %>%  rename(
-                         "typical" = value,
-                         "metric" = metrics
-)
-
-data <- data %>%  select(sample_id, typical, metric, predicted, observed)
+ntaxa <- data[data$question == "WHPT NTAXA Abund" &
+                data$index != "Reference ASPT" &
+                data$metrics != "Typical ASPT Class", ]
+aspt <- data[data$question == "WHPT ASPT Abund" &
+               data$index != "Reference NTAXA" &
+               data$metrics != "Typical NTAXA Class", ]
+data <- bind_rows(ntaxa, aspt)
+data <- data %>%  select(sample_id, value, metrics, predicted, response)
+data <- data %>% rename(typical = value, observed = response, metric = metrics)
 
 data$metric[data$metric == "Typical ASPT Class"] <- "aspt"
 data$metric[data$metric == "Typical NTAXA Class"] <- "ntaxa"
 data$typical <- tolower(data$typical)
-
-# output <- consistency(data)
-
-
 
 return(data)
 

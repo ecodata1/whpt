@@ -1,5 +1,17 @@
-
+#' Assess Consistency
+#'
+#' Assess if WHPT scores are consistent with expected classification.
+#' @param data Dataframe
+#'
+#' @return Dataframe
+#' @export
+#'
+#' @examples
+#' predictions <- whpt_predict(demo_data)
+#' data <- inner_join(demo_data, predictions, by = c("sample_id" = "sample_id"))
+#' assessments <- consistency(data)
 consistency <- function(data) {
+  data <- whpts:::tidy_input(data)
   # validate/format
   names(data) <- tolower(names(data))
   data$typical <- tolower(as.character(data$typical))
@@ -17,7 +29,7 @@ consistency <- function(data) {
   ))
 
 
-  # apply rules to observed/predictec values
+  # apply rules to observed/predicted values
   output <- map_df(1:nrow(data), function(row) {
     row <- data[row, ]
     rule <- rules[rules$typical_class == row$typical &
@@ -61,5 +73,7 @@ consistency <- function(data) {
   })
 
   output <- output %>% select(sample_id, assessment, driver, action)
+  output <- output %>% pivot_longer(!sample_id, names_to = "assessment")
+
   return(output)
 }

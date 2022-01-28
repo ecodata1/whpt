@@ -3,7 +3,7 @@
 #'
 #' @format A data frame with 286 rows and 20 variables:
 #' \describe{
-#'   \item{Location code}{Sample ID - unique identifer for sample}
+#'   \item{location_id}{Location ID - unique identifer for location}
 #'   \item{NGR}{National Grid Reference - Great Britain only}
 #'   \item{Date}{Date as character class in 2012-12-31 format only}
 #'   \item{Sampled date}{Predicted total number of scoring WHPT families}

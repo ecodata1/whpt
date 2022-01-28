@@ -9,11 +9,11 @@ whpt_predict(data)
 \arguments{
 \item{data}{Dataframe of GIS based predictors with 20 variables:
 \describe{
-\item{Location code}{Location reference}
+\item{location_id}{Location ID - unique identifer for location}
 \item{sample_id}{Sample ID - unique identifer for sample}
 \item{NGR}{National Grid Reference - Great Britain only}
 \item{Date}{Date as character class in 2012-12-31 format only}
-\item{Sampled date}{Predicted total number of scoring WHPT families}
+\item{date_taken}{Date as character class in 2012-12-31 format only}
 \item{SX}{Coordinated where GIS predictors come from}
 \item{SY}{Coordinated where GIS predictors come from}
 \item{EX}{Coordinated where GIS predictors queried}
@@ -41,12 +41,12 @@ Dataframe consisting of three columns sample_id, ASPT and NTAXA
 }
 }
 \description{
-Script to run prediction for WHPT ASPT and NTAXA Based on whpt-metric-model -
+Run prediction for WHPT ASPT and NTAXA Based on whpt-metric-model -
 using random forest / GIS predictors only based on RIVPACS reference dataset
 See \code{demo_data} for data structure / predictors required Predictors
 come from EA website:
 https://environment.data.gov.uk/DefraDataDownload/?mapService=EA/RICT&mode=spatial
 }
 \examples{
-whpt_predictions <- whpt_predict(demo_data)
+predictions <- whpt_predict(demo_data)
 }

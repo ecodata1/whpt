@@ -12,12 +12,9 @@ library(leaflet)
 library(dplyr)
 library(htmltools)
 
-# Define UI for application
-
+# Define UI for application --------------------------------------------------
 ui <- tagList(
-  #  shinythemes::themeSelector(),
   navbarPage(
-    # theme = "cerulean",  # <--- To use a theme, uncomment this
     "Bankside assessment",
     tabPanel(
       "Create Report",
@@ -25,24 +22,16 @@ ui <- tagList(
         h4(em("This app is a work in progress!")),
         br(),
         br(),
-        # p(),
-        # fileInput("dataset", "Choose CSV File",
-        #   accept = c(
-        #     "text/csv",
-        #     "text/comma-separated-values,text/plain",
-        #     ".csv"
-        #   )
-        # ),
-        # downloadButton(outputId = "input_template", label = "Download template"),
-        # p(),
         h4("Sample details:"),
         p(),
-        selectInput("loc", "Location code", choices = select(utils::read.csv(system.file("extdat",
-          "predictors.csv",
-          package = "whpts"
+        selectInput("loc", "Location code",
+          choices = select(utils::read.csv(system.file("extdat",
+            "predictors.csv",
+            package = "whpts"
+          ),
+          stringsAsFactors = FALSE, check.names = F
+          ), `location_id`)
         ),
-        stringsAsFactors = FALSE, check.names = F
-        ), `loc code`)),
         dateInput("date", "Sampled date", format = "yyyy-mm-dd"),
         numericInput("aspt", "Observed ASPT", NA, min = 0),
         numericInput("ntaxa", "Observed NTAXA", NA, min = 0, step = 1),
@@ -86,12 +75,22 @@ server <- function(input, output) {
       # Make sure it closes when we exit this reactive, even if there's an error
       on.exit(progress$close())
       progress$set(message = "Calculating", value = 1)
-      data <- data.frame(
-        `loc code` = input$loc,
-        `Sampled date` = input$date,
-        `Reported NTAXA` = input$ntaxa,
-        `Reported ASPT` = input$aspt, check.names = F
+      ntaxa <- data.frame(
+        "location_id" = input$loc,
+        "date_taken" = input$date,
+        "question" = "WHPT NTAXA Abund",
+        "response" = input$ntaxa,
+        check.names = F
       )
+
+      aspt <- data.frame(
+        "location_id" = input$loc,
+        "date_taken" = input$date,
+        "question" = "WHPT ASPT Abund",
+        "response" = input$aspt,
+        check.names = F
+      )
+      data <- bind_rows(ntaxa, aspt)
     } else {
       data <- NULL
     }
@@ -107,7 +106,7 @@ server <- function(input, output) {
       on.exit(progress$close())
       progress$set(message = "Calculating", value = 1)
       data <- read.csv(inFile$datapath, check.names = F, stringsAsFactors = FALSE)
-      data$`loc code` <- as.character(data$`loc code`)
+      data$location_id <- as.character(data$location_id)
       data[data == ""] <- NA
       data[data == "#N/A"] <- NA
       data[data == "n/a"] <- NA
@@ -125,38 +124,47 @@ server <- function(input, output) {
     stringsAsFactors = FALSE, check.names = F
     )
 
-    data <- inner_join(data, predictors, by = c("loc code" = "loc code"))
+    data <- inner_join(data, predictors, by = c("location_id" = "location_id"))
     if (length(data[, 1]) == 0) {
-      stop("Location code doesn't match list of predefined locations - please contact tim.foster@sepa.org.uk")
+      stop("Location ID doesn't match list of predefined locations - please contact tim.foster@sepa.org.uk")
     }
-    data$`Location code` <- data$`loc code`
-    data$sample_id <- paste(data$`loc code`, " ", data$`Sampled date`)
+    data$sample_id <- paste(data$location_id, " ", data$date_taken)
     # Run predictions
+
     predictions <- whpts::whpt_predict(data)
     data <- inner_join(data, predictions, by = c("sample_id" = "sample_id"))
-    data$`Reference ASPT` <- data$WHPT_ASPT
-    data$`Reference NTAXA` <- data$WHPT_NTAXA
     predictions_table <- predictions
     output_files <- list(input_data)
 
     # Consistency -----------------------------------------------------------
-    consistency_data <- whpts:::tidy_input(data)
-    consistency <- whpts:::consistency(consistency_data)
+    consistency <- whpts:::consistency(data)
+    consistency <- consistency %>% pivot_wider(names_from = assessment,
+                                               values_from = value)
+
+    data <- data %>%
+      select(
+        sample_id,
+        date_taken,
+        location_id,
+        `Reported WHPT Class Year`,
+        `Typical ASPT Class`,
+        `Typical NTAXA Class`
+      ) %>%
+      unique()
     data <- inner_join(data, consistency, by = c("sample_id" = "sample_id"))
     consistency_table <- select(
       data,
-      `Location code`,
-      `Sampled date`,
+      location_id,
+      date_taken,
       `Reported WHPT Class Year`,
       `Typical ASPT Class`,
       `Typical NTAXA Class`,
-      `Reference ASPT`,
-      `Reference NTAXA`,
       assessment,
       driver,
       action
     )
 
+    data <- inner_join(data, predictors, by = c("location_id" = "location_id"))
     predictors <- select(
       predictors,
       -`Typical ASPT Class`,
@@ -165,30 +173,9 @@ server <- function(input, output) {
       -`EX`,
       -`EY`
     )
-    predictors <- predictors[predictors$`loc code` %in% input_data$`loc code`, ]
+    predictors <- predictors[predictors$location_id %in% input_data$location_id, ]
     output_files <- list(input_data, consistency_table, predictors)
     list_names <- c("input_data", "consistency_table", "predictors")
-
-    # output$download_file <- downloadHandler(
-    #   filename = function() {
-    #     paste("rict-output", "zip", sep = ".")
-    #   },
-    #   content = function(fname) {
-    #     fs <- c()
-    #     tmpdir <- tempdir()
-    #     setwd(tempdir())
-    #     for (i in seq_along(output_files)) {
-    #       path <- paste0(list_names[i], i, ".csv")
-    #       fs <- c(fs, path)
-    #       write.csv(output_files[[i]], file = path)
-    #     }
-    #     zip(zipfile = fname, files = fs)
-    #   }
-    # )
-#
-#     download_data <- renderUI({
-#       downloadButton("download_file", "Download Outputs")
-#     })
 
     # Map -------------------------------------------------------------------
     # Format NGR for Map
@@ -200,7 +187,7 @@ server <- function(input, output) {
 
     map <- leaflet(data) %>%
       addTiles() %>%
-      addMarkers(~longitude, ~latitude, popup = ~ htmlEscape(`loc code`))
+      addMarkers(~longitude, ~latitude, popup = ~ htmlEscape(location_id))
 
     output$map <- renderLeaflet(map)
 
@@ -209,7 +196,7 @@ server <- function(input, output) {
       downloadButton("create_report", "Generate report")
     })
     output$create_report <- downloadHandler(
-      filename = paste0(format(data$`Sampled date`,'%Y-%m-%d'), "-", data$`loc code`, ".docx"),
+      filename = paste0(format(data$date_taken, "%Y-%m-%d"), "-", data$locaiton_id, ".docx"),
       content = function(file) {
         # Copy the report file to a temporary directory before processing it, in
         # case we don't have write permissions to the current working dir (which
@@ -232,7 +219,6 @@ server <- function(input, output) {
           params = params,
           envir = new.env(parent = globalenv())
         )
-
       }
     )
 
