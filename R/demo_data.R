@@ -4,9 +4,11 @@
 #' @format A data frame with 286 rows and 20 variables:
 #' \describe{
 #'   \item{location_id}{Location ID - unique identifer for location}
+#'   \item{sample_id}{Sample ID - unique identifer for sample}
+#'   \item{date_taken}{Date as character class in 2012-12-31 format only}
+#'   \item{question}{Question - either `WHPT ASPT Abund` or `WHPT NTAXA Abund`}
+#'   \item{response}{Response value to question}
 #'   \item{NGR}{National Grid Reference - Great Britain only}
-#'   \item{Date}{Date as character class in 2012-12-31 format only}
-#'   \item{Sampled date}{Predicted total number of scoring WHPT families}
 #'   \item{SX}{Coordinated where GIS predictors come from}
 #'   \item{SY}{Coordinated where GIS predictors come from}
 #'   \item{EX}{Coordinated where GIS predictors queried}
@@ -23,5 +25,9 @@
 #'   \item{limestone}{Proporation of limestone in catchment}
 #'   \item{peat}{Proporation of peat in catchment}
 #'   \item{shape_Length}{Length of the river section represented in GIS layer}
+#'   \item{Reported WHPT Class Year}{Reported WHPT Class Year}
+#'   \item{Typical ASPT Class}{Typical expected ASPT Class for this location}
+#'   \item{Typical NTAXA Class}{Typical expected NTAXA Class for this location}
+#'   \item{quality_element}{The type of element being assessed in this case 'River Invertebrates'}
 #' }
 "demo_data"

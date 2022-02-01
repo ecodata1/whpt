@@ -1,8 +1,8 @@
 #' Predict WHPT
 #'
 #' Run prediction for WHPT ASPT and NTAXA Based on whpt-metric-model -
-#' using random forest / GIS predictors only based on RIVPACS reference dataset
-#' See `demo_data` for data structure / predictors required Predictors
+#' using random forest / GIS predictors only based on RIVPACS reference dataset.
+#' See `demo_data` for data structure / predictors required. Predictors
 #' come from EA website:
 #' https://environment.data.gov.uk/DefraDataDownload/?mapService=EA/RICT&mode=spatial
 #'

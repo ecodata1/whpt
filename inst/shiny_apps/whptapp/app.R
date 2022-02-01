@@ -90,7 +90,7 @@ server <- function(input, output) {
         "response" = input$aspt,
         check.names = F
       )
-      data <- bind_rows(ntaxa, aspt)
+      data <- dplyr::bind_rows(ntaxa, aspt)
     } else {
       data <- NULL
     }

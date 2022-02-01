@@ -1,5 +1,7 @@
 ---
 output: github_document
+editor_options: 
+  chunk_output_type: console
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
@@ -15,7 +17,9 @@ knitr::opts_chunk$set(
 
 # whpt
 
-The goal of whpt is to ...
+The goal of `whpts` package is to predict whpt scores, and assess them against
+the expected class. This shows if a whpt score is consistent with what is
+expected at a given location.
 
 ## Installation
 
@@ -27,12 +31,29 @@ devtools::install_github("ecodata1/whpt")
 ```
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+To run the prediction and check the consistency:
 
 ```{r example}
 
-## basic example code
+library(whpts)
+whpts(demo_data)
+
 ```
 
+To run only a prediction
+
+```{r}
+whpt_predict(demo_data)
+```
+
+To run a prediction and then assess consistency:
+
+```{r}
+
+predictions <- whpt_predict(demo_data)
+data <- merge(demo_data, predictions,by.x =  "sample_id", by.y = "sample_id")
+consistency(data)
+
+```
 
 
