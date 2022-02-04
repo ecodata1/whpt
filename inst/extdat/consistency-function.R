@@ -37,7 +37,7 @@ consistency <- function(data) {
     class <- rule$class[rule$cc == cc]
     row$eqi <- eqi
     row$class <- class
-    assessment <- readRDS("inst/extdat/assessment.rds")
+    assessment <- assessment
     row <- inner_join(row, assessment, by = c("class" = "class"))
     return(row)
   })
