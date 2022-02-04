@@ -228,6 +228,9 @@ server <- function(input, output) {
       h3("Input Data"), DT::renderDataTable({
         input_data
       }),
+      h3("Predictions"), DT::renderDataTable({
+        predictions_table
+      }),
       h3("Consistency Assessment"), DT::renderDataTable({
         consistency_table
       }),

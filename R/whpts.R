@@ -42,8 +42,8 @@
 #' @examples
 #' results <- whpts(demo_data)
 whpts <- function(data) {
-  predictions <- whpt_predict(demo_data)
-  data <- inner_join(demo_data, predictions, by = c("sample_id" = "sample_id"))
+  predictions <- whpt_predict(data)
+  data <- inner_join(data, predictions, by = c("sample_id" = "sample_id"))
   assessments <- consistency(data)
 
   return(assessments)
