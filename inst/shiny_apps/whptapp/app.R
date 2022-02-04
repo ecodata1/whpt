@@ -7,7 +7,10 @@
 #    http://shiny.rstudio.com/
 library(shiny)
 library(rict)
-library(tidyverse)
+library(purrr)
+library(tidyr)
+library(lubridate)
+library(magrittr)
 library(leaflet)
 library(dplyr)
 library(htmltools)
