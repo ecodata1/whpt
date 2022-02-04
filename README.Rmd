@@ -17,7 +17,7 @@ knitr::opts_chunk$set(
 
 # whpt
 
-The goal of `whpts` package is to predict whpt scores, and assess them against
+The goal of `whpt` package is to predict whpt scores, and assess them against
 the expected class. This shows if a whpt score is consistent with what is
 expected at a given location.
 
@@ -35,7 +35,7 @@ To run the prediction and check the consistency:
 
 ```{r example}
 
-library(whpts)
+library(whpt)
 whpts(demo_data)
 
 ```

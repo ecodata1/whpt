@@ -3,7 +3,7 @@
 
 # whpt
 
-The goal of `whpts` package is to predict whpt scores, and assess them
+The goal of `whpt` package is to predict whpt scores, and assess them
 against the expected class. This shows if a whpt score is consistent
 with what is expected at a given location.
 
@@ -21,7 +21,7 @@ devtools::install_github("ecodata1/whpt")
 To run the prediction and check the consistency:
 
 ``` r
-library(whpts)
+library(whpt)
 whpts(demo_data)
 #> # A tibble: 6 × 3
 #>   sample_id assessment value             

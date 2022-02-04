@@ -1,4 +1,4 @@
-Package: whpts
+Package: whpt
 Title: Predict WHPT scores
 Version: 0.1.0
 Authors@R: 

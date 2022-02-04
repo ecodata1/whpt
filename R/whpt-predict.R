@@ -83,7 +83,7 @@ whpt_predict <- function(data) {
   data$date <- lubridate::as_datetime(paste(data$date_taken, "00:00:00"))
 
   # Load models
-  dataset <- whpts::whpt_scores_model
+  dataset <- whpt::whpt_scores_model
 
   # Remove observed value if present - not required for predictions
   data$value <- NA

@@ -27,7 +27,7 @@ ui <- tagList(
         selectInput("loc", "Location code",
           choices = select(utils::read.csv(system.file("extdat",
             "predictors.csv",
-            package = "whpts"
+            package = "whpt"
           ),
           stringsAsFactors = FALSE, check.names = F
           ), `location_id`)
@@ -57,7 +57,7 @@ server <- function(input, output) {
     content = function(con) {
       template <- utils::read.csv(system.file("extdat",
         "input.csv",
-        package = "whpts"
+        package = "whpt"
       ),
       stringsAsFactors = TRUE, check.names = F
       )
@@ -119,7 +119,7 @@ server <- function(input, output) {
     # Predictions -----------------------------------------------------------
     predictors <- utils::read.csv(system.file("extdat",
       "predictors.csv",
-      package = "whpts"
+      package = "whpt"
     ),
     stringsAsFactors = FALSE, check.names = F
     )
@@ -131,13 +131,13 @@ server <- function(input, output) {
     data$sample_id <- paste(data$location_id, " ", data$date_taken)
     # Run predictions
 
-    predictions <- whpts::whpt_predict(data)
+    predictions <- whpt::whpt_predict(data)
     data <- inner_join(data, predictions, by = c("sample_id" = "sample_id"))
     predictions_table <- predictions
     output_files <- list(input_data)
 
     # Consistency -----------------------------------------------------------
-    consistency <- whpts:::consistency(data)
+    consistency <- whpt:::consistency(data)
     consistency <- consistency %>% pivot_wider(names_from = assessment,
                                                values_from = value)
 
