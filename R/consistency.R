@@ -90,7 +90,7 @@ consistency <- function(data) {
     class <- rule$class[rule$cc == cc]
     row$eqi <- eqi
     row$class <- class
-    assessment <- assessment
+    assessment <- whpt::assessment
     row <- inner_join(row, assessment, by = c("class" = "class"))
     return(row)
   })

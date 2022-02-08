@@ -140,7 +140,7 @@ server <- function(input, output) {
     output_files <- list(input_data)
 
     # Consistency -----------------------------------------------------------
-    consistency <- whpt:::consistency(data)
+    consistency <- whpt::consistency(data)
     consistency <- consistency %>% pivot_wider(names_from = assessment,
                                                values_from = value)
 
