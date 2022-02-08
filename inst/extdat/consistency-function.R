@@ -10,6 +10,7 @@ library(tidyverse)
 
 consistency <- function(data) {
   # validate/format
+  attach(assessment)
   names(data) <- tolower(names(data))
   data$typical <- tolower(as.character(data$typical))
   data$metric <- tolower(as.character(data$metric))
