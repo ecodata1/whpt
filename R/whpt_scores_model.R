@@ -1,5 +1,7 @@
-#' Demo predictor data
+#' WHPT prediction model
 #'
+#' A data frame containing two models (ASPT and NTAXA). Contains a 'recipe' for
+#' transforming data and the model to run.
 #'
 #' @format A data frame with 2 rows and 3 variables:
 #' \describe{

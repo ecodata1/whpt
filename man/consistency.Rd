@@ -44,20 +44,19 @@ Dataframe provides three outputs in three columns:
 \describe{
 \item{sample_id}{Sample ID - unique identifer for sample}
 \item{assessment}{Name of the three assessments completed: \code{assessment},
-\code{driver} and \code{action}. \code{assessment} identifies if the overall whpt
-result is \verb{Likely problem detected}, \verb{Possible cause for concern}, \verb{Better than expected}
-or \verb{As expected}. The \code{driver} identifies whether NTAXA, ASPT
-or neither are driving the \code{assessment}. The \code{action} is the recommended
-action to take: \verb{No action required}, \verb{Non-urgent discussion...},
-\verb{Urgent discussion..}}
-\item{value}{Associated value to the assessment column i.e. the output of the assessment}
-}
+\code{driver} and \code{action}. \code{assessment} identifies if the overall whpt result is
+\verb{Likely problem detected}, \verb{Possible cause for concern}, \verb{Better than expected} or \verb{As expected}. The \code{driver} identifies whether NTAXA, ASPT or
+neither are driving the \code{assessment}. The \code{action} is the recommended action
+to take: \verb{No action required}, \verb{Non-urgent discussion...}, \verb{Urgent discussion..}}
+\item{value}{Associated value to the assessment column i.e. the output of
+the assessment} }
 }
 \description{
-Assess if WHPT scores are consistent with expected classification.
+Assess observed WHPT scores against consistency rules taking into account the
+expected class.
 }
 \examples{
 predictions <- whpt_predict(demo_data)
-data <- merge(demo_data, predictions,by.x =  "sample_id", by.y = "sample_id")
+data <- merge(demo_data, predictions, by.x = "sample_id", by.y = "sample_id")
 assessments <- consistency(data)
 }

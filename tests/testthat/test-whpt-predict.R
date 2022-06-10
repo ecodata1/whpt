@@ -1,5 +1,5 @@
 test_that("predict works", {
- data <- demo_data
+  data <- demo_data
   predictions <- whpt_predict(demo_data)
 
 
@@ -12,5 +12,4 @@ test_that("predict works", {
   # data$date_taken <- "2022-02-04"
   # data$question <-
   # whpt_predict(predictors)
-
 })

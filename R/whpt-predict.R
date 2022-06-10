@@ -49,7 +49,6 @@ whpt_predict <- function(data) {
   # Remove rows with missing data missing
   data[data == ""] <- NA
   data <- na.omit(data)
-
   data <- tibble::as_tibble(data)
 
   # Rename to match training data in model
@@ -88,17 +87,20 @@ whpt_predict <- function(data) {
   # Remove observed value if present - not required for predictions
   data$value <- NA
 
-  # Apply all data to each model (ASPT and NTAXA have separate models, this makes it easy to run all models)
+  # Apply all data to each model (ASPT and NTAXA have separate models, this
+  # makes it easy to run all models)
   data_list <- lapply(dataset$DETERMINAND, function(model) {
     model <- gsub("_", " ", model)
-    data <- data[grep(model , data$question), ]
+    data <- data[grep(model, data$question), ]
     return(data)
   })
   dataset$data <- data_list
 
   # Bake function (to scale and center data etc. to match training data)
   baking <- function(recipe, data) {
-    test_normalized <- recipes::bake(recipe, new_data = data, recipes::all_predictors())
+    test_normalized <- recipes::bake(recipe,
+                                     new_data = data,
+                                     recipes::all_predictors())
   }
   # Bake data (apply 'baking' function to scale and center data etc.)
   dataset <-
@@ -127,14 +129,14 @@ whpt_predict <- function(data) {
   # Pivot WHPT scores
   predict <- dplyr::select(dataset, .data$DETERMINAND, data)
   predict <- tidyr::unnest(predict, cols = c(.data$data))
-  predict <- dplyr::select(predict, .data$sample_id, .data$DETERMINAND, .data$.pred)
+  predict <- dplyr::select(predict,
+                           .data$sample_id,
+                           .data$DETERMINAND,
+                           .data$.pred)
   names(predict) <- c("sample_id", "index", "predicted_response")
 
   predict$index[predict$index == "WHPT_ASPT"] <- "Reference ASPT"
   predict$index[predict$index == "WHPT_NTAXA"] <- "Reference NTAXA"
-
-
-  # predict <- tidyr::pivot_wider(predict, names_from = .data$DETERMINAND, values_from = .data$.pred)
 
   return(predict)
 }

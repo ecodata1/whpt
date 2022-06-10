@@ -39,6 +39,6 @@ A data frame with 286 rows and 20 variables:
 demo_data
 }
 \description{
-Demo predictor data
+A demo dataset for testing and illustrative purposes.
 }
 \keyword{datasets}

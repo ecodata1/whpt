@@ -1,5 +1,3 @@
-
-library(tidyverse)
 # data <- data.frame(
 #   "sample_id" = c("1212","1212"),
 #   "typical" = c("high","high"),
@@ -7,7 +5,10 @@ library(tidyverse)
 #   "predicted" = c("6.333","12"),
 #   "observed" = c("4.3","23")
 # )
-
+#' @importFrom purrr map_df
+#' @importFrom magrittr %>%
+#' @importFrom dplyr inner_join select
+#' @import utils read.csv
 consistency <- function(data) {
   # validate/format
   names(data) <- tolower(names(data))

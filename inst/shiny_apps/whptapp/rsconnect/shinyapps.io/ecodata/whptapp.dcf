@@ -1,0 +1,13 @@
+name: whptapp
+title: whptapp
+username:
+account: ecodata
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 6465318
+bundleId: 5995541
+url: https://ecodata.shinyapps.io/whptapp/
+when: 1654850265.7987
+lastSyncTime: 1654850265.79871
+asMultiple: FALSE
+asStatic: FALSE

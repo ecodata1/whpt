@@ -1,6 +1,8 @@
 #' Assess Consistency
 #'
-#' Assess if WHPT scores are consistent with expected classification.
+#' Assess observed WHPT scores against consistency rules taking into account the
+#' expected class.
+#'
 #' @param data Dataframe
 #' \describe{
 #'   \item{location_id}{Location ID - unique identifer for location}
@@ -35,15 +37,15 @@
 #' @return Dataframe provides three outputs in three columns:
 #' \describe{
 #'   \item{sample_id}{Sample ID - unique identifer for sample}
-#' \item{assessment}{Name of the three assessments completed: `assessment`,
-#' `driver` and `action`. `assessment` identifies if the overall whpt
-#' result is `Likely problem detected`, `Possible cause for concern`, `Better than expected`
-#' or `As expected`. The `driver` identifies whether NTAXA, ASPT
-#' or neither are driving the `assessment`. The `action` is the recommended
-#' action to take: `No action required`, `Non-urgent discussion...`,
-#' `Urgent discussion..`}
-#'   \item{value}{Associated value to the assessment column i.e. the output of the assessment}
-#'   }
+#'   \item{assessment}{Name of the three assessments completed: `assessment`,
+#' `driver` and `action`. `assessment` identifies if the overall whpt result is
+#' `Likely problem detected`, `Possible cause for concern`, `Better than
+#' expected` or `As expected`. The `driver` identifies whether NTAXA, ASPT or
+#' neither are driving the `assessment`. The `action` is the recommended action
+#' to take: `No action required`, `Non-urgent discussion...`, `Urgent
+#' discussion..`}
+#'   \item{value}{Associated value to the assessment column i.e. the output of
+#'   the assessment} }
 #' @importFrom tidyr pivot_longer
 #' @importFrom dplyr inner_join select
 #' @importFrom purrr map_df
@@ -53,7 +55,7 @@
 #'
 #' @examples
 #' predictions <- whpt_predict(demo_data)
-#' data <- merge(demo_data, predictions,by.x =  "sample_id", by.y = "sample_id")
+#' data <- merge(demo_data, predictions, by.x = "sample_id", by.y = "sample_id")
 #' assessments <- consistency(data)
 consistency <- function(data) {
   data <- tidy_input(data)
@@ -69,8 +71,8 @@ consistency <- function(data) {
   # get rules
   #  rules <- read.csv("inst/extdat/consistency-rules.csv")
   rules <- utils::read.csv(system.file("extdat",
-                                            "consistency-rules.csv",
-                                            package = "whpt"
+    "consistency-rules.csv",
+    package = "whpt"
   ))
 
 
@@ -78,7 +80,7 @@ consistency <- function(data) {
   output <- map_df(1:nrow(data), function(row) {
     row <- data[row, ]
     rule <- rules[rules$typical_class == row$typical &
-                    rules$metric == row$metric, ]
+      rules$metric == row$metric, ]
     eqi <- row$observed / row$predicted
     cc <- cut(
       x = eqi,

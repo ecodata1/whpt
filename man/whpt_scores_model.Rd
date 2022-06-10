@@ -3,7 +3,7 @@
 \docType{data}
 \name{whpt_scores_model}
 \alias{whpt_scores_model}
-\title{Demo predictor data}
+\title{WHPT prediction model}
 \format{
 A data frame with 2 rows and 3 variables:
 \describe{
@@ -16,6 +16,7 @@ A data frame with 2 rows and 3 variables:
 whpt_scores_model
 }
 \description{
-Demo predictor data
+A data frame containing two models (ASPT and NTAXA). Contains a 'recipe' for
+transforming data and the model to run.
 }
 \keyword{datasets}

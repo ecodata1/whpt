@@ -20,7 +20,14 @@ editor_options:
 # Don't show R code in output
 knitr::opts_chunk$set(echo = FALSE)
 # Load useful libraries
-library(tidyverse)
+library(tidyr)
+library(dplyr)
+library(purrr)
+library(rlang)
+library(utils)
+library(readr)
+library(magrittr)
+library(ggplot2)
 library(ggmap)
 library(ggrepel)
 library(leaflet)

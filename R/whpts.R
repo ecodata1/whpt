@@ -1,6 +1,7 @@
 #' Assess WHPT Consistency
 #'
 #' Assess if WHPT scores are consistent with expected classification.
+#'
 #' @param data Dataframe
 #' \describe{
 #'   \item{location_id}{Location ID - unique identifer for location}
@@ -36,7 +37,7 @@
 #'   \item{assessment}{Name of assessment completed - int this case 'assessment', 'driver' or 'action'}
 #'   \item{value}{Associated value to the assessment column i.e. the output of the assessment}
 #'   }
-#' @importFrom dplyr inner_join
+#' @importFrom dplyr inner_join mutate_all bind_rows ungroup
 #' @export
 #'
 #' @examples
@@ -45,7 +46,10 @@ whpts <- function(data) {
   predictions <- whpt_predict(data)
   data <- inner_join(data, predictions, by = c("sample_id" = "sample_id"))
   assessments <- consistency(data)
-
-  return(assessments)
-
+  names(predictions) <- c("sample_id", "question", "response")
+  names(assessments) <- c("sample_id", "question", "response")
+  predictions <- ungroup(predictions)
+  predictions <- mutate_all(predictions, as.character)
+  output <- bind_rows(predictions, assessments)
+  return(output)
 }

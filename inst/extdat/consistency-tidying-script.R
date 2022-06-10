@@ -1,4 +1,9 @@
-library(tidyverse)
+library(tidyr)
+library(dplyr)
+library(purrr)
+library(rlang)
+library(utils)
+library(readr)
 
 data <- consistency_input
 # Remove rows with missing data missing

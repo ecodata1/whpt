@@ -16,6 +16,7 @@ A data frame with 4 rows and 3 variables:
 assessment
 }
 \description{
-Assessment
+Data frame containing the assessment and actions based on observed and
+expected
 }
 \keyword{datasets}
