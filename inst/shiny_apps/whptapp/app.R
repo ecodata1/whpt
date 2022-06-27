@@ -168,10 +168,24 @@ server <- function(input, output) {
       driver,
       action
     )
+    water_bodies <- select(predictors,
+                           location_id,
+                           `water body previously classified`,
+                           `water body used for typical class`)
 
+
+    consistency_table <- inner_join(consistency_table,
+                                    water_bodies,
+                                    by = "location_id")
+
+    consistency_table <- select(consistency_table,
+                                location_id,
+                                `water body previously classified`,
+                                `water body used for typical class`,
+                                everything())
     data <- inner_join(data, predictors, by = c("location_id" = "location_id"))
 
-     predictors <- select(
+     predictors_reduced <- select(
       predictors,
       -`Typical ASPT Class`,
       -`Typical NTAXA Class`,
@@ -182,9 +196,10 @@ server <- function(input, output) {
       -`water body sampled`,
       -`water body previously classified`
     )
-    predictors <- predictors[predictors$location_id %in%
+     predictors_reduced <- predictors_reduced[
+                               predictors_reduced$location_id %in%
                                input_data$location_id, ]
-    output_files <- list(input_data, consistency_table, predictors)
+    output_files <- list(input_data, consistency_table, predictors_reduced)
     list_names <- c("input_data", "consistency_table", "predictors")
 
     # Map -------------------------------------------------------------------
@@ -254,7 +269,7 @@ server <- function(input, output) {
       }, rownames = FALSE,
       options = list(pageLength = 5, dom = 'tip')),
       h3("Predictors"), DT::renderDataTable({
-        predictors
+        predictors_reduced
       }, rownames = FALSE,
       options = list(pageLength = 5, dom = 'tip'))
     ))
