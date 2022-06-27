@@ -14,5 +14,4 @@ test_that("whpts function works", {
   expect_equal(whpts$response[8], "As expected")
   expect_equal(whpts$response[9], "neither")
   expect_equal(whpts$response[10], "No action required")
-
 })

@@ -39,6 +39,7 @@
 #' @importFrom stats na.omit
 #' @importFrom rlang .data
 #' @importFrom lubridate month
+#' @importFrom dplyr select
 #' @importFrom magrittr `%>%`
 #' @export
 #'
@@ -48,7 +49,18 @@ whpt_predict <- function(data) {
 
   # Remove rows with missing data missing
   data[data == ""] <- NA
+  data <- select(
+    data,
+    -.data$`water body sampled`,
+    -.data$`water body previously classified`,
+    -.data$`water body used for typical class`
+  )
   data <- na.omit(data)
+  if (nrow(data) < 1) {
+    stop("Predictor variables for this site have not yet been configured,
+         please contact Cathy Bennett or Tim Foster for help")
+    return()
+  }
   data <- tibble::as_tibble(data)
 
   # Rename to match training data in model
@@ -99,8 +111,9 @@ whpt_predict <- function(data) {
   # Bake function (to scale and center data etc. to match training data)
   baking <- function(recipe, data) {
     test_normalized <- recipes::bake(recipe,
-                                     new_data = data,
-                                     recipes::all_predictors())
+      new_data = data,
+      recipes::all_predictors()
+    )
   }
   # Bake data (apply 'baking' function to scale and center data etc.)
   dataset <-
@@ -129,12 +142,14 @@ whpt_predict <- function(data) {
   # Pivot WHPT scores
   predict <- dplyr::select(dataset, .data$DETERMINAND, data)
   predict <- tidyr::unnest(predict, cols = c(.data$data))
-  predict <- dplyr::select(predict,
-                           .data$sample_id,
-                           .data$DETERMINAND,
-                           .data$.pred)
+  predict <- dplyr::select(
+    predict,
+    .data$sample_id,
+    .data$DETERMINAND,
+    .data$.pred
+  )
   names(predict) <- c("sample_id", "index", "predicted_response")
-
+  predict$predicted_response <- round(predict$predicted_response, 2)
   predict$index[predict$index == "WHPT_ASPT"] <- "Reference ASPT"
   predict$index[predict$index == "WHPT_NTAXA"] <- "Reference NTAXA"
 

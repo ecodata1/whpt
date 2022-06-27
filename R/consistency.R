@@ -58,6 +58,18 @@
 #' data <- merge(demo_data, predictions, by.x = "sample_id", by.y = "sample_id")
 #' assessments <- consistency(data)
 consistency <- function(data) {
+  previously_classified <- select(
+    data,
+    .data$location_id,
+    .data$`water body sampled`,
+    .data$`water body used for typical class`
+  )
+  data <- select(
+    data,
+    -.data$`water body sampled`,
+    -.data$`water body previously classified`,
+    -.data$`water body used for typical class`
+  )
   data <- tidy_input(data)
   # validate/format
   names(data) <- tolower(names(data))

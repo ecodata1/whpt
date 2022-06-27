@@ -108,7 +108,9 @@ server <- function(input, output) {
       # Make sure it closes when we exit this reactive, even if there's an error
       on.exit(progress$close())
       progress$set(message = "Calculating", value = 1)
-      data <- read.csv(inFile$datapath, check.names = F, stringsAsFactors = FALSE)
+      data <- read.csv(inFile$datapath,
+                       check.names = F,
+                       stringsAsFactors = FALSE)
       data$location_id <- as.character(data$location_id)
       data[data == ""] <- NA
       data[data == "#N/A"] <- NA
@@ -126,14 +128,14 @@ server <- function(input, output) {
     ),
     stringsAsFactors = FALSE, check.names = F
     )
-
+    browser()
     data <- inner_join(data, predictors, by = c("location_id" = "location_id"))
     if (length(data[, 1]) == 0) {
-      stop("Location ID doesn't match list of predefined locations - please contact tim.foster@sepa.org.uk")
+      stop("Location ID doesn't match list of predefined locations -
+           please contact Tim Foster")
     }
     data$sample_id <- paste(data$location_id, " ", data$date_taken)
     # Run predictions
-
     predictions <- whpt::whpt_predict(data)
     data <- inner_join(data, predictions, by = c("sample_id" = "sample_id"))
     predictions_table <- predictions
@@ -168,15 +170,20 @@ server <- function(input, output) {
     )
 
     data <- inner_join(data, predictors, by = c("location_id" = "location_id"))
-    predictors <- select(
+
+     predictors <- select(
       predictors,
       -`Typical ASPT Class`,
       -`Typical NTAXA Class`,
       -`Reported WHPT Class Year`,
       -`EX`,
-      -`EY`
+      -`EY`,
+      -`water body used for typical class`,
+      -`water body sampled`,
+      -`water body previously classified`
     )
-    predictors <- predictors[predictors$location_id %in% input_data$location_id, ]
+    predictors <- predictors[predictors$location_id %in%
+                               input_data$location_id, ]
     output_files <- list(input_data, consistency_table, predictors)
     list_names <- c("input_data", "consistency_table", "predictors")
 
@@ -194,12 +201,15 @@ server <- function(input, output) {
 
     output$map <- renderLeaflet(map)
 
-    # Save report button ------------------------------------------------------------
+    # Save report button -------------------------------------------------------
     create_report <- renderUI({
       downloadButton("create_report", "Generate report")
     })
     output$create_report <- downloadHandler(
-      filename = paste0(format(data$date_taken, "%Y-%m-%d"), "-", data$locaiton_id, ".docx"),
+      filename = paste0(format(data$date_taken,
+                               "%Y-%m-%d"), "-",
+                               data$locaiton_id,
+                               ".docx"),
       content = function(file) {
         # Copy the report file to a temporary directory before processing it, in
         # case we don't have write permissions to the current working dir (which
@@ -213,10 +223,13 @@ server <- function(input, output) {
         file.copy("report/skeleton.docx", tempTemplate, overwrite = TRUE)
         file.copy("report/styles.css", tempCss, overwrite = TRUE)
         params <- list(input_data, consistency_table, predictions, data)
-        names(params) <- c("input_data", "consistency_table", "predictors", "data")
+        names(params) <- c("input_data",
+                           "consistency_table",
+                           "predictors",
+                           "data")
         # Knit the document, passing in the `params` list, and eval it in a
-        # child of the global environment (this isolates the code in the document
-        # from the code in this app).
+        # child of the global environment (this isolates the code in the
+        # document from the code in this app).
         rmarkdown::render(tempReport,
           output_file = file,
           params = params,
@@ -226,23 +239,27 @@ server <- function(input, output) {
     )
 
     return(list(
-      # download_data,
       create_report,
       h3("Input Data"), DT::renderDataTable({
-        input_data
-      }),
+        input_data},
+        rownames = FALSE,
+        options = list(pageLength = 5, dom = 'tip')
+      ),
       h3("Predictions"), DT::renderDataTable({
         predictions_table
-      }),
+      }, rownames = FALSE,
+      options = list(pageLength = 5, dom = 'tip')),
       h3("Consistency Assessment"), DT::renderDataTable({
         consistency_table
-      }),
+      }, rownames = FALSE,
+      options = list(pageLength = 5, dom = 'tip')),
       h3("Predictors"), DT::renderDataTable({
         predictors
-      })
+      }, rownames = FALSE,
+      options = list(pageLength = 5, dom = 'tip'))
     ))
   })
 }
 
-# Run the application
+# Run the application ---------------------------------------------------------
 shinyApp(ui = ui, server = server)
