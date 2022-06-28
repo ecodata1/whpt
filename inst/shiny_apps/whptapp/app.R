@@ -128,7 +128,7 @@ server <- function(input, output) {
     ),
     stringsAsFactors = FALSE, check.names = F
     )
-    browser()
+
     data <- inner_join(data, predictors, by = c("location_id" = "location_id"))
     if (length(data[, 1]) == 0) {
       stop("Location ID doesn't match list of predefined locations -
@@ -254,7 +254,7 @@ server <- function(input, output) {
     )
 
     return(list(
-      create_report,
+      # create_report,
       h3("Input Data"), DT::renderDataTable({
         input_data},
         rownames = FALSE,
