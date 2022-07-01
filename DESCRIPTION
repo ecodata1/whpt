@@ -34,7 +34,8 @@ Imports:
  rlang,
  shiny,
  tibble,
- tidyr
+ tidyr,
+ gtools
 Remotes:
  aquaMetrics/rict
 Depends: 

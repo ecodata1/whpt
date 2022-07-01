@@ -14,6 +14,7 @@ library(magrittr)
 library(leaflet)
 library(dplyr)
 library(htmltools)
+library(gtools)
 
 # Define UI for application --------------------------------------------------
 ui <- tagList(
@@ -28,12 +29,13 @@ ui <- tagList(
         h4("Sample details:"),
         p(),
         selectInput("loc", "Location code",
-          choices = select(utils::read.csv(system.file("extdat",
+          choices = gtools::mixedsort(select(
+            (utils::read.csv(system.file("extdat",
             "predictors.csv",
             package = "whpt"
           ),
           stringsAsFactors = FALSE, check.names = F
-          ), `location_id`)
+          )), `location_id`)[, 1])
         ),
         dateInput("date", "Sampled date", format = "yyyy-mm-dd"),
         numericInput("aspt", "Observed ASPT", NA, min = 0),
@@ -109,8 +111,9 @@ server <- function(input, output) {
       on.exit(progress$close())
       progress$set(message = "Calculating", value = 1)
       data <- read.csv(inFile$datapath,
-                       check.names = F,
-                       stringsAsFactors = FALSE)
+        check.names = F,
+        stringsAsFactors = FALSE
+      )
       data$location_id <- as.character(data$location_id)
       data[data == ""] <- NA
       data[data == "#N/A"] <- NA
@@ -143,8 +146,10 @@ server <- function(input, output) {
 
     # Consistency -----------------------------------------------------------
     consistency <- whpt::consistency(data)
-    consistency <- consistency %>% pivot_wider(names_from = assessment,
-                                               values_from = value)
+    consistency <- consistency %>% pivot_wider(
+      names_from = assessment,
+      values_from = value
+    )
 
     data <- data %>%
       select(
@@ -168,24 +173,29 @@ server <- function(input, output) {
       driver,
       action
     )
-    water_bodies <- select(predictors,
-                           location_id,
-                           `water body previously classified`,
-                           `water body used for typical class`)
+    water_bodies <- select(
+      predictors,
+      location_id,
+      `water body previously classified`,
+      `water body used for typical class`
+    )
 
 
     consistency_table <- inner_join(consistency_table,
-                                    water_bodies,
-                                    by = "location_id")
+      water_bodies,
+      by = "location_id"
+    )
 
-    consistency_table <- select(consistency_table,
-                                location_id,
-                                `water body previously classified`,
-                                `water body used for typical class`,
-                                everything())
+    consistency_table <- select(
+      consistency_table,
+      location_id,
+      `water body previously classified`,
+      `water body used for typical class`,
+      everything()
+    )
     data <- inner_join(data, predictors, by = c("location_id" = "location_id"))
 
-     predictors_reduced <- select(
+    predictors_reduced <- select(
       predictors,
       -`Typical ASPT Class`,
       -`Typical NTAXA Class`,
@@ -196,9 +206,10 @@ server <- function(input, output) {
       -`water body sampled`,
       -`water body previously classified`
     )
-     predictors_reduced <- predictors_reduced[
-                               predictors_reduced$location_id %in%
-                               input_data$location_id, ]
+    predictors_reduced <- predictors_reduced[
+      predictors_reduced$location_id %in%
+        input_data$location_id,
+    ]
     output_files <- list(input_data, consistency_table, predictors_reduced)
     list_names <- c("input_data", "consistency_table", "predictors")
 
@@ -221,10 +232,14 @@ server <- function(input, output) {
       downloadButton("create_report", "Generate report")
     })
     output$create_report <- downloadHandler(
-      filename = paste0(format(data$date_taken,
-                               "%Y-%m-%d"), "-",
-                               data$locaiton_id,
-                               ".docx"),
+      filename = paste0(
+        format(
+          data$date_taken,
+          "%Y-%m-%d"
+        ), "-",
+        data$locaiton_id,
+        ".docx"
+      ),
       content = function(file) {
         # Copy the report file to a temporary directory before processing it, in
         # case we don't have write permissions to the current working dir (which
@@ -238,10 +253,12 @@ server <- function(input, output) {
         file.copy("report/skeleton.docx", tempTemplate, overwrite = TRUE)
         file.copy("report/styles.css", tempCss, overwrite = TRUE)
         params <- list(input_data, consistency_table, predictions, data)
-        names(params) <- c("input_data",
-                           "consistency_table",
-                           "predictors",
-                           "data")
+        names(params) <- c(
+          "input_data",
+          "consistency_table",
+          "predictors",
+          "data"
+        )
         # Knit the document, passing in the `params` list, and eval it in a
         # child of the global environment (this isolates the code in the
         # document from the code in this app).
@@ -255,23 +272,34 @@ server <- function(input, output) {
 
     return(list(
       # create_report,
-      h3("Input Data"), DT::renderDataTable({
-        input_data},
+      h3("Input Data"), DT::renderDataTable(
+        {
+          input_data
+        },
         rownames = FALSE,
-        options = list(pageLength = 5, dom = 'tip')
+        options = list(pageLength = 5, dom = "tip")
       ),
-      h3("Predictions"), DT::renderDataTable({
-        predictions_table
-      }, rownames = FALSE,
-      options = list(pageLength = 5, dom = 'tip')),
-      h3("Consistency Assessment"), DT::renderDataTable({
-        consistency_table
-      }, rownames = FALSE,
-      options = list(pageLength = 5, dom = 'tip')),
-      h3("Predictors"), DT::renderDataTable({
-        predictors_reduced
-      }, rownames = FALSE,
-      options = list(pageLength = 5, dom = 'tip'))
+      h3("Predictions"), DT::renderDataTable(
+        {
+          predictions_table
+        },
+        rownames = FALSE,
+        options = list(pageLength = 5, dom = "tip")
+      ),
+      h3("Consistency Assessment"), DT::renderDataTable(
+        {
+          consistency_table
+        },
+        rownames = FALSE,
+        options = list(pageLength = 5, dom = "tip")
+      ),
+      h3("Predictors"), DT::renderDataTable(
+        {
+          predictors_reduced
+        },
+        rownames = FALSE,
+        options = list(pageLength = 5, dom = "tip")
+      )
     ))
   })
 }
