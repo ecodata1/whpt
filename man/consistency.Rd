@@ -57,6 +57,6 @@ expected class.
 }
 \examples{
 predictions <- whpt_predict(demo_data)
-data <- merge(demo_data, predictions, by.x = "sample_id", by.y = "sample_id")
+data <- dplyr::bind_rows(demo_data, predictions)
 assessments <- consistency(data)
 }

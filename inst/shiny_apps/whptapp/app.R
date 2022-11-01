@@ -140,15 +140,16 @@ server <- function(input, output) {
     data$sample_id <- paste(data$location_id, " ", data$date_taken)
     # Run predictions
     predictions <- whpt::whpt_predict(data)
-    data <- inner_join(data, predictions, by = c("sample_id" = "sample_id"))
+    data <- bind_rows(data, predictions)
     predictions_table <- predictions
     output_files <- list(input_data)
 
     # Consistency -----------------------------------------------------------
     consistency <- whpt::consistency(data)
+
     consistency <- consistency %>% pivot_wider(
-      names_from = assessment,
-      values_from = value
+      names_from = question,
+      values_from = response
     )
 
     data <- data %>%

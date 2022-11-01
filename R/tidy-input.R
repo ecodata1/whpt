@@ -1,7 +1,7 @@
 #' @param data dataframe
 #' @importFrom utils type.convert
 #' @importFrom rlang .data
-#' @importFrom dplyr select filter rename bind_cols
+#' @importFrom dplyr select filter rename bind_cols arrange desc
 #' @importFrom tidyr pivot_longer
 #' @importFrom magrittr `%>%`
 #' @return dataframe
@@ -17,7 +17,7 @@ tidy_input <- function(data = NULL) {
     .data$`Typical ASPT Class`,
     .data$`Typical NTAXA Class`
   )
-  data <- arrange(data, desc(question))
+  data <- arrange(data, desc(.data$question))
   observed <- data %>% filter(.data$question %in% c(
     "WHPT NTAXA Abund",
     "WHPT ASPT Abund"
