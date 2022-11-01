@@ -14,10 +14,9 @@ Open whpt assessment an interactive shiny web app.
 
 Using the app:
 \enumerate{
-\item Select your file (or download a template to fill out)
-\item Or select your location and add data, aspt, ntaxa.
-\item View and download results.
-\item
+\item Select your location and add observed aspt, ntaxa.
+\item View assessment and download results.
+\item There is no third step.
 }
 }
 \examples{
