@@ -37,17 +37,15 @@
 #'   \item{assessment}{Name of assessment completed - int this case 'assessment', 'driver' or 'action'}
 #'   \item{value}{Associated value to the assessment column i.e. the output of the assessment}
 #'   }
-#' @importFrom dplyr inner_join mutate_all bind_rows ungroup
+#' @importFrom dplyr mutate_all bind_rows ungroup
 #' @export
 #'
 #' @examples
 #' results <- whpts(demo_data)
 whpts <- function(data) {
   predictions <- whpt_predict(data)
-  data <- inner_join(data, predictions, by = c("sample_id" = "sample_id"))
+  data <- bind_rows(data, predictions)
   assessments <- consistency(data)
-  names(predictions) <- c("sample_id", "question", "response")
-  names(assessments) <- c("sample_id", "question", "response")
   predictions <- ungroup(predictions)
   predictions <- mutate_all(predictions, as.character)
   output <- bind_rows(predictions, assessments)

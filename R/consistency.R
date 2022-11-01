@@ -126,8 +126,13 @@ consistency <- function(data) {
     return(sample)
   })
 
-  output <- output %>% select(.data$sample_id, .data$assessment, .data$driver, .data$action)
-  output <- output %>% pivot_longer(!.data$sample_id, names_to = "assessment")
-
+  output <- output %>% select(
+    .data$sample_id,
+    .data$assessment,
+    .data$driver,
+    .data$action
+  )
+  output <- output %>% pivot_longer(!.data$sample_id, names_to = "question")
+  output <- rename(output, "response" = .data$value)
   return(output)
 }

@@ -6,18 +6,15 @@
 #' come from EA website:
 #' https://environment.data.gov.uk/DefraDataDownload/?mapService=EA/RICT&mode=spatial
 #'
-#' @param data Dataframe of GIS based predictors with 20 variables:
+#' @param data Data frame of `date_taken` and GIS based predictors with 14
+#'   variables. Variable names can be lower or upper-case, and in any order.
+#'   Extra variables can be present, these variables are ignored.
 #' \describe{
-#'   \item{location_id}{Location ID - unique identifer for location}
 #'   \item{sample_id}{Sample ID - unique identifer for sample}
-#'   \item{NGR}{National Grid Reference - Great Britain only}
-#'   \item{Date}{Date as character class in 2012-12-31 format only}
-#'   \item{date_taken}{Date as character class in 2012-12-31 format only}
-#'   \item{SX}{Coordinated where GIS predictors come from}
-#'   \item{SY}{Coordinated where GIS predictors come from}
-#'   \item{EX}{Coordinated where GIS predictors queried}
-#'   \item{EY}{Coordinated where GIS predictors queried}
-#'   \item{Altitude}{Altitude in metres}
+#'   \item{date_taken}{Date as character class in `2012-12-31` format only}
+#'   \item{ngr}{National Grid Reference - Great Britain only in `NT 00990 65767`
+#'   format only}
+#'   \item{altitude}{Altitude in metres}
 #'   \item{d_f_source}{Distance from source in metres}
 #'   \item{logaltbar}{Log altitude in metres of catchment upstream}
 #'   \item{log_area}{Log area of catchment upstream in km squared}
@@ -28,44 +25,58 @@
 #'   \item{hardrock}{Proporation of hardrock in catchment}
 #'   \item{limestone}{Proporation of limestone in catchment}
 #'   \item{peat}{Proporation of peat in catchment}
-#'   \item{shape_Length}{Length of the river section represented in GIS layer}
 #' }
-#' @return Dataframe consisting of three columns sample_id, ASPT and NTAXA
+#' @return Dataframe consisting of three variables sample_id, `index` and
+#'   `predicted_response`.
 #' \describe{
 #'   \item{sample_id}{Sample ID - unique identifer for sample}
-#'   \item{ASPT}{Predicted Average Score Per Taxa (WHPT Distinct families)}
-#'   \item{NTAXA}{Predicted total number of scoring WHPT families}
+#'   \item{index}{Either `Reference ASPT` or `Reference NTAXA`)}
+#'   \item{predicted_response}{Predicted response value}
 #' }
 #' @importFrom stats na.omit
 #' @importFrom rlang .data
-#' @importFrom lubridate month
+#' @importFrom lubridate month as_datetime
+#' @importFrom tibble as_tibble
 #' @importFrom dplyr select
 #' @importFrom magrittr `%>%`
+#' @importFrom tidyr unnest
 #' @export
 #'
 #' @examples
 #' predictions <- whpt_predict(demo_data)
 whpt_predict <- function(data) {
-
-  # Remove rows with missing data missing
-  data[data == ""] <- NA
+  names(data) <- tolower(names(data))
   data <- select(
     data,
-    -.data$`water body sampled`,
-    -.data$`water body previously classified`,
-    -.data$`water body used for typical class`
-  )
+    .data$sample_id,
+    .data$date_taken,
+    .data$ngr,
+    .data$altitude,
+    .data$d_f_source,
+    .data$logaltbar,
+    .data$log_area,
+    .data$disch_cat,
+    .data$slope,
+    .data$chalk,
+    .data$clay,
+    .data$hardrock,
+    .data$limestone,
+    .data$peat
+    )
+  # Only need unique rows data
+  data <- unique(data)
+  # Remove rows with missing data missing
+  data[data == ""] <- NA
   data <- na.omit(data)
   if (nrow(data) < 1) {
     stop("Predictor variables for this site have not yet been configured,
          please contact Cathy Bennett or Tim Foster for help")
     return()
   }
-  data <- tibble::as_tibble(data)
+  data <- as_tibble(data)
 
   # Rename to match training data in model
   data <- dplyr::rename(data,
-    altitude = .data$Altitude,
     distance_from_source = .data$d_f_source,
     catchment_altitude = .data$logaltbar,
     area = .data$log_area,
@@ -82,31 +93,22 @@ whpt_predict <- function(data) {
   data$hardrock <- data$hardrock * 100
   data$limestone <- data$limestone * 100
   # Format NGR
-  data$NGR <- trimws(data$NGR)
-  data$NGR <- gsub(pattern = " ", replacement = "", x = data$NGR)
+  data$ngr <- trimws(data$ngr)
+  data$ngr <- gsub(pattern = " ", replacement = "", x = data$ngr)
   # Calculate Lat and Lon
-  wgs <- suppressWarnings(rict::osg_parse(data$NGR, coord_system = "WGS84"))
+  wgs <- suppressWarnings(rict::osg_parse(data$ngr, coord_system = "WGS84"))
   data$latitude <- wgs$lat
   data$longitude <- wgs$lon
 
   # Convert date to datetime to match model/training data
-  data <- tibble::as_tibble(data)
-  data$date <- lubridate::as_datetime(paste(data$date_taken, "00:00:00"))
+  data <- as_tibble(data)
+  data$date <- as_datetime(paste(data$date_taken, "00:00:00"))
 
-  # Load models
-  dataset <- whpt::whpt_scores_model
+  # Load models (ASPT & NTAXA)
+  whpt_models <- whpt::whpt_scores_model
 
-  # Remove observed value if present - not required for predictions
-  data$value <- NA
-
-  # Apply all data to each model (ASPT and NTAXA have separate models, this
-  # makes it easy to run all models)
-  data_list <- lapply(dataset$DETERMINAND, function(model) {
-    model <- gsub("_", " ", model)
-    data <- data[grep(model, data$question), ]
-    return(data)
-  })
-  dataset$data <- data_list
+  # Add data as a list column for each model (ASPT & NTAXA)
+  whpt_models$data <- list(data)
 
   # Bake function (to scale and center data etc. to match training data)
   baking <- function(recipe, data) {
@@ -116,8 +118,8 @@ whpt_predict <- function(data) {
     )
   }
   # Bake data (apply 'baking' function to scale and center data etc.)
-  dataset <-
-    dplyr::mutate(dataset,
+  whpt_models <-
+    dplyr::mutate(whpt_models,
       baked = purrr::map2(.data$recipe, .data$data, baking)
     )
 
@@ -128,30 +130,30 @@ whpt_predict <- function(data) {
   }
 
   # Predict
-  dataset <-
-    dplyr::mutate(dataset,
+  whpt_models <-
+    dplyr::mutate(whpt_models,
       predict = purrr::map2(.data$baked, .data$model_final, model_predict)
     )
 
   # Bind data with prediction
-  dataset <-
-    dplyr::mutate(dataset,
+  whpt_models <-
+    dplyr::mutate(whpt_models,
       data = purrr::map2(.data$data, .data$predict, dplyr::bind_cols)
     )
 
   # Pivot WHPT scores
-  predict <- dplyr::select(dataset, .data$DETERMINAND, data)
-  predict <- tidyr::unnest(predict, cols = c(.data$data))
-  predict <- dplyr::select(
+  predict <- select(whpt_models, .data$DETERMINAND, data)
+  predict <- unnest(predict, cols = c(.data$data))
+  predict <- select(
     predict,
     .data$sample_id,
     .data$DETERMINAND,
     .data$.pred
   )
-  names(predict) <- c("sample_id", "index", "predicted_response")
-  predict$predicted_response <- round(predict$predicted_response, 2)
-  predict$index[predict$index == "WHPT_ASPT"] <- "Reference ASPT"
-  predict$index[predict$index == "WHPT_NTAXA"] <- "Reference NTAXA"
+  names(predict) <- c("sample_id", "question", "response")
+  predict$response <- round(predict$response, 2)
+  predict$question[predict$question == "WHPT_ASPT"] <- "Reference ASPT"
+  predict$question[predict$question == "WHPT_NTAXA"] <- "Reference NTAXA"
 
   return(predict)
 }

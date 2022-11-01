@@ -1,50 +1,68 @@
 #' @param data dataframe
 #' @importFrom utils type.convert
 #' @importFrom rlang .data
+#' @importFrom dplyr select filter rename bind_cols
+#' @importFrom tidyr pivot_longer
+#' @importFrom magrittr `%>%`
 #' @return dataframe
 tidy_input <- function(data = NULL) {
+  # Rename and re-arrange data before comparing against consistency 'rules'
+  data <- select(
+    data,
+    .data$sample_id,
+    .data$date_taken,
+    .data$question,
+    .data$response,
+    .data$`Reported WHPT Class Year`,
+    .data$`Typical ASPT Class`,
+    .data$`Typical NTAXA Class`
+  )
+  data <- arrange(data, desc(question))
+  observed <- data %>% filter(.data$question %in% c(
+    "WHPT NTAXA Abund",
+    "WHPT ASPT Abund"
+  ))
+  observed <- select(observed, "observed" = .data$response, .data$sample_id)
+  observed <- unique(observed)
+  observed <- select(observed, .data$observed)
+  typical <- data %>% filter(.data$question %in% c(
+    "WHPT NTAXA Abund",
+    "WHPT ASPT Abund"
+  ))
+  typical <- select(
+    typical,
+    .data$sample_id,
+    .data$`Typical ASPT Class`,
+    .data$`Typical NTAXA Class`
+  )
+  typical <- unique(typical)
+  typical <- pivot_longer(typical,
+    names_to = "metric",
+    cols = c(
+      .data$`Typical NTAXA Class`,
+      .data$`Typical ASPT Class`
+    ),
+    values_to = "typical"
+  )
 
-  # data <- consistency_input
+  predictions <- data %>% filter(.data$question %in% c(
+    "Reference NTAXA",
+    "Reference ASPT"
+
+  ))
+  predictions <- select(predictions,
+    "predicted" = .data$response,
+    .data$sample_id
+  )
+  prediction <- unique(predictions)
+  prediction <- select(prediction, .data$predicted)
+  predictions <- select(predictions, .data$predicted)
+
+  data <- bind_cols(typical, observed, predictions)
   # Remove rows with missing data missing
   data <- na.omit(data)
-
-  #  stop("These location(s) have rows missing values:",
-  #  paste(data$`loc code`[!data$`loc code` %in% passing_data$`loc code`], " "))
-
-  data <- suppressWarnings(type.convert(data))
-  data <- tidyr::pivot_longer(data,
-    cols = c(
-      "Typical ASPT Class",
-      "Typical NTAXA Class"
-    ),
-    names_to = "metrics"
-  )
-
-  data$predicted <- data$predicted_response
-
-  ntaxa <- data[data$question == "WHPT NTAXA Abund" &
-    data$index != "Reference ASPT" &
-    data$metrics != "Typical ASPT Class", ]
-  aspt <- data[data$question == "WHPT ASPT Abund" &
-    data$index != "Reference NTAXA" &
-    data$metrics != "Typical NTAXA Class", ]
-  data <- dplyr::bind_rows(ntaxa, aspt)
-  data <- dplyr::select(
-    data, .data$sample_id,
-    .data$value,
-    .data$metrics,
-    .data$predicted,
-    .data$response
-  )
-  data <- dplyr::rename(data,
-    typical = .data$value,
-    observed = .data$response,
-    metric = .data$metrics
-  )
-
   data$metric[data$metric == "Typical ASPT Class"] <- "aspt"
   data$metric[data$metric == "Typical NTAXA Class"] <- "ntaxa"
   data$typical <- tolower(data$typical)
-
   return(data)
 }

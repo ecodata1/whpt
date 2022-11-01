@@ -7,18 +7,15 @@
 whpt_predict(data)
 }
 \arguments{
-\item{data}{Dataframe of GIS based predictors with 20 variables:
+\item{data}{Data frame of \code{date_taken} and GIS based predictors with 14
+variables. Variable names can be lower or upper-case, and in any order.
+Extra variables can be present, these variables are ignored.
 \describe{
-\item{location_id}{Location ID - unique identifer for location}
 \item{sample_id}{Sample ID - unique identifer for sample}
-\item{NGR}{National Grid Reference - Great Britain only}
-\item{Date}{Date as character class in 2012-12-31 format only}
-\item{date_taken}{Date as character class in 2012-12-31 format only}
-\item{SX}{Coordinated where GIS predictors come from}
-\item{SY}{Coordinated where GIS predictors come from}
-\item{EX}{Coordinated where GIS predictors queried}
-\item{EY}{Coordinated where GIS predictors queried}
-\item{Altitude}{Altitude in metres}
+\item{date_taken}{Date as character class in \code{2012-12-31} format only}
+\item{ngr}{National Grid Reference - Great Britain only in \verb{NT 00990 65767}
+format only}
+\item{altitude}{Altitude in metres}
 \item{d_f_source}{Distance from source in metres}
 \item{logaltbar}{Log altitude in metres of catchment upstream}
 \item{log_area}{Log area of catchment upstream in km squared}
@@ -29,15 +26,15 @@ whpt_predict(data)
 \item{hardrock}{Proporation of hardrock in catchment}
 \item{limestone}{Proporation of limestone in catchment}
 \item{peat}{Proporation of peat in catchment}
-\item{shape_Length}{Length of the river section represented in GIS layer}
 }}
 }
 \value{
-Dataframe consisting of three columns sample_id, ASPT and NTAXA
+Dataframe consisting of three variables sample_id, \code{index} and
+\code{predicted_response}.
 \describe{
 \item{sample_id}{Sample ID - unique identifer for sample}
-\item{ASPT}{Predicted Average Score Per Taxa (WHPT Distinct families)}
-\item{NTAXA}{Predicted total number of scoring WHPT families}
+\item{index}{Either \verb{Reference ASPT} or \verb{Reference NTAXA})}
+\item{predicted_response}{Predicted response value}
 }
 }
 \description{
