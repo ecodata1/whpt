@@ -1,5 +1,9 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
+<!-- badges: start -->
+
+[![R-CMD-check](https://github.com/ecodata1/whpt/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/ecodata1/whpt/actions/workflows/R-CMD-check.yaml)
+<!-- badges: end -->
 
 # whpt
 
@@ -28,8 +32,8 @@ whpts(demo_data)
 #> # A tibble: 5 × 3
 #>   sample_id        question        response          
 #>   <chr>            <chr>           <chr>             
-#> 1 457   2022-10-25 Reference ASPT  7.27              
-#> 2 457   2022-10-25 Reference NTAXA 19.03             
+#> 1 457   2022-10-25 Reference NTAXA 19.03             
+#> 2 457   2022-10-25 Reference ASPT  7.27              
 #> 3 457   2022-10-25 assessment      As expected       
 #> 4 457   2022-10-25 driver          neither           
 #> 5 457   2022-10-25 action          No action required
@@ -64,11 +68,11 @@ names(data) <- tolower(names(data))
 
 whpt_predict(data)
 #> # A tibble: 2 × 3
-#> # Groups:   index [2]
-#>   sample_id        index           predicted_response
-#>   <chr>            <chr>                        <dbl>
-#> 1 457   2022-10-25 Reference ASPT                7.27
-#> 2 457   2022-10-25 Reference NTAXA              19.0
+#> # Groups:   question [2]
+#>   sample_id        question        response
+#>   <chr>            <chr>              <dbl>
+#> 1 457   2022-10-25 Reference NTAXA    19.0 
+#> 2 457   2022-10-25 Reference ASPT      7.27
 ```
 
 ### Predict and Assess
@@ -78,10 +82,10 @@ To run a prediction and then assess consistency:
 ``` r
 
 predictions <- whpt_predict(demo_data)
-data <- merge(demo_data, predictions, by.x =  "sample_id", by.y = "sample_id")
+data <- bind_rows(demo_data, predictions)
 consistency(data)
 #> # A tibble: 3 × 3
-#>   sample_id        assessment value             
+#>   sample_id        question   response          
 #>   <chr>            <chr>      <chr>             
 #> 1 457   2022-10-25 assessment As expected       
 #> 2 457   2022-10-25 driver     neither           
