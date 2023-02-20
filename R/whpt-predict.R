@@ -125,7 +125,7 @@ whpt_predict <- function(data) {
 
   # Predict function
   model_predict <- function(baked, model) {
-    test_results <- predict(model, baked)
+    test_results <- parsnip::predict.model_fit(model, baked)
     return(test_results)
   }
 
