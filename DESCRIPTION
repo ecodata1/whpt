@@ -39,4 +39,4 @@ Imports:
 Remotes:
  aquaMetrics/rict
 Depends: 
-    R (>= 3.5)
+    R (>= 4.0)
