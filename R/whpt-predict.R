@@ -45,7 +45,6 @@
 #' @examples
 #' predictions <- whpt_predict(demo_data)
 whpt_predict <- function(data) {
-  browser()
   names(data) <- tolower(names(data))
   data <- select(
     data,
