@@ -45,27 +45,29 @@
 #' @examples
 #' predictions <- whpt_predict(demo_data)
 whpt_predict <- function(data) {
+  browser()
   names(data) <- tolower(names(data))
   data <- select(
     data,
-    .data$sample_id,
-    .data$date_taken,
-    .data$ngr,
-    .data$altitude,
-    .data$d_f_source,
-    .data$logaltbar,
-    .data$log_area,
-    .data$disch_cat,
-    .data$slope,
-    .data$chalk,
-    .data$clay,
-    .data$hardrock,
-    .data$limestone,
-    .data$peat
+    sample_id,
+    date_taken,
+    ngr,
+    altitude,
+    d_f_source,
+    logaltbar,
+    log_area,
+    disch_cat,
+    slope,
+    chalk,
+    clay,
+    hardrock,
+    limestone,
+    peat
     )
   # Only need unique rows data
   data <- unique(data)
-  # Remove rows with missing data missing
+  # Remove rows with missing data
+  data$date_taken <- as.character(data$date_taken)
   data[data == ""] <- NA
   data <- na.omit(data)
   if (nrow(data) < 1) {
