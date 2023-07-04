@@ -8,21 +8,20 @@ Authors@R:
            email = "tim.foster@sepa.org.uk")
 Description: Predicts WHPT scores based on GIS variables.
 License: MIT + file LICENSE
-Suggests: 
-    testthat (>= 3.0.0),
-    readr
-Config/testthat/edition: 3
 URL: https://github.com/ecodata1/whpt
 Encoding: UTF-8
 LazyData: true
 LazyDataCompression: bzip2
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
+Depends: 
+    R (>= 4.0)
 Imports:
  dplyr,
  ggplot2,
  ggmap,
  ggrepel,
+ gtools,
  leaflet,
  lubridate,
  parsnip,
@@ -34,9 +33,11 @@ Imports:
  rlang,
  shiny,
  tibble,
- tidyr,
- gtools
+ tidyr
 Remotes:
  aquaMetrics/rict
-Depends: 
-    R (>= 4.0)
+Suggests: 
+ readr,
+ sf,
+ testthat (>= 3.0.0),
+Config/testthat/edition: 3
