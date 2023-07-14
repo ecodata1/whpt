@@ -19,8 +19,6 @@ Depends:
 Imports:
  dplyr,
  ggplot2,
- ggmap,
- ggrepel,
  gtools,
  leaflet,
  lubridate,
@@ -37,6 +35,8 @@ Imports:
 Remotes:
  aquaMetrics/rict
 Suggests: 
+ ggmap,
+ ggrepel,
  readr,
  sf,
  testthat (>= 3.0.0),
