@@ -57,7 +57,7 @@ tidy_input <- function(data = NULL) {
   prediction <- unique(predictions)
   prediction <- select(prediction, .data$predicted)
   predictions <- select(predictions, .data$predicted)
-
+  typical <- arrange(typical,desc(metric))
   data <- bind_cols(typical, observed, predictions)
   # Remove rows with missing data missing
   data <- na.omit(data)
