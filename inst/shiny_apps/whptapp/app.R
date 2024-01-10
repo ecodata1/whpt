@@ -162,7 +162,7 @@ server <- function(input, output) {
         `Typical NTAXA Class`
       ) %>%
       unique()
-    data <- inner_join(data, consistency, by = c("sample_id" = "sample_id"))
+    data <- inner_join(data[1, ], consistency, by = c("sample_id" = "sample_id"))
     consistency_table <- select(
       data,
       location_id,
