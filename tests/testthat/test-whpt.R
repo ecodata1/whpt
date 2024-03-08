@@ -6,6 +6,7 @@ test_that("whpts function works", {
                                           "data.frame"))
 
   whpts <- whpts(demo_data)
+  # Test against prototype spreadsheet results
   expect_equal(class(whpts), c("tbl_df", "tbl", "data.frame"))
   expect_equal(whpts$response[2], "7.27")
   expect_equal(whpts$response[1], "19.03")
