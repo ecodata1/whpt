@@ -17,6 +17,7 @@ tidy_input <- function(data = NULL) {
     .data$`Typical ASPT Class`,
     .data$`Typical NTAXA Class`
   )
+  data$`Reported WHPT Class Year` <- as.character(data$`Reported WHPT Class Year`)
   data <- arrange(data, desc(.data$question))
   observed <- data %>% filter(.data$question %in% c(
     "WHPT NTAXA Abund",
@@ -44,20 +45,30 @@ tidy_input <- function(data = NULL) {
     ),
     values_to = "typical"
   )
-
   predictions <- data %>% filter(.data$question %in% c(
     "Reference NTAXA",
     "Reference ASPT"
-
   ))
+
+
+  predictions <- pivot_longer(predictions,
+                          names_to = "metric",
+                          cols = c(
+                            .data$`Typical NTAXA Class`,
+                            .data$`Typical ASPT Class`
+                          )
+  )
+
+
   predictions <- select(predictions,
     "predicted" = .data$response,
     .data$sample_id
   )
-  prediction <- unique(predictions)
-  prediction <- select(prediction, .data$predicted)
+  predictions <- unique(predictions)
   predictions <- select(predictions, .data$predicted)
   typical <- arrange(typical,desc(metric))
+  # test <- dplyr::right_join(predictions, typical, by = join_by(sample_id))
+  # test <- unique(test)
   data <- bind_cols(typical, observed, predictions)
   # Remove rows with missing data missing
   data <- na.omit(data)
