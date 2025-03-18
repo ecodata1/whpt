@@ -126,7 +126,7 @@ server <- function(input, output) {
 
     # Predictions -----------------------------------------------------------
     predictors <- utils::read.csv(system.file("extdat",
-      "predictors.csv",
+      "gis-predictors.csv",
       package = "whpt"
     ),
     stringsAsFactors = FALSE, check.names = F
